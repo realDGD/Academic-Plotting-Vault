@@ -77,9 +77,9 @@ Python_Painting_Vault/
 目前能够绘制的高级图表有：
 
 <!-- CHART_LIST_START -->
-- **[Inset Composite Chart —— Line Plot with Horizontal Bar-Scatter](Inset%20Composite%20Chart%20——%20Line%20Plot%20with%20Horizontal%20Bar-Scatter)**
-- **[Clustered Heatmap : Hierarchically Clustered Heatmap](Clustered%20Heatmap%20:%20Hierarchically%20Clustered%20Heatmap)**
-- **[Bipartite Chord Diagram : Circular Flow Chart](Bipartite%20Chord%20Diagram%20:%20Circular%20Flow%20Chart)**
-- **[Compact Dual-Panel Grouped Bar Chart](Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
+- **[Inset Composite Chart —— Line Plot with Horizontal Bar-Scatter](./Inset%20Composite%20Chart%20%E2%80%94%E2%80%94%20Line%20Plot%20with%20Horizontal%20Bar-Scatter)**
+- **[Clustered Heatmap : Hierarchically Clustered Heatmap](./Clustered%20Heatmap%20%3A%20Hierarchically%20Clustered%20Heatmap)**
+- **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
+- **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
 
 <!-- CHART_LIST_END -->
