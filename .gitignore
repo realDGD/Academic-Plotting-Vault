@@ -1,0 +1,61 @@
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.Spotlight-V100
+.Trashes
+Prompt.md
+
+# ==========================================
+# Python Artifacts & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# uv & Virtual Environments
+# ==========================================
+# uv automatically manages the .venv directory. Never commit it.
+.venv/
+
+# Ignore local uv tool environments if created inside the workspace
+.uv/
+
+# Optional: Uncomment if you don't want to lock a specific minor python version across teams
+# .python-version
+
+# ==========================================
+# IDEs and Editors (macOS / VS Code / Cursor)
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~

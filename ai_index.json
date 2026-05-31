@@ -1,0 +1,50 @@
+{
+  "charts": [
+    {
+      "folder": "Inset Composite Chart —— Line Plot with Horizontal Bar-Scatter",
+      "type": "Inset Composite Chart —— Line Plot with Horizontal Bar-Scatter",
+      "keywords": [],
+      "description": "这是一个**画中画结构（Inset Axes）的复合型统计图**。 **主图**是一个带有垂直误差条的折线图，包含用于划分阶段的垂直虚线，以及一个自定义的背景灰色阴影区域。 **子图**：在主图的左上角和右上角悬浮嵌套了两个平行的子坐标系，子图类型为**带有水平误差条和抖动散点（Jittered Scatter）的水平柱状图**。 **全局特征**：所有图形共用一个位于顶部外侧（northoutside）的横向多列图例，并且主图与子图均带有自定义的统计学显著性连线和星号标注。",
+      "code_path": "Python/main.py"
+    },
+    {
+      "folder": "Clustered Heatmap : Hierarchically Clustered Heatmap",
+      "type": "Clustered Heatmap : Hierarchically Clustered Heatmap",
+      "keywords": [],
+      "description": "这是一个**带边缘树状图的复合聚类热图 (Clustered Heatmap)**。**主体（中央区域）**是一个包含白色网格分隔线的矩阵热图，用于展示相关性或数值矩阵，数据根据聚类结果进行了行列重排。**边缘区域（左侧和上方）**分别嵌套了两个层次聚类树状图 (Dendrogram)，这两个树状图的分支与中央热图的行、列标签严格对齐。**全局特征**：画布最右侧带有一个独立的连续型垂直颜色条 (Colorbar)，且边缘的树状图隐藏了自身的坐标轴和边框。",
+      "code_path": "Python/main.py"
+    },
+    {
+      "folder": "Bipartite Chord Diagram : Circular Flow Chart",
+      "type": "Bipartite Chord Diagram : Circular Flow Chart",
+      "keywords": [
+        "弦图",
+        "关系网络图",
+        "数据流向图",
+        "chord diagram",
+        "chord chart",
+        "dependency graph.",
+        "圆形布局",
+        "极坐标系",
+        "双边结构",
+        "circular layout",
+        "bipartite layout",
+        "radial design."
+      ],
+      "description": "这是一个**基于圆形布局的双边弦图 (Bipartite Chord Diagram)**。图表完全去除了直角坐标系（隐藏了X/Y轴和背景边框）。**外围视觉**由上下对齐的圆弧形分组色块组成，带有向外辐射的径向文本标签和可选的外缘刻度线。**内部视觉**通过宽度不等的、半透明的平滑贝塞尔曲线（Bezier curves）将上下两组弧形块交叉连接，连线的起始和终止宽度严格映射两组节点之间的权重或流量大小。",
+      "code_path": "Python/main.py"
+    },
+    {
+      "folder": "Compact Dual-Panel Grouped Bar Chart",
+      "type": "Compact Dual-Panel Grouped Bar Chart",
+      "keywords": [
+        "分组柱状图",
+        "簇状柱形图",
+        "grouped bar chart",
+        "clustered bar chart"
+      ],
+      "description": "这是一个**上下紧凑堆叠的双子图（Subplots）**，两个面板均为**分组柱状图（Grouped Bar Chart）**。其核心视觉特征包括：柱体扁平且无描边、**不同组别之间使用垂直虚线（xline）进行分隔**、隐藏坐标轴外侧刻度线、**在底部全局共享一个单行横向排列的图例**，且每个子图左上角带有独立的文本标签。",
+      "code_path": "Python/main.py"
+    }
+  ]
+}
