@@ -15,6 +15,24 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "Segmented Circular Heatmap : Grouped Annular Heatmap",
+      "type": "Segmented Circular Heatmap : Grouped Annular Heatmap",
+      "keywords": [
+        "分段环形热图",
+        "分组扇形热图",
+        "极坐标矩阵图",
+        "segmented circular heatmap",
+        "grouped annular heatmap",
+        "polar correlation plot.",
+        "同心圆环 (concentric rings)",
+        "扇形分区 (sector partitioning)",
+        "物理间隙 (angular gaps)",
+        "中心留白 (center hole)."
+      ],
+      "description": "这是一个**基于极坐标的多分组分段环形热图 (Segmented Circular Heatmap)**。 **主体视觉**是由若干个带物理间隙的扇形区块组成的同心圆环阵列，单元格的颜色映射矩阵数值，且格内叠加显示具体数字。**阈值逻辑**：达到设定阈值（如绝对值>0.35）的单元格带有粗黑边框作为显著性高亮。 **外围与中心视觉**：图表中心留白放置全局标题；每个扇形区块的内外缘分别对齐径向旋转的行列变量标签；图表最外围由分段弧形带包裹，用于标识各个扇形区块的大类名称。底部配有独立的水平连续型颜色条。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Bipartite Chord Diagram : Circular Flow Chart",
       "type": "Bipartite Chord Diagram : Circular Flow Chart",
       "keywords": [
