@@ -54,6 +54,27 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "Taylor Diagram : Model Performance Evaluation Polar Plot",
+      "type": "Taylor Diagram : Model Performance Evaluation Polar Plot",
+      "keywords": [
+        "泰勒图",
+        "极坐标评估图",
+        "Taylor diagram",
+        "polar statistical plot",
+        "model skill plot.",
+        "三重交叉网格 (triple overlapping grids)",
+        "单象限极坐标 (first-quadrant polar)",
+        "放射状辅助线 (radial lines)",
+        "偏心同心圆 (eccentric concentric circles).",
+        "观测参考基准点 (observation reference point/anchor)",
+        "标准差半径 (standard deviation radius)",
+        "RMSD 距离 (RMSD distance)",
+        "相关系数角度 (correlation angle)."
+      ],
+      "description": "这是一个用于多模型或多变量性能评估的 **泰勒图 (Taylor Diagram)**。该图表基于单象限的变体极坐标系构建，在一个二维画布中同时映射三个统计学指标：1. 从坐标原点出发的**径向距离（半径）\\**映射数据的 \\*\\*标准差 (Standard Deviation)\\*\\*；2. 极角的\\**余弦值**映射模型与参考数据的 **相关系数 (Correlation)**，通常在外圆弧标注刻度；3. 图中各散点到X轴上特定的“参考/观测基准点”的**欧氏几何距离**映射 **均方根误差 (RMSD)**。全局视觉包含三套交叉网格：以原点为中心的同心圆弧（标准差网格）、从原点发散的放射线（相关系数网格）、以及以参考基准点为中心的虚线同心圆弧（RMSD 网格）。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Combined Horizontal Stacked Bar and Conditional Dumbbell Plot",
       "type": "Combined Horizontal Stacked Bar and Conditional Dumbbell Plot",
       "keywords": [

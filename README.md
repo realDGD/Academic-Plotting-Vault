@@ -81,6 +81,7 @@ Python_Painting_Vault/
 - **[Clustered Heatmap : Hierarchically Clustered Heatmap](./Clustered%20Heatmap%20%3A%20Hierarchically%20Clustered%20Heatmap)**
 - **[Combined Grouped Heatmap and Differential Bubble Chart](./Combined%20Grouped%20Heatmap%20and%20Differential%20Bubble%20Chart)**
 - **[Segmented Circular Heatmap : Grouped Annular Heatmap](./Segmented%20Circular%20Heatmap%20%3A%20Grouped%20Annular%20Heatmap)**
+- **[Taylor Diagram : Model Performance Evaluation Polar Plot](./Taylor%20Diagram%20%3A%20Model%20Performance%20Evaluation%20Polar%20Plot)**
 - **[Combined Horizontal Stacked Bar and Conditional Dumbbell Plot](./Combined%20Horizontal%20Stacked%20Bar%20and%20Conditional%20Dumbbell%20Plot)**
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
