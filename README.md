@@ -87,6 +87,7 @@ Python_Painting_Vault/
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
 - **[Truncated Bar Chart with Jittered Scatter and Error Bars](./Truncated%20Bar%20Chart%20with%20Jittered%20Scatter%20and%20Error%20Bars)**
+- **[Sankey-Bubble Composite Plot : Flow-Scatter Aligned Chart](./Sankey-Bubble%20Composite%20Plot%20%3A%20Flow-Scatter%20Aligned%20Chart)**
 - **[Circular Clustered Heatmap : Radial Clustered Heatmap](./Circular%20Clustered%20Heatmap%20%3A%20Radial%20Clustered%20Heatmap)**
 
 <!-- CHART_LIST_END -->

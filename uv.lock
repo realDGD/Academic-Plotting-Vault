@@ -631,6 +631,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "matplotlib" },
+    { name = "numpy" },
     { name = "pandas" },
     { name = "pycirclize" },
     { name = "pyecharts" },
@@ -641,6 +642,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.9" },
+    { name = "numpy", specifier = ">=2.4.6" },
     { name = "pandas", specifier = ">=3.0.3" },
     { name = "pycirclize", specifier = ">=1.10.1" },
     { name = "pyecharts", specifier = ">=2.1.0" },

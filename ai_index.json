@@ -193,6 +193,26 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "Sankey-Bubble Composite Plot : Flow-Scatter Aligned Chart",
+      "type": "Sankey-Bubble Composite Plot : Flow-Scatter Aligned Chart",
+      "keywords": [
+        "桑基图 (Sankey diagram)",
+        "气泡图 (Bubble chart/plot)",
+        "冲积图 (Alluvial diagram)",
+        "复合图表 (Composite chart/plot).",
+        "左右并排布局 (Side-by-side layout)",
+        "节点坐标提取 (Node coordinate extraction)",
+        "共享特征 Y 轴 / 严格水平对齐 (Shared Y-axis horizontal alignment).",
+        "数据流向连线 (Flow ribbons/links)",
+        "矩形节点/色块 (Node patches)",
+        "气泡面积映射 (Bubble size mapping)",
+        "连续型颜色映射 (Continuous color mapping)",
+        "气泡图例与颜色条组合 (Bubble legend & Colorbar)."
+      ],
+      "description": "这是一个**左右并排布局、在特定节点空间上实现水平对齐的画中画复合型图表**。**左侧面板**是一个桑基图 (Sankey Diagram)，用于展示多层级分类数据的流向关系与权重分配；**右侧面板**是一个气泡图 (Bubble Chart)。 **核心联动逻辑是**：通过代码提取左侧桑基图最右侧边缘一列节点（Patches）的 Y 轴坐标，计算其中点，并以此作为右侧对应气泡的 Y 轴坐标，从而实现桑基图流向终端与气泡图散点在视觉上的精确水平对齐。右侧气泡图的横坐标通常映射绝对数值（如 -Log P-value），气泡大小映射计数值（Count），气泡的填充颜色映射第三维度的比例或连续数值（如 Hit Ratio）。画布最右侧外侧布局有全局共享的颜色条（Colorbar）和气泡大小标尺（Bubble legend）。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Circular Clustered Heatmap : Radial Clustered Heatmap",
       "type": "Circular Clustered Heatmap : Radial Clustered Heatmap",
       "keywords": [
