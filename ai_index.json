@@ -76,7 +76,7 @@
         "外缘分类弧带 (outer category arcs)",
         "径向旋转文本 (radial text rotation)."
       ],
-      "description": "这是一个**基于极坐标的多分组分段环形热图 (Segmented Circular Heatmap)**。 **主体视觉**是由若干个带物理间隙的扇形区块组成的同心圆环阵列，单元格的颜色映射矩阵数值，且格内叠加显示具体数字。**阈值逻辑**：达到设定阈值（如绝对值>0.35）的单元格带有粗黑边框作为显著性高亮。 **外围与中心视觉**：图表中心留白放置全局标题；每个扇形区块的内外缘分别对齐径向旋转的行列变量标签；图表最外围由分段弧形带包裹，用于标识各个扇形区块的大类名称。底部配有独立的水平连续型颜色条。",
+      "description": "这是一个**基于极坐标的多分组分段环形热图 (Segmented Circular Heatmap)**。 **主体视觉**是由若干个带物理间隙的扇形区块组成的同心圆环阵列，单元格的颜色映射矩阵数值，且格内叠加显示具体数字。**阈值逻辑**：达到设定阈值（如绝对值0.35）的单元格带有粗黑边框作为显著性高亮。 **外围与中心视觉**：图表中心留白放置全局标题；每个扇形区块的内外缘分别对齐径向旋转的行列变量标签；图表最外围由分段弧形带包裹，用于标识各个扇形区块的大类名称。底部配有独立的水平连续型颜色条。",
       "code_path": "Python/main.py"
     },
     {
@@ -97,7 +97,7 @@
         "RMSD 距离 (RMSD distance)",
         "相关系数角度 (correlation angle)."
       ],
-      "description": "这是一个用于多模型或多变量性能评估的 **泰勒图 (Taylor Diagram)**。该图表基于单象限的变体极坐标系构建，在一个二维画布中同时映射三个统计学指标：1. 从坐标原点出发的**径向距离（半径）\\**映射数据的 \\*\\*标准差 (Standard Deviation)\\*\\*；2. 极角的\\**余弦值**映射模型与参考数据的 **相关系数 (Correlation)**，通常在外圆弧标注刻度；3. 图中各散点到X轴上特定的“参考/观测基准点”的**欧氏几何距离**映射 **均方根误差 (RMSD)**。全局视觉包含三套交叉网格：以原点为中心的同心圆弧（标准差网格）、从原点发散的放射线（相关系数网格）、以及以参考基准点为中心的虚线同心圆弧（RMSD 网格）。",
+      "description": "这是一个用于多模型或多变量性能评估的 **泰勒图 (Taylor Diagram)**。该图表基于单象限的变体极坐标系构建，在一个二维画布中同时映射三个统计学指标：1. 从坐标原点出发的**径向距离（半径）\\**映射数据的 \\*\\*标准差 (Standard Deviation)\\*\\*；2. 极角的\\**余弦值**映射模型与参考数据的 **相关系数 (Correlation)**，通常在外圆弧标注刻度；3. 图中各散点到X轴上特定的“参考/观测基准点",
       "code_path": "Python/main.py"
     },
     {
@@ -209,6 +209,26 @@
         "径向旋转文本 (radial text alignment/rotation)."
       ],
       "description": "这是一个**带分类扇形背景的环形聚类树图 (Circular Dendrogram)**。图表的主体是一个在极坐标系下展开的层次聚类树，用于展示样本间的层级距离关系。树的边缘带有随角度径向旋转的样本名称标签。整个圆形画布根据设定的最大聚类数（如 5 类）划分为了若干个区块：内部树枝区域垫有不同颜色的半透明扇形色块作为背景；最外围环绕着一圈不透明的同色弧带，并在此区域标注了对应的类别标签（Class A, B...）。整体视觉用于直观区分不同聚类簇的层级与归属。",
+      "code_path": "Python/main.py"
+    },
+    {
+      "folder": "Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart",
+      "type": "Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart",
+      "keywords": [
+        "弦图 (Chord diagram)",
+        "双边弦图 (Bipartite chord diagram/plot)",
+        "数据流向图 (Data flow chart)",
+        "关系网络图 (Relationship network plot).",
+        "圆形/极坐标布局 (Circular/polar layout)",
+        "上下半区映射 (Top-bottom hemisphere mapping)",
+        "来源-目标定向流 (Source-to-target directed flow).",
+        "**弦末端独立着色 (Independent chord terminal coloring/blocks)**",
+        "贝塞尔曲线带 (Bezier ribbons/bands)",
+        "径向自适应旋转标签 (Radial adaptive rotated labels)",
+        "半透明填充 (Translucent fill)",
+        "外置自定义图例 (Custom external legend)."
+      ],
+      "description": "这是一个**极坐标布局的双边弦图 (Bipartite Chord Diagram)**。图表呈圆形结构，明确区分为‘来源（下方弧段）’与‘目标（上方弧段）’两个半区。主体视觉由连接上下半区的半透明贝塞尔曲线（弦）构成，映射两组实体间的流量关系。 **其核心高阶特征是‘弦末端方块独立着色’**：在每根弦流入目标弧段的末端，设有一个独立的小弧形色块，该色块的颜色与弦的主体颜色不同，用于映射第三维度的离散分类变量（如上调/下调）。此外，图表外围环绕着根据角度自适应旋转的文本标签，并在画布角落配有用于解释末端分类色块的图例。",
       "code_path": "Python/main.py"
     },
     {

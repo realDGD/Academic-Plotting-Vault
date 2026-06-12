@@ -54,6 +54,7 @@ Python_Painting_Vault/
 ├── uv.lock                # 环境锁文件，确保所有人的运行环境 100% 一致
 ├── build_index.py         # AI 索引及 README 目录自动生成脚本
 ├── ai_index.json          # 供大模型(AI)调库使用的全局检索字典
+├── utils/                 # 公共工具库（如预设调色盘 palettes 等）
 └── [图表名称文件夹]/        # 如: Bipartite Chord Diagram...
     ├── Whatis.md          # 记录图表特征、视觉细节、数据逻辑及关键词
     └── Python/
@@ -61,7 +62,11 @@ Python_Painting_Vault/
         ├── data.csv       # 抽离的测试数据
         └── result.png     # Python 最终渲染生成的图片
 ```
-*(注：对于开发者，私有仓库中额外包含 `AGENTS.md` 工作流规范及 `Matlab/` 原始对照文件。)*
+---
+
+## 🎨 调色盘与工具 (Utils)
+
+在 `utils/palettes/` 目录下，我们内置了丰富的调色盘资源（如 `palettes.yaml`），你可以直接在 Python 绘图代码中读取并使用这些配色方案，大幅提升科研图表的视觉美观度。
 
 ---
 
@@ -88,6 +93,7 @@ Python_Painting_Vault/
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
 - **[Multi-layer Aligned Sankey Diagram : Complex Flow Alluvial Diagram](./Multi-layer%20Aligned%20Sankey%20Diagram%20%3A%20Complex%20Flow%20Alluvial%20Diagram)**
 - **[Circular Dendrogram : Radial Dendrogram with Category Sectors](./Circular%20Dendrogram%20%3A%20Radial%20Dendrogram%20with%20Category%20Sectors)**
+- **[Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart](./Bipartite%20Chord%20Diagram%20with%20Terminal%20Colored%20Blocks%20%3A%20Multi-attribute%20Flow%20Chord%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
 - **[Truncated Bar Chart with Jittered Scatter and Error Bars](./Truncated%20Bar%20Chart%20with%20Jittered%20Scatter%20and%20Error%20Bars)**
 - **[Sankey-Bubble Composite Plot : Flow-Scatter Aligned Chart](./Sankey-Bubble%20Composite%20Plot%20%3A%20Flow-Scatter%20Aligned%20Chart)**

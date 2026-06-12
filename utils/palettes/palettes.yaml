@@ -1,0 +1,3455 @@
+# 科研绘图全局配色配置文件
+# 记录了不同组的配色方案以及它们曾应用过的图表类型
+
+group_1:
+  name: "第1组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for: 
+    - "分组水平条形图 (Grouped Horizontal Bar Chart)"
+  note: "以上 6 种颜色共同应用于同一张图表（1.jpeg）中"
+  colors:
+    - "#B8DBB3" # 浅绿色 (用作条形图/柱状图，存在于整张图中)
+    - "#72B063" # 深绿色 (用作条形图/柱状图，存在于整张图中)
+    - "#719AAC" # 蓝灰色 (用作条形图/柱状图，存在于整张图中)
+    - "#E29135" # 橙色 (用作条形图/柱状图，存在于整张图中)
+    - "#94C6CD" # 浅蓝色 (用作条形图/柱状图，存在于整张图中)
+    - "#4A5F7E" # 深蓝色 (用作条形图/柱状图，存在于整张图中)
+
+group_2:
+  name: "第2组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "极坐标图/雷达图 (Radar Chart)"
+  used_for:
+    - "带有数据标记的折线散点图 (Line Plot with Markers)"
+    - "分组条形图 (Grouped Bar Chart)"
+    - "雷达图/蛛网图 (Radar Chart)"
+  note: "以上 5 种颜色共同应用于同一张拼图（2.jpeg，包含子图A/B/C）中"
+  colors:
+    - "#A5AEB7" # 灰色 (用作折线图及散点图，存在于子图A和C中)
+    - "#925EB0" # 紫色 (用作折线图及散点图，存在于子图A和C中)
+    - "#7E99F4" # 浅蓝色 (用作折线图、散点图、条形图/柱状图及极坐标图/雷达图，共同存在于子图A、B和C中)
+    - "#CC7C71" # 红褐色 (用作条形图/柱状图及极坐标图/雷达图，共同存在于子图B和C中)
+    - "#7AB656" # 绿色 (用作条形图/柱状图及极坐标图/雷达图，共同存在于子图B和C中)
+
+group_3:
+  name: "第3组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "主成分分析得分散点图 (PCA Score Plot)"
+    - "带有置信区间的线性回归散点拟合线图 (Linear Regression Plot with Confidence Intervals)"
+    - "分组条形图 (Grouped Bar Chart)"
+  note: "以上 6 种颜色共同应用于同一张拼图（3.jpeg，包含子图A至F）中"
+  colors:
+    - "#8D2F25" # 红褐色 (用作散点图、折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#4E1945" # 深紫色 (用作散点图、折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#CB9475" # 土黄色 (用作散点图、折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#8CBF87" # 绿色 (用作散点图、折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#3E608D" # 蓝色 (用作散点图、折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#909291" # 灰色 (用作散点图、折线图与条形图/柱状图，共同存在于子图A至F中)
+
+group_4:
+  name: "第4组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有散点叠加的独立条形图 (Independent Bar Charts with Overlay Scatter Markers)"
+    - "带有散点叠加的分组条形图 (Grouped Bar Charts with Overlay Scatter Markers)"
+  note: "以上 5 种颜色共同应用于同一张拼图（4.jpeg，包含子图A至I）中"
+  colors:
+    - "#B7B7EB" # 浅紫色 (用作条形图/柱状图，共同存在于子图A、B、C中)
+    - "#9D9EA3" # 灰色 (用作条形图/柱状图，共同存在于子图A、B、C中)
+    - "#EAB883" # 橙黄色 (用作条形图/柱状图，共同存在于子图D、E、F中)
+    - "#9BBBE1" # 浅蓝色 (用作条形图/柱状图，共同存在于子图G、H、I中)
+    - "#F09BA0" # 粉红色 (用作条形图/柱状图，共同存在于子图G、H、I中)
+
+group_5:
+  name: "第5组图片科研配色"
+  macro_categories:
+    - "示意图/流程图 (Diagram)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "直方图 (Histogram)"
+  used_for:
+    - "细胞周期示意图 (Cell Cycle Diagram)"
+    - "带有散点与误差线的双色分组条形图 (Grouped Bar Chart with Error Bars)"
+    - "流式细胞术直方图 (Flow Cytometry Histograms)"
+  note: "以上 3 种颜色共同应用于同一张拼图（5.jpeg，包含子图A至D）中"
+  colors:
+    - "#DDDDDD" # 浅灰色 (用作示意图/流程图、条形图/柱状图及直方图，共同存在于子图A和C中)
+    - "#E6B745" # 黄褐色 (用作示意图/流程图及条形图/柱状图，共同存在于子图A中)
+    - "#D0DD97" # 淡绿色 (用作示意图/流程图及条形图/柱状图，共同存在于子图C中)
+
+group_6:
+  name: "第6组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有散点叠加的分组条形图 (Grouped Bar Charts with Overlay Scatter Markers)"
+  note: "以上 6 种颜色共同应用于同一张图表拼图（6.jpeg，主要集中在子图A和B中）"
+  colors:
+    - "#DCA7EB" # 浅紫色 (用作条形图/柱状图，共同存在于子图A和B中)
+    - "#A0D0D0" # 青灰色 (用作条形图/柱状图，共同存在于子图A和B中)
+    - "#EAE936" # 黄色 (用作条形图/柱状图，共同存在于子图A和B中)
+    - "#B7F5DE" # 淡青色 (用作条形图/柱状图，共同存在于子图A和B中)
+    - "#D5AABE" # 淡粉色 (用作条形图/柱状图，共同存在于子图A和B中)
+    - "#A7C0DF" # 浅蓝色 (用作条形图/柱状图，共同存在于子图A和B中)
+
+group_7:
+  name: "第7组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+    - "示意图/相图 (Phase Diagram)"
+  used_for:
+    - "带有彩色填充区域的对数坐标二维线图/相图 (2D Log-log Line Plot with Shaded Regions)"
+    - "对数坐标散点图 (Log-log Scatter Plot)"
+  note: "以上 7 种颜色共同应用于同一张拼图（7.jpeg，包含子图A至C）中"
+  colors:
+    - "#A51C36" # 暗红色 (用作折线图与示意图/相图，共同存在于子图A中)
+    - "#7ABBDB" # 浅蓝色 (用作折线图与示意图/相图，共同存在于子图A中)
+    - "#84BA42" # 绿色 (用作折线图与示意图/相图，共同存在于子图A中)
+    - "#682487" # 紫色 (用作折线图与示意图/相图，共同存在于子图A中)
+    - "#DBB428" # 黄色 (用作折线图与示意图/相图，共同存在于子图A中)
+    - "#D4562E" # 橙色 (用作折线图、示意图/相图及散点图，共同存在于子图A、B、C中)
+    - "#4485C7" # 深蓝色 (用作折线图、示意图/相图及散点图，共同存在于子图A、B、C中)
+
+group_8:
+  name: "第8组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有置信区间或阴影带的对数线图 (Logarithmic Line Plots with Shaded Error Bands)"
+    - "对数散点分布图 (Logarithmic Scatter Distribution Plots)"
+  note: "以上 6 种颜色共同应用于同一张拼图（8.jpeg，包含子图A至D）中"
+  colors:
+    - "#6F6F6F" # 深灰色 (用作折线图，共同存在于子图A至D中)
+    - "#547BB4" # 蓝色 (用作折线图，共同存在于子图A至D中)
+    - "#C0321A" # 暗红色 (用作折线图，共同存在于子图A至D中)
+    - "#629C35" # 绿色 (用作折线图，共同存在于子图A至D中)
+    - "#DD7C4F" # 橙色 (用作折线图，共同存在于子图A至D中)
+    - "#6C61AF" # 紫色 (用作散点图与折线图，共同存在于子图A至D中)
+
+group_9:
+  name: "第9组图片科研配色"
+  macro_categories:
+    - "系统发育树/树状图 (Phylogenetic Tree/Dendrogram)"
+  used_for:
+    - "环形系统发育树 (Circular Phylogenetic Tree/Cladogram)"
+  note: "以上 12 种颜色共同应用于同一张图片（9.jpeg）中，用作分支高亮"
+  colors:
+    - "#8074C8" # 紫色 (用作系统发育树/树状图，存在于整张图中)
+    - "#7895C1" # 蓝紫色 (用作系统发育树/树状图，存在于整张图中)
+    - "#A8CBDF" # 浅蓝色 (用作系统发育树/树状图，存在于整张图中)
+    - "#D6EFF4" # 极浅蓝色 (用作系统发育树/树状图，存在于整张图中)
+    - "#F2FAFC" # 灰白色/极淡蓝 (用作系统发育树/树状图，存在于整张图中)
+    - "#992224" # 绛红色/暗红 (用作系统发育树/树状图，存在于整张图中)
+    - "#B54764" # 玫红色 (用作系统发育树/树状图，存在于整张图中)
+    - "#E3625D" # 浅红色/珊瑚红 (用作系统发育树/树状图，存在于整张图中)
+    - "#EF8B67" # 橙色 (用作系统发育树/树状图，存在于整张图中)
+    - "#F0C284" # 浅橙色 (用作系统发育树/树状图，存在于整张图中)
+    - "#F5EBAE" # 米黄色 (用作系统发育树/树状图，存在于整张图中)
+    - "#F7FBC9" # 淡黄色 (用作系统发育树/树状图，存在于整张图中)
+
+group_10:
+  name: "第10组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+  used_for:
+    - "带有颜色等高线分级的地理降雨量图 (Geographical Map with Contour Fills)"
+  note: "以上 6 种颜色共同应用于同一张地理分布拼图（10.jpeg）中"
+  colors:
+    - "#3E4F94" # 深蓝色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#3E90BF" # 蓝色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#58B6E9" # 天蓝色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#A6C0E3" # 浅灰蓝 (用作地图/地理空间分布图，存在于整张图中)
+    - "#D8D3E7" # 淡紫色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#FAF9CB" # 淡黄色 (用作地图/地理空间分布图，存在于整张图中)
+
+group_11:
+  name: "第11组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有散点与误差线的分组条形图 (Grouped Bar Charts with Overlay Scatter Markers)"
+  note: "以上 6 种颜色共同应用于同一张拼图（11.jpeg，主要集中在子图D和E中）"
+  colors:
+    - "#BFDFD2" # 浅青绿色 (用作条形图/柱状图，共同存在于子图A和D中)
+    - "#257D8B" # 深青色 (用作条形图/柱状图，共同存在于子图A和D中)
+    - "#68BED9" # 浅蓝色 (用作条形图/柱状图，共同存在于子图A和D中)
+    - "#EFCE87" # 浅橙黄色 (用作条形图/柱状图，共同存在于子图A和D中)
+    - "#EAA558" # 橙色 (用作条形图/柱状图，共同存在于子图A和D中)
+    - "#ED8D5A" # 深橙色 (用作条形图/柱状图，共同存在于子图A和D中)
+
+group_12:
+  name: "第12组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有标记的折线图 (Line Plots with Markers)"
+    - "水平条形图/人口金字塔图 (Horizontal Bar Charts / Population Pyramids)"
+  note: "以上 7 种颜色共同应用于同一张拼图（12.jpeg，包含子图A至F）中"
+  colors:
+    - "#979998" # 灰色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#C69287" # 砖红色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#E79A90" # 浅红色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#EFBC91" # 桃色/浅橙 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#E4CD87" # 暗黄色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#FAE5B8" # 浅黄色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#DDDDDF" # 浅灰色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+
+group_13:
+  name: "第13组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有中位数线的分组散点图/带状图 (Grouped Strip Plots / Scatter Plots with Medians)"
+    - "带有散点及误差线的分组条形图 (Grouped Bar Charts with Scatter Plot Overlay)"
+  note: "以上 14 种颜色共同应用于同一张拼图（13.jpeg，包含子图A/B/C）中"
+  colors:
+    - "#E4A031" # 黄橙色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#D68438" # 橙色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#C76B60" # 棕红色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#B55384" # 玫红色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#7C4D77" # 紫色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#474769" # 暗紫色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#26445E" # 深蓝色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#4C7780" # 青蓝色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#73A5A2" # 浅青绿色 (用作散点图与条形图/柱状图，共同存在于子图A至C中)
+    - "#F6E2C1" # 浅黄色 (用作条形图/柱状图背景，共同存在于子图A至C中)
+    - "#F3DBC1" # 淡橙色/桃色 (用作条形图/柱状图背景，共同存在于子图A至C中)
+    - "#B2B6C1" # 浅蓝灰色 (用作条形图/柱状图背景，共同存在于子图A至C中)
+    - "#D6E2E2" # 淡青色 (用作条形图/柱状图背景，共同存在于子图A至C中)
+    - "#F0EFED" # 极浅灰色 (用作条形图/柱状图背景，共同存在于子图A至C中)
+
+group_14:
+  name: "第14组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "箱线图 (Box Plot)"
+    - "图像叠加标注 (Image Overlay)"
+  used_for:
+    - "带有标记的折线散点图 (Line Plot with Markers)"
+    - "显微图像轮廓标记 (Microscopy Image Outlines)"
+    - "分组箱线图 (Grouped Box Plots)"
+  note: "以上 3 种颜色共同应用于同一张拼图（14.jpeg，包含子图A/B/C）中"
+  colors:
+    - "#D8B365" # 黄褐色 (用作折线图、图像叠加标注与箱线图，共同存在于子图A至C中)
+    - "#5BB5AC" # 青绿色 (用作折线图、图像叠加标注与箱线图，共同存在于子图A至C中)
+    - "#DE526C" # 桃红色 (用作箱线图指示线，存在于子图C中)
+
+group_15:
+  name: "第15组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+  used_for:
+    - "地理空间分布图/多边形填充地图 (Geographic Spatial Distribution Map / Polygon Map)"
+  note: "以上 3 种颜色共同应用于同一张地理空间分布拼图（15.jpeg）中"
+  colors:
+    - "#2472A3" # 蓝色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#A5B55D" # 黄绿色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#F4F3EE" # 米白色 (用作地图/地理空间分布图，存在于整张图中)
+
+group_16:
+  name: "第16组图片科研配色"
+  macro_categories:
+    - "饼图/气泡图 (Pie Chart / Bubble Chart)"
+    - "网络拓扑图 (Network Diagram)"
+  used_for:
+    - "复合气泡饼图 (Composite Bubble Pie Charts)"
+    - "网络节点连接图 (Network Node Interaction Diagram)"
+  note: "以上 6 种颜色共同应用于同一张拼图（16.jpeg，包含子图A和B）中"
+  colors:
+    - "#B02425" # 暗红色 (用作饼图/气泡图与网络拓扑图，共同存在于子图A和B中)
+    - "#FAA419" # 橙色 (用作饼图/气泡图与网络拓扑图，共同存在于子图A和B中)
+    - "#4583B6" # 蓝色 (用作饼图/气泡图与网络拓扑图，共同存在于子图A和B中)
+    - "#4DB748" # 浅绿色 (用作饼图/气泡图与网络拓扑图，共同存在于子图A和B中)
+    - "#218D42" # 中绿色 (用作饼图/气泡图与网络拓扑图，共同存在于子图A和B中)
+    - "#156434" # 深绿色 (用作饼图/气泡图与网络拓扑图，共同存在于子图A和B中)
+
+group_17:
+  name: "第17组图片科研配色"
+  macro_categories:
+    - "网络拓扑图 (Network Diagram)"
+    - "系统发育树/树状图 (Phylogenetic Tree/Dendrogram)"
+    - "热图/矩阵图 (Heatmap)"
+  used_for:
+    - "网络相互作用图 (Network Interaction Diagram)"
+    - "环形系统发育树与多层热图 (Circular Phylogenetic Tree with Concentric Heatmaps)"
+  note: "以上 6 种颜色共同应用于同一张拼图（17.jpeg，包含子图A至D）中"
+  colors:
+    - "#B02425" # 暗红色 (用作网络拓扑图、系统发育树/树状图与热图/矩阵图，共同存在于子图A至D中)
+    - "#FAA419" # 橙色 (用作网络拓扑图、系统发育树/树状图与热图/矩阵图，共同存在于子图A至D中)
+    - "#4583B6" # 蓝色 (用作网络拓扑图、系统发育树/树状图与热图/矩阵图，共同存在于子图A至D中)
+    - "#4DB748" # 浅绿色 (用作网络拓扑图、系统发育树/树状图与热图/矩阵图，共同存在于子图A至D中)
+    - "#1F8E42" # 中绿色 (用作网络拓扑图、系统发育树/树状图与热图/矩阵图，共同存在于子图A至D中)
+    - "#156434" # 深绿色 (用作网络拓扑图、系统发育树/树状图与热图/矩阵图，共同存在于子图A至D中)
+
+group_18:
+  name: "第18组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有误差线的分组独立条形图 (Independent Grouped Bar Charts with Error Bars)"
+    - "相关性散点图 (Correlation Scatter Plots)"
+  note: "以上 6 种颜色共同应用于同一张拼图（18.jpeg，包含子图A至K）中"
+  colors:
+    - "#807C7D" # 灰色 (用作条形图/柱状图，共同存在于子图A至K中)
+    - "#C1565E" # 暗红色 (用作条形图/柱状图，共同存在于子图A至K中)
+    - "#DCA96A" # 橙黄色 (用作条形图/柱状图，共同存在于子图A至K中)
+    - "#82AD7F" # 浅绿色 (用作条形图/柱状图，共同存在于子图A至K中)
+    - "#7EA4D1" # 浅蓝色 (用作条形图/柱状图及散点图，共同存在于子图A至K中)
+    - "#79438E" # 紫色 (用作条形图/柱状图，共同存在于子图A至K中)
+
+group_19:
+  name: "第19组图片科研配色"
+  macro_categories:
+    - "示意图 (Diagram)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "蛋白质结构与分子机制示意图 (Protein Structure and Molecular Mechanism Diagram)"
+    - "带有误差线的分组条形图 (Grouped Bar Chart with Error Bars)"
+  note: "以上 3 种颜色共同应用于同一张拼图（19.jpeg）中"
+  colors:
+    - "#7EA6D9" # 蓝色 (用作示意图与条形图/柱状图，共同存在于子图A和B中)
+    - "#D4E6BC" # 淡绿色 (用作示意图与条形图/柱状图，共同存在于子图A和B中)
+    - "#F8F2A4" # 淡黄色 (用作示意图与条形图/柱状图，共同存在于子图A和B中)
+
+group_20:
+  name: "第20组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+    - "直方图/分布图 (Histogram)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "系统发育树/树状图 (Phylogenetic Tree/Dendrogram)"
+  used_for:
+    - "双对数坐标散点图 (Log-Log Scatter Plot)"
+    - "折线图 (Line Plot)"
+    - "多组重叠直方图 (Overlapping Histograms)"
+    - "水平条形图 (Horizontal Bar Chart)"
+    - "辐射状系统发育树 (Radial Phylogenetic Tree)"
+  note: "以上 11 种颜色共同应用于同一张极其复杂的物种基因组拼图（20.jpeg，包含子图B至F）中"
+  colors:
+    - "#A04646" # 红褐色 (用作散点图、条形图/柱状图与系统发育树/树状图，共同存在于子图B至F中)
+    - "#CFC580" # 暗黄色 (用作散点图、条形图/柱状图与系统发育树/树状图，共同存在于子图B至F中)
+    - "#75AAB8" # 青蓝色 (用作条形图/柱状图，共同存在于子图B至F中)
+    - "#DCCB59" # 金黄色 (用作直方图/分布图、折线图与系统发育树/树状图，共同存在于子图B至F中)
+    - "#2900F2" # 纯蓝色 (用作直方图/分布图、折线图与系统发育树/树状图，共同存在于子图B至F中)
+    - "#AE3019" # 砖红色 (用作直方图/分布图、折线图与系统发育树/树状图，共同存在于子图B至F中)
+    - "#B58C9A" # 淡紫红色 (用作直方图/分布图，共同存在于子图B至F中)
+    - "#8985B7" # 蓝紫色 (用作直方图/分布图，共同存在于子图B至F中)
+    - "#E8DF92" # 浅黄色 (用作系统发育树/树状图等，共同存在于子图B至F中)
+    - "#A3C98E" # 浅绿色 (用作散点图与直方图/分布图，共同存在于子图B至F中)
+    - "#B3C4D4" # 淡蓝灰色 (用作条形图/柱状图等，共同存在于子图B至F中)
+
+group_21:
+  name: "第21组图片科研配色"
+  macro_categories:
+    - "折线图/面积图 (Line Chart / Area Chart)"
+  used_for:
+    - "光谱曲线下的成分贡献填充面积图 (Filled Area Plots for Component Contributions under a Spectral Curve)"
+  note: "以上 9 种颜色共同应用于同一张光谱图（21.png）中，表示不同气体的吸收深度"
+  colors:
+    - "#FDEBAA" # 淡黄色 (用作折线图/面积图，存在于整张图中)
+    - "#EDC3A5" # 浅肉色 (用作折线图/面积图，存在于整张图中)
+    - "#DBE4FB" # 淡蓝色 (用作折线图/面积图，存在于整张图中)
+    - "#ABD1BC" # 淡绿色 (用作折线图/面积图，存在于整张图中)
+    - "#E3BBED" # 浅紫色 (用作折线图/面积图，存在于整张图中)
+    - "#CCCC99" # 黄绿色 (用作折线图/面积图，存在于整张图中)
+    - "#BED0F9" # 蓝紫色 (用作折线图/面积图，存在于整张图中)
+    - "#FCB6A5" # 珊瑚橙 (用作折线图/面积图，存在于整张图中)
+    - "#F1F1F1" # 浅灰色 (用作折线图/面积图，存在于整张图中)
+
+group_22:
+  name: "第22组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图/火山图 (Scatter Plot / Volcano Plot)"
+    - "图像叠加标注 (Image Overlay)"
+  used_for:
+    - "带有误差线的分组条形图 (Grouped Bar Charts with Error Bars)"
+    - "火山图中的异常值高亮 (Volcano Plot Outlier Highlighting)"
+    - "孔板图像细胞圈选 (Well Plate Cell Annotation)"
+  note: "以上 9 种颜色共同应用于同一张实验数据拼图（22.jpeg，包含子图A至D）中"
+  colors:
+    - "#F0EEEF" # 极浅灰色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#C6CCDC" # 浅蓝灰色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#9DACCB" # 蓝灰色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#7789B7" # 蓝色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#CBD7C3" # 淡绿灰色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#ACBF9F" # 浅绿色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#89AA7B" # 中绿色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#D6D6D6" # 浅灰色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#EB6969" # 红色 (用作条形图/柱状图及散点图/火山图，共同存在于子图A至D中)
+    - "#D6D6D6" # 灰色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#EB6969" # 珊瑚红 (用作条形图/柱状图，共同存在于子图A至D中)
+
+group_23:
+  name: "第23组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+    - "饼图 (Pie Chart)"
+  used_for:
+    - "带置信区间阴影的非线性回归折线散点图 (Line Plots with Shaded Confidence Intervals and Overlay Scatter Markers)"
+    - "地理地图上叠加饼图 (Pie Charts Overlay on Geographic Map)"
+  note: "以上 7 种颜色共同应用于同一张带有地图叠加饼图与回归折线的拼图（23.png）中"
+  colors:
+    - "#18BECF" # 青蓝色 (用作折线图与地图/地理空间分布图，存在于整张图中)
+    - "#BCBD23" # 暗黄绿色 (用作折线图与地图/地理空间分布图，存在于整张图中)
+    - "#7F7F7F" # 灰色 (用作折线图与地图/地理空间分布图，存在于整张图中)
+    - "#004600" # 深绿色 (用作饼图，存在于整张图中)
+    - "#78B428" # 中绿色 (用作饼图，存在于整张图中)
+    - "#C8E63C" # 浅黄绿色 (用作饼图，存在于整张图中)
+    - "#FFE494" # 淡黄色 (用作饼图，存在于整张图中)
+
+group_24:
+  name: "第24组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "多组数据折线图 (Line Plots)"
+    - "水平条形图 (Horizontal Bar Chart)"
+    - "带置信区间阴影的折线图 (Line Plot with Shaded Confidence Interval)"
+  note: "以上 16 种颜色共同应用于包含多种复杂比较折线图与水平条形图的拼图（24.png）中"
+  colors:
+    - "#91CCC0" # 青绿色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#7FABD1" # 浅蓝色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#F7AC53" # 橙黄色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#EC6E66" # 珊瑚红 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#B5CE4E" # 黄绿色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#BD7795" # 紫红色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#7C7979" # 灰色 (用作折线图与条形图/柱状图，共同存在于子图A至F中)
+    - "#963B79" # 紫色 (用作折线图，共同存在于子图A至F中)
+    - "#97D0C5" # 浅青色 (用作折线图，共同存在于子图A至F中)
+    - "#F39865" # 浅橙色 (用作折线图，共同存在于子图A至F中)
+    - "#52AADC" # 天蓝色 (用作折线图，共同存在于子图A至F中)
+    - "#C7C1DE" # 淡紫色 (用作折线图，共同存在于子图A至F中)
+    - "#EEB6D4" # 淡粉色 (用作折线图，共同存在于子图A至F中)
+    - "#C89736" # 暗黄色 (用作折线图，共同存在于子图A至F中)
+    - "#2D8875" # 深绿色 (用作折线图，共同存在于子图A至F中)
+    - "#D75B4E" # 红褐色 (用作折线图，共同存在于子图A至F中)
+
+group_25:
+  name: "第25组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "网络拓扑图 (Network Diagram)"
+  used_for:
+    - "双曲线火山散点图 (Volcano-like Scatter Plot)"
+    - "带有误差线和散点叠加的分组条形图 (Grouped Bar Charts with Error Bars and Overlay Scatter Markers)"
+    - "水平条形图 (Horizontal Bar Chart)"
+    - "GO生物过程网络交互图 (GO Biological processes network diagram)"
+  note: "以上 6 种颜色共同应用于同一张复杂拼图（25.png）中"
+  colors:
+    - "#000000" # 黑色 (用作散点图与条形图/柱状图，共同存在于子图A至N中)
+    - "#4B57A2" # 深蓝色 (用作散点图与条形图/柱状图，共同存在于子图A至N中)
+    - "#D3D3D3" # 浅灰色 (用作条形图/柱状图，共同存在于子图A至N中)
+    - "#098036" # 绿色 (用作条形图/柱状图，共同存在于子图A至N中)
+    - "#FCDFC0" # 淡橙色 (用作条形图/柱状图，共同存在于子图A至N中)
+    - "#F9BE80" # 橙色 (用作条形图/柱状图，共同存在于子图A至N中)
+    - "#EE7D80" # 粉红色 (用作散点图、条形图/柱状图与网络拓扑图，共同存在于子图A至N中)
+
+group_26:
+  name: "第26组图片科研配色"
+  macro_categories:
+    - "示意图 (Diagram)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "RNA静默复合体示意图 (RNA silencing complex schematic diagram)"
+    - "带有误差线和散点叠加的独立条形图 (Bar Chart with Error Bars and Overlay Scatter Markers)"
+    - "折线散点图 (Line Plots with Markers)"
+  note: "以上 6 种颜色共同应用于同一张拼图（26.png）中"
+  colors:
+    - "#32183C" # 深紫色 (用作条形图/柱状图与折线图，共同存在于子图A至H中)
+    - "#A21A54" # 玫红色 (用作条形图/柱状图与折线图，共同存在于子图A至H中)
+    - "#E7724F" # 珊瑚橙 (用作条形图/柱状图与折线图，共同存在于子图A至H中)
+    - "#000000" # 黑色 (用作折线图，共同存在于子图A至H中)
+    - "#36659E" # 钢蓝色 (用作折线图，共同存在于子图A至H中)
+    - "#40B7AD" # 青绿色 (用作折线图，共同存在于子图A至H中)
+
+group_27:
+  name: "第27组图片科研配色"
+  macro_categories:
+    - "示意图 (Diagram)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "热图/矩阵图 (Heatmap)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "质粒敲除图谱示意图 (Plasmid Diagram)"
+    - "散点图 (Scatter Plots/ MA plot)"
+    - "带有误差线和散点叠加的独立条形图 (Bar Charts with Error Bars and Scatter Markers)"
+    - "热图 (Heatmap)"
+    - "带有标记的折线图 (Line Plot with Markers)"
+  note: "以上 8 种颜色共同应用于同一张复杂机制拼图（27.png）中"
+  colors:
+    - "#FFC04D" # 橙黄色 (用作散点图，共同存在于子图A至F中)
+    - "#606060" # 中灰色 (用作条形图/柱状图，共同存在于子图A至F中)
+    - "#82093B" # 暗红色 (用作条形图/柱状图与折线图，共同存在于子图A至F中)
+    - "#34183E" # 深紫色 (用作条形图/柱状图，共同存在于子图A至F中)
+    - "#4D779B" # 蓝色 (用作散点图与条形图/柱状图，共同存在于子图A至F中)
+    - "#C45C69" # 红褐色 (用作散点图与条形图/柱状图，共同存在于子图A至F中)
+    - "#CD3B42" # 红色 (用作热图/矩阵图与折线图，共同存在于子图A至F中)
+    - "#585D5E" # 深灰色 (用作热图/矩阵图与折线图，共同存在于子图A至F中)
+
+group_28:
+  name: "第28组图片科研配色"
+  macro_categories:
+    - "折线图/带误差带的折线图 (Line Chart with Error Bands)"
+  used_for:
+    - "带有误差棒和置信区间阴影的折线散点图 (Line Plots with Error Bars and Shaded Confidence Intervals)"
+  note: "以上 3 种颜色共同应用于展示干涉测量数据的拼图（28.png）中"
+  colors:
+    - "#2B5863" # 深蓝绿色 (用作带有误差棒和置信区间阴影的折线散点图，共同存在于子图A和B中)
+    - "#6A8078" # 灰绿色 (用作带有误差棒和置信区间阴影的折线散点图，共同存在于子图A和B中)
+    - "#9D9D9D" # 灰色 (用作不对称性阴影及数据点误差棒的背景填充，共同存在于子图A和B中)
+
+group_29:
+  name: "第29组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "直方图/分布图 (Histogram)"
+    - "三角相图/三元相图 (Ternary Plot)"
+  used_for:
+    - "祖先成分水平堆叠条形图 (Horizontal Stacked Bar Chart for Ancestry Proportions)"
+    - "三元散点图 (Ternary Scatter Plot)"
+    - "直方图 (Histograms for model P-values)"
+  note: "以上 12 种颜色共同应用于同一张展示族群混合的复杂拼图（29.png）中"
+  colors:
+    - "#08306B" # 深蓝色 (用作祖先成分水平堆叠条形图，共同存在于子图A至C中)
+    - "#08519C" # 暗蓝色 (用作祖先成分水平堆叠条形图，共同存在于子图A至C中)
+    - "#2171B5" # 中蓝色 (用作祖先成分水平堆叠条形图，共同存在于子图A至C中)
+    - "#6BAED6" # 浅蓝色 (用作祖先成分水平堆叠条形图与三元散点图，共同存在于子图A至C中)
+    - "#C6DBEF" # 淡蓝色 (用作祖先成分水平堆叠条形图，共同存在于子图A至C中)
+    - "#FED976" # 亮黄色 (用作祖先成分水平堆叠条形图与三元散点图，共同存在于子图A至C中)
+    - "#FFFFCC" # 乳白色 (用作祖先成分水平堆叠条形图，共同存在于子图A至C中)
+    - "#969696" # 灰色 (用作祖先成分水平堆叠条形图与三元散点图，共同存在于子图A至C中)
+    - "#D95319" # 橙红色 (用作三元散点图的数据点，共同存在于子图A至C中)
+    - "#EDB120" # 金黄色 (用作三元散点图的数据点，共同存在于子图A至C中)
+    - "#0072BD" # 蔚蓝色 (用作三元散点图的数据点，共同存在于子图A至C中)
+    - "#77AC30" # 绿色 (用作三元散点图的数据点，共同存在于子图A至C中)
+
+group_30:
+  name: "第30组图片科研配色"
+  macro_categories:
+    - "示意图 (Diagram)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "代谢通路示意图 (Metabolic Pathway Diagram)"
+    - "带有误差线的分组条形图 (Grouped Bar Charts with Error Bars)"
+    - "肿瘤及代谢物丰度散点/点阵图 (Tumour and Metabolite Abundance Dot/Scatter Plots)"
+  note: "以上 9 种颜色共同应用于同一张涵盖示意图与条形、散点数据图的拼图（30.png）中"
+  colors:
+    - "#F27873" # 珊瑚红 (用作代谢通路示意图、带有误差线的分组条形图与肿瘤体积散点图，共同存在于子图A至I中)
+    - "#FFD373" # 明黄色 (用作代谢通路示意图、带有误差线的分组条形图与肿瘤及代谢物丰度散点图，共同存在于子图A至I中)
+    - "#008A45" # 深绿色 (用作带有误差线的分组条形图与散点点阵图，共同存在于子图A至I中)
+    - "#80C5A2" # 浅绿色 (用作带有误差线的分组条形图与散点点阵图，共同存在于子图A至I中)
+    - "#5F5F5E" # 深灰色 (用作带有误差线的分组条形图与散点点阵图，共同存在于子图A至I中)
+    - "#468BCA" # 深蓝色 (用作带有误差线的分组条形图与肿瘤体积散点图，共同存在于子图A至I中)
+    - "#7DD2F6" # 天蓝色 (用作代谢通路示意图与数据图散点，共同存在于子图A至I中)
+    - "#B384BA" # 中紫色 (用作代谢通路示意图，共同存在于子图A至I中)
+    - "#D9C2DD" # 淡紫色 (用作带有误差线的分组条形图，共同存在于子图A至I中)
+
+group_31:
+  name: "第31组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "成分堆叠条形图 (Stacked Bar Charts)"
+    - "长周期稳定性折线散点图 (Long-term Stability Scatter/Line Plots)"
+  note: "以上 6 种颜色共同应用于同一张展示多组分法拉第效率及稳定性的拼图（31.png）中"
+  colors:
+    - "#B6B3D6" # 紫灰色 (用作成分堆叠条形图与长周期稳定性折线散点图，共同存在于子图A至E中)
+    - "#DAD7E9" # 淡蓝灰色 (用作成分堆叠条形图与长周期稳定性折线散点图，共同存在于子图A至E中)
+    - "#CFCFD0" # 浅灰色 (用作成分堆叠条形图与长周期稳定性折线散点图，共同存在于子图A至E中)
+    - "#FDE2D8" # 淡粉色 (用作成分堆叠条形图与长周期稳定性折线散点图，共同存在于子图A至E中)
+    - "#F58F7A" # 橙红色 (用作成分堆叠条形图与长周期稳定性折线散点图，共同存在于子图A至E中)
+    - "#E9687A" # 玫红色 (用作成分堆叠条形图与长周期稳定性折线散点图，共同存在于子图A至E中)
+
+group_32:
+  name: "第32组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "直方图/分布图 (Histogram)"
+    - "折线图 (Line Chart)"
+    - "示意图 (Diagram)"
+  used_for:
+    - "双轴散点图 (Dual-axis Scatter Plot)"
+    - "流式细胞术荧光强度半透明直方图 (Flow Cytometry Fluorescence Intensity Histograms)"
+    - "蛋白质结构域活性映射图 (Protein Domain Activity Map/Plot)"
+    - "折线散点图 (Line Plot with Markers)"
+  note: "以上 6 种颜色共同应用于同一张分子活性测试与流式表达数据拼图（32.png）中"
+  colors:
+    - "#1F77B4" # 蓝色 (用作双轴散点图、流式荧光直方图与蛋白质结构域活性映射图，共同存在于子图A至F中)
+    - "#DAA628" # 金黄色 (用作双轴散点图、流式荧光直方图与蛋白质结构域活性映射图，共同存在于子图A至F中)
+    - "#47A1A2" # 青绿色 (用作流式细胞术荧光强度半透明直方图与折线散点图，共同存在于子图A至F中)
+    - "#282973" # 深蓝色 (用作折线散点图，共同存在于子图A至F中)
+    - "#708090" # 灰蓝色 (用作双轴散点图与折线散点图，共同存在于子图A至F中)
+    - "#F9BFCB" # 淡粉色 (用作流式细胞术荧光强度半透明直方图与折线散点图，共同存在于子图A至F中)
+
+group_33:
+  name: "第33组图片科研配色"
+  macro_categories:
+    - "表格 (Table)"
+    - "系统发育树/树状图 (Phylogenetic Tree/Dendrogram)"
+  used_for:
+    - "进化分支特征表 (Clade Characteristics Table)"
+    - "镜像系统发育树/树状拓扑对比图 (Mirror Phylogenetic Trees / Tanglegram)"
+  note: "以上 8 种颜色共同应用于同一张系统发育对比及特征图（33.png）中"
+  colors:
+    - "#DB7272" # 红褐色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#C6A550" # 暗黄色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#A1D4A2" # 浅绿色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#3C518F" # 深蓝色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#38917E" # 青绿色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#A47DC0" # 浅紫色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#989ED9" # 淡蓝紫色 (用作进化分支特征表与镜像系统发育树，共同存在于子图A至C中)
+    - "#4D0085" # 深紫色 (用作镜像系统发育树的连接线与高亮节点，共同存在于子图A至C中)
+
+group_34:
+  name: "第34组图片科研配色"
+  macro_categories:
+    - "示意图 (Diagram)"
+    - "系统发育树/树状图 (Phylogenetic Tree/Dendrogram)"
+  used_for:
+    - "病毒演化谱系与模块互作机制示意图 (Viral Evolutionary Cladogram and Module Interaction Mechanism Diagrams)"
+  note: "以上 4 种颜色共同应用于同一张机制与演化结合的示意图（34.png）中"
+  colors:
+    - "#DEAA87" # 淡橘色 (用作病毒演化谱系与模块互作机制示意图，共同存在于子图A至C中)
+    - "#E9DDAF" # 淡黄色 (用作病毒演化谱系与模块互作机制示意图，共同存在于子图A至C中)
+    - "#93AC93" # 灰绿色 (用作病毒演化谱系与模块互作机制示意图，共同存在于子图A至C中)
+    - "#6F8A91" # 蓝灰色 (用作病毒演化谱系与模块互作机制示意图，共同存在于子图A至C中)
+
+group_35:
+  name: "第35组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "箱线图 (Box Plot)"
+    - "热图/矩阵图 (Heatmap)"
+  used_for:
+    - "堆叠条形图 (Stacked Bar Chart)"
+    - "水平箱线图 (Horizontal Box Plot)"
+    - "热图比例矩阵 (Heatmap/Ratio Matrix)"
+  note: "以上 9 种颜色共同应用于涵盖宏转录组学数据的多图拼接面板（35.png）中"
+  colors:
+    - "#A02C2C" # 暗红色 (用作堆叠条形图，存在于整张图中)
+    - "#666666" # 暗灰色 (用作热图背景与条形框辅助色，存在于整张图中)
+    - "#E5DEDE" # 浅粉灰色 (用作堆叠条形图，存在于整张图中)
+    - "#CCBCBC" # 灰粉色 (用作堆叠条形图，存在于整张图中)
+    - "#9BADB2" # 蓝灰色 (用作水平箱线图及堆叠条形图，存在于整张图中)
+    - "#FFB889" # 桃红色 (用作水平箱线图及堆叠条形图，存在于整张图中)
+    - "#808080" # 中灰色 (用作箱线图或条形图的背景组分填充，存在于整张图中)
+    - "#CCCCCC" # 浅灰色 (用作热图比例矩阵中的单元格颜色，存在于整张图中)
+    - "#F4E3D7" # 极浅桃色 (用作热图比例矩阵中的单元格颜色，存在于整张图中)
+
+group_36:
+  name: "第36组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有误差线的分布散点图 (Scatter Plots with Error Bars)"
+  note: "以上 4 种颜色共同应用于同一张展示不同环境条件下参数分布的带误差线散点图（未命名文件夹/2/1.jpeg）中"
+  colors:
+    - "#EECA40" # 黄色 (用作带有误差线的散点图的数据点及背景分组面板，共同存在于子图A和B中)
+    - "#FD763F" # 橙色 (用作带有误差线的散点图的数据点及背景分组面板，共同存在于子图A和B中)
+    - "#23BAC5" # 蓝绿色 (用作带有误差线的散点图的数据点及背景分组面板，共同存在于子图A和B中)
+    - "#000000" # 黑色 (用作带有误差线的散点图的均值汇总点与误差棒，共同存在于子图A和B中)
+
+group_37:
+  name: "第37组图片科研配色"
+  macro_categories:
+    - "系统发育树/树状图 (Phylogenetic Tree/Dendrogram)"
+    - "实验图像面板/点滴实验图 (Image Panel / Spot Assay)"
+    - "蛋白质凝胶电泳/SDS-PAGE (Protein Gel Electrophoresis)"
+  used_for:
+    - "系统发育树的分支与区域背景高亮 (Phylogenetic tree clades and background highlights)"
+    - "蛋白质结构域及毒素类型标记 (Protein domain and toxin type labels)"
+  note: "以上颜色应用于展示毒素/抗毒素系统发育、斑点实验与电泳结果的综合拼图（未命名文件夹/2/2.jpeg）中"
+  colors:
+    - "#DCE125" # 黄绿色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#5086C4" # 蓝色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#B55489" # 紫粉色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#4C6C43" # 暗绿色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#F0A19A" # 浅肉红色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#7C7CBA" # 蓝紫色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#00A664" # 亮绿色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#F9ED1D" # 亮黄色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#3FA0C0" # 青蓝色 (用作树状图结构域标签或图例标记，共同存在于子图A至G中)
+    - "#D5D9E5" # 浅蓝灰色 (用作系统发育树的分支区域背景高亮，共同存在于子图A至G中)
+    - "#D6E0C8" # 浅灰绿色 (用作系统发育树的分支区域背景高亮，共同存在于子图A至G中)
+    - "#FEDEC5" # 浅橙粉色 (用作系统发育树的分支区域背景高亮，共同存在于子图A至G中)
+    - "#FFF0BC" # 淡黄色 (用作系统发育树的分支区域背景高亮，共同存在于子图A至G中)
+    - "#C7B8BD" # 浅紫灰色 (用作系统发育树的分支区域背景高亮，共同存在于子图A至G中)
+
+group_38:
+  name: "第38组图片科研配色"
+  macro_categories:
+    - "神经网络/示意图 (Neural Network / Schematic Diagram)"
+    - "3D表面图/等值面渲染 (3D Surface Plot)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "神经网络模型结构示意图的节点与背景填充 (Neural network block/node backgrounds)"
+  note: "以上 6 种颜色共同应用于逆向/正向模型预测深度学习网络框架图（未命名文件夹/2/3.jpeg）中"
+  colors:
+    - "#F7A6AC" # 粉红色 (用作神经网络结构图中的特定层或模块背景填充，存在于整张图中)
+    - "#F7B7D2" # 浅粉色 (用作神经网络结构图中的特定层或模块背景填充，存在于整张图中)
+    - "#EEC186" # 沙黄色 (用作神经网络结构图中的特定层或模块背景填充，存在于整张图中)
+    - "#EEF0A7" # 浅黄色 (用作神经网络结构图中的特定层或模块背景填充，存在于整张图中)
+    - "#B2DBB9" # 浅绿色 (用作神经网络结构图中的特定层或模块背景填充，存在于整张图中)
+    - "#B8E5FA" # 浅蓝色 (用作神经网络结构图中的特定层或模块背景填充，存在于整张图中)
+
+group_39:
+  name: "第39组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有误差线的折线散点图 (Line plots with error bars)"
+    - "带有误差线的分组条形图 (Grouped bar charts with error bars)"
+  note: "以上 7 种颜色应用于细胞存活率曲线和活力条形图拼图（未命名文件夹/2/4.jpeg）中"
+  colors:
+    - "#666666" # 深灰色 (用作折线图数据点及分组条形图，共同存在于子图A至D中)
+    - "#E5AB02" # 芥末黄 (用作分组条形图，共同存在于子图A至D中)
+    - "#66A61E" # 暗绿色 (用作分组条形图，共同存在于子图A至D中)
+    - "#A5761C" # 棕褐色 (用作分组条形图，共同存在于子图A至D中)
+    - "#CCCCCC" # 浅灰色 (用作分组条形图，共同存在于子图A至D中)
+    - "#B2DF8A" # 浅绿色 (用作分组条形图，共同存在于子图A至D中)
+    - "#349F2B" # 绿色 (用作分组条形图，共同存在于子图A至D中)
+
+group_40:
+  name: "第40组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "带有误差线和散点叠加的分组条形图 (Grouped bar charts with error bars and overlay scatter markers)"
+    - "带有误差线的折线散点图 (Line plots with error bars)"
+  note: "以上 12 种颜色广泛应用于展示放疗/免疫联合处理后的细胞死亡率面板图（未命名文件夹/2/5.jpeg）中"
+  colors:
+    - "#5861AC" # 深蓝色 (用作条形图与折线图，共同存在于子图A至G中)
+    - "#FFE0C1" # 极浅橙色 (用作条形图，共同存在于子图A至G中)
+    - "#FFC080" # 浅橙色 (用作条形图，共同存在于子图A至G中)
+    - "#FEA040" # 橙色 (用作条形图，共同存在于子图A至G中)
+    - "#FF7F00" # 深橙色 (用作条形图，共同存在于子图A至G中)
+    - "#FF6100" # 红橙色 (用作条形图，共同存在于子图A至G中)
+    - "#F28080" # 浅红色 (用作条形图与折线图，共同存在于子图A至G中)
+    - "#6B7EB9" # 灰蓝色 (用作条形图，共同存在于子图A至G中)
+    - "#A5C2E2" # 淡蓝色 (用作条形图，共同存在于子图A至G中)
+    - "#6AB4C1" # 青蓝色 (用作条形图，共同存在于子图A至G中)
+    - "#72C3A3" # 浅灰绿色 (用作条形图，共同存在于子图A至G中)
+    - "#70B48F" # 中灰绿色 (用作条形图，共同存在于子图A至G中)
+
+group_41:
+  name: "第41组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "蛋白质凝胶电泳/SDS-PAGE (Protein Gel Electrophoresis)"
+  used_for:
+    - "带有散点叠加的独立条形图 (Bar charts with overlay scatter markers)"
+  note: "以上 4 种颜色应用于不同基因型与处理条件下组织重量与NE浓度的对比条形图（未命名文件夹/2/6.jpeg）中"
+  colors:
+    - "#F39DA0" # 粉红色 (用作条形图，共同存在于子图A至C中)
+    - "#95BCE5" # 浅蓝色 (用作条形图，共同存在于子图A至C中)
+    - "#E84445" # 红色 (用作条形图，共同存在于子图A至C中)
+    - "#1999B2" # 青蓝色 (用作条形图，共同存在于子图A至C中)
+
+group_42:
+  name: "第42组图片科研配色"
+  macro_categories:
+    - "网络拓扑图 (Network Diagram)"
+    - "直方图/分布图 (Histogram)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "蛋白质互作网络关联图节点 (Protein interaction network nodes)"
+    - "机制示意图标记 (Mechanism diagram labels)"
+  note: "以上 3 种颜色共同应用于不同物种蛋白质间互作网络节点及分布图（未命名文件夹/2/7.jpeg）中"
+  colors:
+    - "#00A14E" # 绿色 (用作网络节点及机制图，共同存在于子图A至E中)
+    - "#ECE70F" # 黄色 (用作网络节点及机制图，共同存在于子图A至E中)
+    - "#688CC8" # 浅蓝色 (用作网络节点及机制图，共同存在于子图A至E中)
+
+group_43:
+  name: "第43组图片科研配色"
+  macro_categories:
+    - "3D表面图/等值面渲染 (3D Surface Plot)"
+  used_for:
+    - "三维密度表面图的半透明分层 (Semi-transparent 3D density surface layers)"
+  note: "以上 4 种颜色共同应用于同一个三维参数空间的密度分层相图（未命名文件夹/2/8.jpeg）中"
+  colors:
+    - "#CAC8EF" # 浅紫色 (用作 3D 表面图层，共同存在于子图A至C中)
+    - "#9BDCFC" # 浅青色 (用作 3D 表面图层，共同存在于子图A至C中)
+    - "#C9EFBE" # 浅绿色 (用作 3D 表面图层，共同存在于子图A至C中)
+    - "#F0CFEA" # 浅粉色 (用作 3D 表面图层，共同存在于子图A至C中)
+
+group_44:
+  name: "第44组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+  used_for:
+    - "地理区域等值面/热图背景染色 (Geographic region contour/heatmap background coloring)"
+    - "地图散点标记 (Map scatter markers)"
+  note: "以上 7 种颜色共同应用于地中海区域火山灰厚度及海啸遗址标记的地图（未命名文件夹/2/9.jpeg）中"
+  colors:
+    - "#E69C81" # 橙红色 (用作火山灰厚度地图区域背景，存在于整张图中)
+    - "#E6BA9D" # 浅褐色 (用作火山灰厚度地图区域背景，存在于整张图中)
+    - "#E7CEA5" # 浅米色 (用作火山灰厚度地图区域背景，存在于整张图中)
+    - "#D7DCBE" # 灰米色 (用作火山灰厚度地图区域背景，存在于整张图中)
+    - "#D9DDBA" # 浅黄绿色 (用作火山灰厚度地图区域背景，存在于整张图中)
+    - "#63BA45" # 亮绿色 (用作地图上的散点标记，存在于整张图中)
+    - "#00ADEF" # 湖蓝色 (用作地图上的散点标记，存在于整张图中)
+
+group_45:
+  name: "第45组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "带有误差线和散点叠加的条形图 (Bar charts with error bars and overlay scatter markers)"
+    - "带有误差线的折线散点图 (Line plots with error bars)"
+    - "折线图和条形图的背景状态阴影填充 (Background state shading for plots)"
+  note: "以上 3 种颜色共同应用于小鼠生理参数随时间或条件变化的折线与条形图（未命名文件夹/2/10.jpeg）中"
+  colors:
+    - "#91BFFA" # 浅蓝色 (用作带有误差线的条形图与折线图，共同存在于子图A至L中)
+    - "#F2F2F2" # 浅灰色 (用作背景状态阴影，共同存在于子图A至L中)
+    - "#FFFEDF" # 淡黄色 (用作背景状态阴影，共同存在于子图A至L中)
+
+group_46:
+  name: "第46组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+  used_for:
+    - "地理区域地形海拔等高线填色 (Topographical elevation map background shading)"
+  note: "以上 7 种颜色应用于同一张展示长江流域及周边地形海拔高度的地理分布图（未命名文件夹/2/11.jpeg）中"
+  colors:
+    - "#D1B494" # 褐色 (用作地形海拔填色，共同存在于子图A和B中)
+    - "#E0C79F" # 浅褐色 (用作地形海拔填色，共同存在于子图A和B中)
+    - "#F1DEBD" # 浅黄褐色 (用作地形海拔填色，共同存在于子图A和B中)
+    - "#FFFBD5" # 淡黄色 (用作地形海拔填色，共同存在于子图A和B中)
+    - "#D9EEDF" # 浅灰绿色 (用作地形海拔填色，共同存在于子图A和B中)
+    - "#C0E2CA" # 浅绿色 (用作地形海拔填色，共同存在于子图A和B中)
+    - "#9DD3AF" # 绿色 (用作地形海拔填色，共同存在于子图A和B中)
+
+group_47:
+  name: "第47组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "堆叠图/面积图 (Stacked Area Chart)"
+  used_for:
+    - "多组折线图 (Multiple line plots)"
+    - "分类堆叠面积图 (Categorical stacked area charts)"
+  note: "以上 12 种颜色共同应用于展示不同社区活动分类感染比例随时间变化的复杂折线及面积图（未命名文件夹/2/12.jpeg）中"
+  colors:
+    - "#2C6344" # 深绿色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#5F9C61" # 绿色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#A4C97C" # 浅绿色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#61496D" # 暗紫色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#B092B6" # 紫色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#CAC1D4" # 浅紫色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#C74D26" # 锈红色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#E38D26" # 橙色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#F1CC74" # 浅橙黄色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#308192" # 深蓝绿色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#5EA7B8" # 蓝绿色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+    - "#AED2E2" # 浅蓝色 (用作折线图与堆叠面积图，共同存在于子图A至F中)
+
+group_48:
+  name: "第48组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "箱线图 (Box Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有误差线的折线散点图 (Line plots with error bars)"
+    - "箱线图 (Box plots)"
+    - "带有误差线的独立条形图 (Bar charts with error bars)"
+  note: "以上 8 种颜色共同应用于气孔导度随时间变化、失水点及ABA含量的多面板图（未命名文件夹/2/13.jpeg）中"
+  colors:
+    - "#949B93" # 灰色 (用作折线图、箱线图与条形图填充，共同存在于子图A至F中)
+    - "#92B9BE" # 灰蓝色 (用作折线图、箱线图与条形图填充，共同存在于子图A至F中)
+    - "#A9D3AD" # 浅绿色 (用作折线图、箱线图与条形图填充，共同存在于子图A至F中)
+    - "#F5DF4D" # 亮黄色 (用作折线图、箱线图与条形图填充，共同存在于子图A至F中)
+    - "#CDE3A5" # 浅黄绿色 (用作折线图、箱线图与条形图填充，共同存在于子图A至F中)
+    - "#F6F8F7" # 极浅灰白色 (用作空心柱状图或特定对照组填充，共同存在于子图A至F中)
+    - "#E7F5F6" # 极浅青蓝色 (用作折线图及条形图的背景状态阴影区分，共同存在于子图A至F中)
+    - "#F4F7FE" # 极浅紫蓝色 (用作折线图及条形图的另一背景状态阴影区分，共同存在于子图A至F中)
+
+group_49:
+  name: "第49组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "地理地图散点标记 (Geographic map scatter markers)"
+    - "群体结构堆叠条形图 (Admixture stacked bar charts)"
+    - "主成分分析(PCA)散点图 (PCA scatter plots)"
+  note: "以上 3 种颜色应用于基因型/群体结构地理分布综合图（未命名文件夹/2/14.jpeg）中"
+  colors:
+    - "#F9E7A7" # 淡黄色 (用作地图标记、堆叠条形图及PCA散点图，共同存在于子图A至C中)
+    - "#EF767B" # 浅红色 (用作地图标记、堆叠条形图及PCA散点图，共同存在于子图A至C中)
+    - "#43A3EF" # 天蓝色 (用作地图标记、堆叠条形图及PCA散点图，共同存在于子图A至C中)
+
+group_50:
+  name: "第50组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "相图/等值线图 (Phase Diagram/Contour Plot)"
+  used_for:
+    - "多分类散点图 (Categorical scatter plots)"
+    - "P-T相图区域背景填色 (P-T phase diagram background region shading)"
+  note: "以上 8 种颜色共同应用于变质岩P-T演化相图及年代学数据散点图（未命名文件夹/2/15.jpeg）中"
+  colors:
+    - "#F2A1A7" # 浅粉红色 (用作散点图中的数据点以及P-T相图特定区域，共同存在于子图A和B中)
+    - "#7DC69B" # 绿色 (用作散点图中的数据点以及P-T相图特定区域，共同存在于子图A和B中)
+    - "#9BD7F3" # 浅蓝色 (用作散点图中的数据点以及P-T相图特定区域，共同存在于子图A和B中)
+    - "#FBDDDD" # 极浅粉色 (专门用作P-T相图背景区域染色，共同存在于子图A和B中)
+    - "#FCE6CF" # 浅肉色 (专门用作P-T相图背景区域染色，共同存在于子图A和B中)
+    - "#D5EAD9" # 极浅绿色 (专门用作P-T相图背景区域染色，共同存在于子图A和B中)
+    - "#D8EEFB" # 极浅蓝色 (专门用作P-T相图背景区域染色，共同存在于子图A和B中)
+    - "#DCD7EB" # 浅紫色 (专门用作P-T相图背景区域染色，共同存在于子图A和B中)
+
+group_51:
+  name: "第51组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "火山图 (Volcano Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "火山图中的显著差异基因标记点 (Significant gene markers in volcano plots)"
+    - "不同敲除细胞系的多组独立条形图 (Bar charts for different knockout cell lines)"
+  note: "以上 6 种颜色应用于基因表达差异火山图、UPR报告基因表达条形图及细胞活力图（未命名文件夹/2/16.jpeg）中"
+  colors:
+    - "#A09FA4" # 灰色 (用作火山图中的非显著背景点及条形图背景，共同存在于子图A至F中)
+    - "#FEA0A0" # 浅红色 (用作火山图显著点及条形图，共同存在于子图A至F中)
+    - "#AD07E3" # 紫色 (用作条形图，共同存在于子图A至F中)
+    - "#55A0FB" # 亮蓝色 (用作特定条形图分组，共同存在于子图A至F中)
+    - "#099A63" # 深绿色 (用作条形图，共同存在于子图A至F中)
+    - "#91BFFA" # 浅蓝色 (用作条形图，共同存在于子图A至F中)
+
+group_52:
+  name: "第52组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "带有误差线的独立条形图 (Bar charts with error bars)"
+    - "连续的钙离子瞬变折线追踪图 (Continuous Ca2+ transient traces)"
+  note: "以上 3 种颜色共同应用于不同刺激条件下细胞因子分泌柱状图与钙离子追踪图（未命名文件夹/2/17.jpeg）中"
+  colors:
+    - "#93C8C0" # 浅灰绿色 (用作条形图与折线追踪图，共同存在于子图A至C中)
+    - "#1C3C63" # 深蓝色 (用作条形图，共同存在于子图A至C中)
+    - "#D3D5D4" # 浅灰色 (用作条形图，共同存在于子图A至C中)
+
+group_53:
+  name: "第53组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "韦恩图 (Venn Diagram)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "大脑区域分布的独立条形图及折线图 (Bar and line charts for brain regions)"
+    - "多集合韦恩图区域划分 (Venn diagram intersecting regions)"
+    - "荧光显微图像激活次数标记散点 (Activation times markers in fluorescence imagery)"
+  note: "以上 6 种颜色应用于展示 CA1 和 RSC 脑区神经元激活重叠率及记忆追踪（未命名文件夹/2/18.jpeg）中"
+  colors:
+    - "#3AB5B3" # 蓝绿色 (用作条形图及韦恩图边界，共同存在于子图A至M中)
+    - "#954F97" # 紫色 (用作条形图及韦恩图边界，共同存在于子图A至M中)
+    - "#B3D5F1" # 浅蓝色 (用作韦恩图内部区域填充及重叠率条形图，共同存在于子图A至M中)
+    - "#F0686C" # 浅红色 (用作韦恩图内部区域填充，共同存在于子图A至M中)
+    - "#5567B1" # 深蓝色 (用作韦恩图内部区域填充，共同存在于子图A至M中)
+    - "#80C66D" # 浅绿色 (用作韦恩图内部区域填充，共同存在于子图A至M中)
+
+group_54:
+  name: "第54组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有误差线的独立条形图 (Bar charts with error bars)"
+    - "二维特征散点图的分类节点 (Scatter plot categorical nodes)"
+  note: "以上 14 种颜色广泛应用于展示不同欧洲人群及其混合群体的基因组纯合性片段特征（未命名文件夹/2/19.jpeg）中"
+  colors:
+    - "#8370FE" # 紫蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#A020EF" # 紫色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#0000FE" # 纯蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#01008A" # 深蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#1E90FF" # 亮蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#00688B" # 深青蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#698B6A" # 灰绿色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#228B22" # 森林绿 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#566B30" # 橄榄绿 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#FF7F00" # 橙色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#FFB90F" # 黄橙色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#FE0000" # 红色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#8B8378" # 灰褐色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+    - "#8B864E" # 暗黄绿色 (用作条形图/柱状图与散点图，共同存在于子图A至C中)
+
+group_55:
+  name: "第55组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有置信带平滑曲线图 (Smoothed line plots with confidence intervals)"
+    - "参数化折线散点图 (Parameterized line scatter plots)"
+  note: "以上 9 种颜色呈渐变序列，应用于展示不同治疗覆盖率下的基因型频率模拟曲线（未命名文件夹/2/20.jpeg）中"
+  colors:
+    - "#858786" # 中灰色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#ED2225" # 红色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#E97123" # 橙色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#E1B224" # 橘黄色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#E7C21C" # 黄色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#CAC658" # 浅黄绿色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#87BBAF" # 浅青绿色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#5CA9BB" # 青蓝色 (用作折线图与散点图，共同存在于子图A至D中)
+    - "#389AB3" # 深青蓝色 (用作折线图与散点图，共同存在于子图A至D中)
+
+group_56:
+  name: "第56组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有误差线和阴影背景的连续折线记录图 (Continuous line traces with error bars and shaded backgrounds)"
+    - "带有散点叠加的独立条形图 (Bar charts with overlay scatter markers)"
+  note: "以上 6 种颜色应用于不同实验组（Control, TH-RISP）在常氧、缺氧、高碳酸血症条件下的呼吸频率动态追踪图（未命名文件夹/2/21.jpeg）中"
+  colors:
+    - "#DE061E" # 红色 (用作折线图、散点图与条形图/柱状图，共同存在于子图A至D中)
+    - "#2481C4" # 蓝色 (用作折线图、散点图与条形图/柱状图，共同存在于子图A至D中)
+    - "#8A8A88" # 暗灰色 (用作折线图，共同存在于子图A至B中)
+    - "#C7C7C5" # 浅灰色 (用作条形图/柱状图，存在于子图C中)
+    - "#C4C2DA" # 浅紫灰色 (用作折线图与条形图/柱状图，共同存在于子图A与C中)
+    - "#F7D8D6" # 浅粉红色 (用作折线图与条形图/柱状图，共同存在于子图B与C中)
+
+group_57:
+  name: "第57组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "地理地图中的轨迹散点 (Trajectory scatter markers on maps)"
+    - "水平堆叠条形图 (Horizontal stacked bar charts)"
+  note: "以上 8 种颜色应用于展示全球不同大洋海域海龟活动轨迹及时间分布比例图（未命名文件夹/2/22.jpeg）中"
+  colors:
+    - "#205EA7" # 深蓝色 (用作地图/地理空间分布图与条形图/柱状图，共同存在于子图A、B及1至5中)
+    - "#3BB6C5" # 亮青色 (用作地图/地理空间分布图与条形图/柱状图，共同存在于子图A、B及1至5中)
+    - "#965478" # 紫红色 (用作地图/地理空间分布图，共同存在于子图A及1至5中)
+    - "#EAF0B2" # 浅黄绿色 (用作条形图/柱状图，存在于子图B中)
+    - "#C8E2B2" # 浅绿色 (用作条形图/柱状图，存在于子图B中)
+    - "#7ECBB9" # 绿松石色 (用作条形图/柱状图，存在于子图B中)
+    - "#38B6C4" # 青色 (用作条形图/柱状图，存在于子图B中)
+    - "#1D91C2" # 蓝色 (用作条形图/柱状图，存在于子图B中)
+
+group_58:
+  name: "第58组图片科研配色"
+  macro_categories:
+    - "质谱/色谱图 (Mass Spectrometry/Chromatogram)"
+    - "3D表面图/等值面渲染 (3D Surface Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "色谱峰的面积填充图 (Chromatogram peak area fills)"
+    - "三维色谱峰叠加图 (3D chromatogram overlapping peaks)"
+    - "水平堆叠条形图 (Horizontal stacked bar charts)"
+  note: "以上 9 种颜色呈渐变组合，广泛应用于质谱分析肽段修饰峰面积及相对丰度图（未命名文件夹/2/23.jpeg）中"
+  colors:
+    - "#DDE554" # 黄绿色 (用作质谱/色谱图与条形图/柱状图，共同存在于子图A、B、D中)
+    - "#F8AF62" # 浅橙色 (用作质谱/色谱图，共同存在于子图A至B中)
+    - "#E00200" # 红色 (用作质谱/色谱图，共同存在于子图A至B中)
+    - "#DFE662" # 黄绿色 (用作3D表面图/等值面渲染与条形图/柱状图，共同存在于子图C至D中)
+    - "#88CF73" # 浅绿色 (用作3D表面图/等值面渲染与条形图/柱状图，共同存在于子图C至D中)
+    - "#39B086" # 青绿色 (用作3D表面图/等值面渲染与条形图/柱状图，共同存在于子图C至D中)
+    - "#008E8A" # 深青色 (用作3D表面图/等值面渲染与条形图/柱状图，共同存在于子图C至D中)
+    - "#176A7A" # 深青蓝色 (用作3D表面图/等值面渲染与条形图/柱状图，共同存在于子图C至D中)
+    - "#2E4857" # 深灰蓝色 (用作3D表面图/等值面渲染与条形图/柱状图，共同存在于子图C至D中)
+
+group_59:
+  name: "第59组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Map/Geographic Heatmap)"
+  used_for:
+    - "地图地质区域面填充 (Geological region polygon fills in maps)"
+  note: "以上 3 种颜色应用于北美中大陆裂谷地质构造填图（未命名文件夹/2/24.jpeg）中"
+  colors:
+    - "#FFF1CF" # 淡黄色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#F07673" # 浅砖红色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#7998AD" # 灰蓝色 (用作地图/地理空间分布图，存在于整张图中)
+
+group_60:
+  name: "第60组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+    - "网络拓扑图 (Network Diagram)"
+  used_for:
+    - "折线散点图的不同分组标识 (Line scatter plot series markers)"
+    - "气泡网络连接图的聚类气泡 (Bubble network connection clusters)"
+  note: "以上 6 种颜色应用于序列多样性连通气泡图与度量指标折线图（未命名文件夹/2/25.jpeg）中"
+  colors:
+    - "#FC757B" # 浅红色 (用作散点图、折线图与网络拓扑图，共同存在于子图A至G中)
+    - "#F88455" # 橙红色 (用作散点图、折线图与网络拓扑图，共同存在于子图A至G中)
+    - "#FDCA93" # 浅橙色 (用作散点图、折线图与网络拓扑图，共同存在于子图A至G中)
+    - "#FFE59B" # 淡黄色 (用作散点图、折线图与网络拓扑图，共同存在于子图A至G中)
+    - "#76CBB4" # 浅青绿色 (用作散点图、折线图与网络拓扑图，共同存在于子图A至G中)
+    - "#3C9BC9" # 蓝色 (用作散点图、折线图与网络拓扑图，共同存在于子图A至G中)
+
+group_61:
+  name: "第61组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "带误差线的散点连线图 (Scatter plots with lines and error bars)"
+    - "曲线阴影置信区间背景 (Curved shaded confidence intervals)"
+  note: "以上 9 种颜色应用于地磁场强度、偏角、倾角随时间变化的测年数据散点图（未命名文件夹/2/26.jpeg）中"
+  colors:
+    - "#5BA9BD" # 灰蓝色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#95BE54" # 草绿色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#DBCC57" # 黄色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#E0BB6D" # 橙黄色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#B0783D" # 棕褐色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#D5A6A0" # 浅粉色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#9D6067" # 绛红色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#A93935" # 深红色 (用作散点图与折线图，共同存在于子图A至C中)
+    - "#DCDE8B" # 浅黄绿色 (用作折线图，共同存在于子图A至C中)
+
+group_62:
+  name: "第62组图片科研配色"
+  macro_categories:
+    - "流式细胞图/密度图 (Flow Cytometry Density Plot)"
+    - "饼图 (Pie Chart)"
+  used_for:
+    - "流式双变量密度散点门控图 (Bivariate density scatter plot gating)"
+    - "分类饼状图区域填充 (Pie chart category sections)"
+  note: "以上 6 种颜色应用于脑组织免疫细胞群体的分类占比饼图及流式图（未命名文件夹/2/27.jpeg）中"
+  colors:
+    - "#6897CF" # 浅蓝色 (用作饼图，存在于子图C中)
+    - "#669A38" # 草绿色 (用作饼图，存在于子图C中)
+    - "#F58C86" # 浅红/肉红色 (用作饼图，存在于子图C中)
+    - "#F6D586" # 浅橙黄色 (用作饼图，存在于子图C中)
+    - "#F3ED99" # 淡黄色 (用作饼图，存在于子图C中)
+    - "#EDEDEF" # 极浅灰色 (用作饼图，存在于子图C中)
+
+group_63:
+  name: "第63组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有折线散点叠加的脉冲条形图 (Pulse bar charts with line scatter overlays)"
+    - "时间序列的刺激背景区间 (Stimulus background intervals for time series)"
+  note: "以上 5 种颜色应用于光遗传刺激下不同神经元（MSN, PV, SOM）放电频率变化及光刺激背景图（未命名文件夹/2/28.jpeg）中"
+  colors:
+    - "#000000" # 黑色 (用作条形图/柱状图、折线图与散点图，共同存在于子图A与D中)
+    - "#0071BD" # 蓝色 (用作条形图/柱状图、折线图与散点图，共同存在于子图B、E、F中)
+    - "#C2272D" # 红色 (用作条形图/柱状图、折线图与散点图，存在于子图C中)
+    - "#FFF2D8" # 极浅橙黄色 (用作条形图/柱状图、折线图与散点图，共同存在于子图A至C中)
+    - "#DAE9E4" # 极浅薄荷绿 (用作条形图/柱状图、折线图与散点图，共同存在于子图D至F中)
+
+group_64:
+  name: "第64组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "箱线图 (Box Plot)"
+    - "火山图 (Volcano Plot)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "水平箱线图或带有误差带的条形图 (Horizontal box plots or bar charts with errors)"
+    - "堆叠条形图群落结构构成比 (Stacked bar charts for community structure)"
+    - "微生物丰度变化的火山/散点图分类 (Volcano/scatter plot markers for microbial abundance)"
+  note: "以上 14 种颜色广泛应用于展示不同基因型（Con vs Mut）下的胆汁酸成分差异及肠道菌群构成比与变化关联图（未命名文件夹/2/29.jpeg）中"
+  colors:
+    - "#262A85" # 暗蓝色 (用作条形图/柱状图、箱线图、火山图与散点图，共同存在于子图B至G中)
+    - "#C65537" # 暗橙红色 (用作条形图/柱状图、箱线图、火山图与散点图，共同存在于子图B至G中)
+    - "#F1EBED" # 极浅粉灰色 (用作箱线图，存在于子图D中)
+    - "#EDF4FA" # 极浅淡蓝色 (用作箱线图，存在于子图D中)
+    - "#ACCBE8" # 浅蓝色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#DDA43D" # 金土黄色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#519475" # 深灰绿色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#5D2B84" # 紫色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#EDDB31" # 亮黄色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#4C9140" # 绿色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#6A4C30" # 深棕色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#5B99E6" # 矢车菊蓝 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#BE3731" # 红色 (用作条形图/柱状图与火山图，共同存在于子图E与G中)
+    - "#000000" # 黑色 (用作火山图，存在于子图G中)
+
+group_65:
+  name: "第65组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有误差线的独立条形对比图 (Independent bar charts with error bars)"
+  note: "以上 5 种颜色应用于基因质粒共表达系统细胞活力及 NAD 水平、荧光表达量的系列柱状图（未命名文件夹/2/30.jpeg）中"
+  colors:
+    - "#AED6D5" # 浅青绿色 (用作条形图/柱状图，共同存在于子图A至E中)
+    - "#7A9590" # 深青灰色 (用作条形图/柱状图，共同存在于子图A至E中)
+    - "#B86078" # 脏粉色 (用作条形图/柱状图，共同存在于子图A至E中)
+    - "#97A9B7" # 灰蓝色 (用作条形图/柱状图，共同存在于子图A至E中)
+    - "#4C4D4F" # 深灰色 (用作条形图/柱状图，共同存在于子图A至E中)
+
+group_66:
+  name: "第66组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "生化图带 (Western Blot)"
+  used_for:
+    - "带有误差线的单组或多组比较条形对比图 (Bar charts for group comparisons)"
+    - "多时间点/多浓度点的折线散点图 (Scatter line plots for time/dose series)"
+  note: "以上 8 种颜色应用于不同白血病细胞系（HL60, OCI-AML3）在各类基因过表达或抑制剂处理下的凋亡及线粒体启动状态分析（未命名文件夹/2/31.jpeg）中"
+  colors:
+    - "#000000" # 黑色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#4F8B57" # 绿色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#D8A266" # 浅橙褐色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#7347BA" # 紫色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#5291B2" # 蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#91CC7A" # 浅绿色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#467D80" # 深青绿色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+    - "#283D7E" # 深蓝色 (用作条形图/柱状图与散点图，共同存在于子图A至C及F至K中)
+
+group_67:
+  name: "第67组图片科研配色"
+  macro_categories:
+    - "箱线图 (Box Plot)"
+    - "系统发育树/网络图 (Phylogenetic Tree/Radial Tree)"
+    - "聚类图/UMAP降维图 (UMAP Plot)"
+  used_for:
+    - "肿瘤基因型的水平比较箱线图 (Box plots for tumor genotypes)"
+    - "单细胞转录组 UMAP 聚类群标识 (UMAP clusters for scRNA-seq)"
+    - "径向发育树的边缘分类着色 (Radial tree leaf/edge annotations)"
+  note: "以上 9 种颜色应用于展示不同肿瘤基因型的有效可塑性得分及单细胞状态流形聚类图（未命名文件夹/2/32.jpeg）中"
+  colors:
+    - "#DB9C4D" # 橙黄色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#96A4C7" # 浅紫蓝色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#8C4E29" # 棕色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#508D40" # 深绿色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#A9B233" # 黄绿色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#D38386" # 浅绛红色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#DDA5C8" # 浅粉紫色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#B7C6E5" # 浅灰蓝色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+    - "#65A8EC" # 天蓝色 (用作箱线图、系统发育树/网络图与聚类图/UMAP降维图，共同存在于子图F和G中)
+
+group_68:
+  name: "第68组图片科研配色"
+  macro_categories:
+    - "圆环图 (Donut Chart)"
+    - "箱线图 (Box Plot)"
+    - "基因组/染色体变异图 (Chromosome Variant Map)"
+  used_for:
+    - "全基因组结构变异类型的分布映射及分布热点 (Genome-wide structural variation map/hotspots)"
+    - "多组学及多人群测序特征的箱线分布及交叉大小条形图 (Box plots and upset/intersection bar charts)"
+  note: "以上 21 种颜色构成了一个庞大的变异/测序分类调色板，广泛应用于 GRCh38 平衡倒位、不同测序平台比较及基因组区域可视化（未命名文件夹/2/33.jpeg）中"
+  colors:
+    - "#653126" # 深棕色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#637A32" # 橄榄绿 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#557278" # 青灰色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#AC871F" # 黄褐色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#3A55A4" # 蓝色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#D7B91B" # 亮黄色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#7B7776" # 灰色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#A13E38" # 铁红色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#99B3C0" # 浅蓝灰色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#537844" # 深绿色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#B4A120" # 芥末黄 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#AD7230" # 棕橙色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#9C2126" # 暗红色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#AAA8A9" # 浅灰色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#636466" # 暗灰色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#BFC525" # 黄绿色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#C15924" # 橙色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#273977" # 深蓝黑色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#92BEA5" # 薄荷绿 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#020204" # 黑色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+    - "#AFAFAF" # 银灰色 (用作圆环图、箱线图与基因组/染色体变异图，共同存在于子图A至F中)
+
+group_69:
+  name: "第69组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "基因或蛋白表达水平的独立/堆叠条形图 (Expression level bar charts)"
+    - "具有不同敲除背景下特定表型比例的散点堆叠条形图 (Phenotype proportion bar charts)"
+  note: "以上 7 种颜色应用于不同信号通路(Erk, p38, JNK)敲除及对应表型极性反转、图样缺陷对比实验（未命名文件夹/2/34.jpeg）中"
+  colors:
+    - "#6E8E9D" # 灰蓝色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+    - "#581036" # 深紫红色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+    - "#F3EAE1" # 浅米色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+    - "#A65655" # 暗砖红色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+    - "#777777" # 灰色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+    - "#B98E95" # 浅藕紫色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+    - "#97A4AA" # 浅灰蓝色 (用作条形图/柱状图，共同存在于子图A至C与E中)
+
+group_70:
+  name: "第70组图片科研配色"
+  macro_categories:
+    - "点阵图/热图 (Dot Matrix/Heatmap)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "细菌功能基因簇的存在/缺失离散点阵表示 (Presence/absence binary dot matrix)"
+    - "实测值与预测值的相关性散点拟合回归图 (Scatter fit plot with regression lines)"
+    - "模型系数/贡献率的可视化柱状图 (Model coefficients bar charts)"
+  note: "以上 6 种颜色应用于特定细菌门类不同氮代谢通路（反硝化等）相关基因组合及其模型预测评估（未命名文件夹/2/35.jpeg）中"
+  colors:
+    - "#3B5BA8" # 蓝色 (用作点阵图/热图、散点图与条形图/柱状图，共同存在于子图A及C至J中)
+    - "#759D3A" # 草绿色 (用作点阵图/热图、散点图与条形图/柱状图，共同存在于子图A及C至J中)
+    - "#AC4828" # 红褐色 (用作点阵图/热图、散点图与条形图/柱状图，共同存在于子图A及C至J中)
+    - "#73ABE4" # 浅蓝色 (用作点阵图/热图、散点图与条形图/柱状图，共同存在于子图A及C至J中)
+    - "#CFA72D" # 金黄色 (用作点阵图/热图、散点图与条形图/柱状图，共同存在于子图A及C至J中)
+    - "#751A29" # 暗红褐色 (用作点阵图/热图、散点图与条形图/柱状图，共同存在于子图A及C至J中)
+
+group_71:
+  name: "第71组图片科研配色"
+  macro_categories:
+    - "系统发育树/网络图 (Phylogenetic Tree/Radial Tree)"
+    - "折线图 (Line Chart)"
+    - "3D表面图/等值面渲染 (3D Surface Plot)"
+    - "多序列比对图 (MSA/Sequence Alignment)"
+  used_for:
+    - "环形系统发育树的分支及区域高亮着色 (Radial phylogenetic tree branch/region highlights)"
+    - "折线图的模型对比与预测置信度展示 (Line plots for model comparisons and prediction pLDDT)"
+    - "三维蛋白结构图及保守域着色 (3D protein structure and conserved domain coloring)"
+  note: "以上 8 种颜色广泛应用于展示 Channelrhodopsins 的系统进化关系及结构模型比对（未命名文件夹/2/36.jpeg）中"
+  colors:
+    - "#E9B9E1" # 浅粉紫色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#BDD69F" # 浅绿色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#939DE4" # 浅紫蓝色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#EBC98A" # 浅土黄色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#A2C6D6" # 浅灰蓝色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#D9503D" # 红色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#DEA441" # 金黄色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+    - "#6C85F9" # 亮蓝色 (用作系统发育树/网络图、折线图、3D表面图/等值面渲染与多序列比对图，共同存在于子图A至F中)
+
+group_72:
+  name: "第72组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有误差线的独立散点折线比较图 (Scatter line plots with error bars)"
+    - "堆叠条形状态占比图 (Stacked bar charts for states)"
+    - "图表阴影背景区段划分 (Chart shaded background segments)"
+  note: "以上 5 种颜色应用于不同表面状态（莱顿弗罗斯特、混合、铺展）的温度、时间、热通量折线对比与堆叠条形图（未命名文件夹/2/37.png）中"
+  colors:
+    - "#CD5257" # 红色 (用作散点图、折线图与条形图/柱状图，共同存在于子图a至f中)
+    - "#F2BA2F" # 黄色 (用作折线图与条形图/柱状图，共同存在于子图b与f中)
+    - "#2673EF" # 蓝色 (用作散点图、折线图与条形图/柱状图，共同存在于子图a至f中)
+    - "#E8E8E8" # 浅灰色 (用作散点图与折线图，共同存在于子图a与c中)
+    - "#FAEADF" # 浅肉粉色 (用作散点图与折线图，共同存在于子图a与c中)
+
+group_73:
+  name: "第73组图片科研配色"
+  macro_categories:
+    - "弦图/网络连接图 (Chord Diagram)"
+    - "提琴图/小提琴图 (Violin Plot)"
+  used_for:
+    - "细胞间交互通讯的弦图连接带 (Chord diagram ribbons for cell-cell interactions)"
+    - "不同细胞群基因表达水平的小提琴分布图 (Violin plots for gene expression across clusters)"
+  note: "以上 10 种颜色系统性应用于展示孕中期（GW 15, GW 23）人类大脑各种细胞群体间的配体-受体交互及表达量（未命名文件夹/2/38.jpeg）中"
+  colors:
+    - "#611A44" # 深紫红色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#A75265" # 脏粉色/灰紫红色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#858A2E" # 橄榄绿 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#CBC46A" # 浅黄绿色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#291173" # 深紫蓝色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#356529" # 深绿色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#629586" # 蓝绿色/青灰色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#95BEEC" # 浅蓝色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#D5D5D5" # 浅灰色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+    - "#832F87" # 紫色 (用作弦图/网络连接图与提琴图/小提琴图，共同存在于子图A至F中)
+
+group_74:
+  name: "第74组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "饼图 (Pie Chart)"
+  used_for:
+    - "欧洲及新西兰地理分布图的节点位置 (Geographic nodes on a map)"
+    - "代表不同克隆复合体占比的饼图填色 (Pie chart fills for clonal complex proportions)"
+  note: "以上 6 种颜色应用于展示特定细菌克隆复合体（CC）在全球不同地理位置的流行与占比（未命名文件夹/2/39.png）中"
+  colors:
+    - "#A3A3A3" # 中灰色 (用作地图/地理空间分布图与饼图，存在于整张图中)
+    - "#71AD48" # 绿色 (用作地图/地理空间分布图与饼图，存在于整张图中)
+    - "#4770B5" # 蓝色 (用作地图/地理空间分布图与饼图，存在于整张图中)
+    - "#ED7D31" # 橙色 (用作地图/地理空间分布图与饼图，存在于整张图中)
+    - "#FBBE0A" # 亮黄色 (用作地图/地理空间分布图与饼图，存在于整张图中)
+    - "#45546A" # 灰蓝色 (用作地图/地理空间分布图与饼图，存在于整张图中)
+
+group_75:
+  name: "第75组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "点阵图/热图 (Heatmap)"
+    - "网络拓扑图 (Network Diagram)"
+  used_for:
+    - "带有散点的独立对比条形图 (Independent bar charts with scatter points)"
+    - "基因表达折叠变化（Log2FC）的热图方块填色 (Heatmap tiles for Log2FC expression)"
+    - "基因调控网络中的靶基因节点（上调/下调）渐变着色 (Gradient coloring for target gene nodes in regulatory networks)"
+  note: "以上 12 种颜色应用于展示不同细胞模型（WT, KO, MaSC, ML）的 mRNA 水平对比、基因富集热图与相互作用网络（未命名文件夹/2/40.jpeg）中"
+  colors:
+    - "#9CAD8B" # 灰绿色 (用作条形图/柱状图，存在于子图A中)
+    - "#DFE8D5" # 极浅青绿色 (用作条形图/柱状图，存在于子图A中)
+    - "#7B1415" # 暗红色 (用作条形图/柱状图，存在于子图A中)
+    - "#EBCECO" # 浅肉色 (用作条形图/柱状图，存在于子图A中)
+    - "#4626F6" # 亮蓝色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#8479F9" # 浅蓝色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#D3D0FD" # 极浅蓝色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#ECD2D3" # 极浅粉红色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#DB8382" # 浅红色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#CE403F" # 红色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#CE403F" # 红色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#CB181C" # 深红色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+    - "#6C0E0F" # 极暗红色 (用作点阵图/热图与网络拓扑图，共同存在于子图B至C中)
+
+group_76:
+  name: "第76组图片科研配色"
+  macro_categories:
+    - "网络拓扑图 (Network Diagram)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "代谢通路或蛋白相互作用的节点网络连接图 (Metabolic pathway node network diagrams)"
+    - "带有误差线和均值的单维点集散点图 (Swarm/strip plots with mean and error bars)"
+    - "实验组与对照组定量指标的条形图 (Bar charts for quantitative comparison)"
+  note: "以上 6 种颜色应用于展示肿瘤细胞中不同的代谢途径分类（单碳代谢、脂肪酰代谢、糖酵解、TCA 循环）及其抑制剂处理后的分数变化（未命名文件夹/2/41.png）中"
+  colors:
+    - "#6AD1A3" # 浅绿色 (用作网络拓扑图，存在于子图a中)
+    - "#88B6F1" # 浅蓝色 (用作网络拓扑图与条形图/柱状图，共同存在于子图a至c及e中)
+    - "#FFDE7B" # 亮黄色 (用作网络拓扑图，存在于子图a中)
+    - "#FF988B" # 浅红/肉红色 (用作网络拓扑图与散点图，共同存在于子图a至d中)
+    - "#989898" # 灰色 (用作网络拓扑图与条形图/柱状图，共同存在于子图a至c及e中)
+    - "#84ADDC" # 蓝灰色 (用作网络拓扑图与条形图/柱状图，共同存在于子图a至c及e中)
+
+group_77:
+  name: "第77组图片科研配色"
+  macro_categories:
+    - "系统发育树/网络图 (Network/SPADE Tree)"
+    - "小提琴图 (Violin Plot)"
+    - "散点图 (Scatter Plot)"
+    - "雷达图/极坐标图 (Radar/Polar Plot)"
+  used_for:
+    - "SPADE或高维流式数据的细胞亚群树状网络及节点高亮 (SPADE trees and node highlighting for CyTOF)"
+    - "双组别表达水平的小提琴分布及配对散点连线图 (Violin plots and paired scatter lines)"
+    - "多指标相对高低的玫瑰图/极坐标图划分 (Nightingale rose chart segments for marker expression)"
+  note: "以上 5 种颜色应用于单卵双胞胎多发性硬化症(MS)不一致对的免疫细胞多维特征网络、差异节点分析及表型极坐标图中（未命名文件夹/2/42.png）中"
+  colors:
+    - "#4F7D78" # 深青色 (用作系统发育树/网络图、小提琴图、散点图与雷达图/极坐标图，共同存在于子图a至e及g至i中)
+    - "#CC141E" # 红色 (用作系统发育树/网络图、小提琴图、散点图与雷达图/极坐标图，共同存在于子图a至e及g至i中)
+    - "#FFECC2" # 浅橙黄色 (用作系统发育树/网络图与雷达图/极坐标图，共同存在于子图a至e及i中)
+    - "#FFD153" # 黄橙色 (用作系统发育树/网络图与雷达图/极坐标图，共同存在于子图a至e及i中)
+    - "#D2D699" # 浅黄绿色 (用作系统发育树/网络图与雷达图/极坐标图，共同存在于子图a至e及i中)
+
+group_78:
+  name: "第78组图片科研配色"
+  macro_categories:
+    - "火山图 (Volcano Plot)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "突变/表达差异的显著性火山图标记 (Volcano plot markers for significance and cryptics)"
+    - "带有折线的相对丰度下降趋势图 (Line plots for relative amounts with error bars)"
+    - "转录本水平的独立条形散点图 (Bar plots for transcript amounts)"
+  note: "以上 9 种颜色应用于分析 TARDBP(TDP-43) 敲除/突变后隐性剪接发生及核糖体结合差异（未命名文件夹/2/43.png）中"
+  colors:
+    - "#40B0A6" # 青绿色 (用作条形图/柱状图，存在于子图b中)
+    - "#E1BE6A" # 沙黄色 (用作条形图/柱状图与折线图，共同存在于子图b和c中)
+    - "#A38E89" # 灰褐色 (用作条形图/柱状图与折线图，共同存在于子图b和c中)
+    - "#CD5582" # 玫粉色 (用作折线图，存在于子图c中)
+    - "#6E579A" # 蓝紫色 (用作折线图，存在于子图c中)
+    - "#6D8EF7" # 亮蓝色 (用作火山图，存在于子图a中)
+    - "#EC6B2D" # 亮橙色 (用作火山图，存在于子图a中)
+    - "#A5C8DD" # 浅粉蓝色 (用作散点图与条形图/柱状图，存在于子图d中)
+    - "#E89A7A" # 浅肉橙色 (用作散点图与条形图/柱状图，存在于子图d中)
+
+group_79:
+  name: "第79组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "密度图/分布图 (Density Plot)"
+    - "堆叠条形图 (Stacked Bar Chart)"
+  used_for:
+    - "带有置信带和回归拟合线的散点关系图 (Scatter regression line with shaded confidence band)"
+    - "多变量偏 Eta 方效应大小的平滑分布密度图 (Smoothed density plots for effect sizes)"
+    - "100% 堆叠条形占比带图 (100% stacked bar/area charts for part contributions)"
+  note: "以上 11 种颜色系统地应用于飞行动物形态学参数（惯性矩）各部分身体组织贡献的堆叠图及其效应大小密度分布（未命名文件夹/2/44.png）中"
+  colors:
+    - "#484848" # 深灰色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#666666" # 中灰色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#999999" # 浅灰色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#CCCCCC" # 极浅灰色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#BEA4BD" # 浅紫灰/藕色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#FAC5C6" # 浅粉色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#A0B3DC" # 灰蓝色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#FCDFC7" # 浅肉橙色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#99D1D0" # 浅青色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#CF66A5" # 粉紫色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+    - "#9F6BBF" # 紫色 (用作散点图、密度图/分布图与堆叠条形图，共同存在于子图a至f中)
+
+group_80:
+  name: "第80组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有单数据点(散点)和误差线的组间柱状图 (Bar charts with individual data points and error bars)"
+    - "多时间点/多组织的病毒滴度或曲线下面积(AUC)对比 (Viral titer or AUC comparisons across tissues)"
+  note: "以上 6 种颜色应用于新冠病毒 (SARS-CoV-2) 不同变异株（WT, D614G, Alpha, Beta, Delta, Omicron）在器官中的感染和复制动力学比较（未命名文件夹/2/45.png）中"
+  colors:
+    - "#ADDEAD" # 浅绿色 (用作条形图/柱状图与散点图，共同存在于子图a至f中)
+    - "#DDAF70" # 沙黄色 (用作条形图/柱状图与散点图，共同存在于子图a至f中)
+    - "#8BABD3" # 浅蓝色 (用作条形图/柱状图与散点图，共同存在于子图a至f中)
+    - "#DE767C" # 浅红色/粉红色 (用作条形图/柱状图与散点图，共同存在于子图a至f中)
+    - "#A58BD4" # 浅紫色 (用作条形图/柱状图与散点图，共同存在于子图a至f中)
+    - "#D7B0B0" # 脏粉色/灰粉色 (用作条形图/柱状图与散点图，共同存在于子图a至f中)
+
+group_81:
+  name: "第81组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "地理空间火灾活跃点及土地覆盖类型着色 (Geospatial active fire points and landcover classes)"
+    - "按时间序列分布的频数脉冲条形图 (Time series pulse bar charts for detection counts)"
+    - "带有日夜阴影背景区间的折线趋势图 (Line plots with day/night shaded background intervals)"
+  note: "以上 6 种颜色系统地应用于展示澳大利亚及加州野火事件的日夜检测分布、环境条件(VPD)与土地覆盖类型的空间及时间序列对比（未命名文件夹/2/46.png）中"
+  colors:
+    - "#377EB8" # 蓝色 (用作地图/地理空间分布图、条形图/柱状图与折线图，共同存在于子图a至b中)
+    - "#E41A1C" # 红色 (用作地图/地理空间分布图、条形图/柱状图与折线图，共同存在于子图a至b中)
+    - "#D2EBD2" # 浅绿色 (用作地图/地理空间分布图、条形图/柱状图与折线图，共同存在于子图a至b中)
+    - "#FFF0B1" # 浅黄白色 (用作地图/地理空间分布图、条形图/柱状图与折线图，共同存在于子图a至b中)
+    - "#BFBFBF" # 灰色 (用作地图/地理空间分布图、条形图/柱状图与折线图，共同存在于子图a至b中)
+    - "#E1F3FA" # 浅蓝白色 (用作地图/地理空间分布图、条形图/柱状图与折线图，共同存在于子图a至b中)
+
+group_82:
+  name: "第82组图片科研配色"
+  macro_categories:
+    - "弦图/网络连接图 (Chord Diagram)"
+    - "流形图/轨迹图 (Trajectory/Streamline Plot)"
+    - "堆叠条形图 (Stacked Bar Chart)"
+  used_for:
+    - "细胞间交互通讯及配体-受体的弦图连接带 (Chord diagram ribbons for cell interactions)"
+    - "单细胞发育轨迹或扰动状态的流形流线图 (Streamline plots for single-cell trajectories/perturbations)"
+    - "组织切片内不同细胞群或状态的占比堆叠图 (Stacked bar charts for cell subpopulation percentages)"
+  note: "以上 7 种颜色应用于鹿角再生及皮肤创伤修复过程中成纤维细胞的单细胞轨迹、细胞通讯弦图及在体干扰实验表型占比（未命名文件夹/2/47.jpeg）中"
+  colors:
+    - "#CA645F" # 砖红色 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+    - "#95A938" # 橄榄绿 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+    - "#7488C5" # 紫蓝色 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+    - "#67AFD5" # 浅灰蓝色 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+    - "#6295D7" # 蓝色 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+    - "#6AB3A2" # 蓝绿色/青灰色 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+    - "#AD3688" # 紫红色 (用作弦图/网络连接图、流形图/轨迹图与堆叠条形图，共同存在于子图A至F及K中)
+
+group_83:
+  name: "第83组图片科研配色"
+  macro_categories:
+    - "地图/等值面图 (Geographic/Bathymetric Map)"
+  used_for:
+    - "地理区域和海陆分布的高对比度着色 (High contrast masking for landmasses vs ocean)"
+    - "反映水深梯度的连续或离散色阶填充 (Discrete color gradients for water depth bathymetry)"
+  note: "以上 7 种颜色应用于北大西洋及北极洋区域（包括格陵兰、斯堪的纳维亚）的水深地形分布制图（未命名文件夹/2/48.png）中"
+  colors:
+    - "#D0BEB0" # 浅卡其/灰褐色 (用作地图/等值面图，存在于整张图中)
+    - "#D7D1C5" # 浅米灰色 (用作地图/等值面图，存在于整张图中)
+    - "#B6D3CF" # 浅灰薄荷绿 (用作地图/等值面图，存在于整张图中)
+    - "#A1C6E0" # 浅灰蓝色 (用作地图/等值面图，存在于整张图中)
+    - "#87A4EA" # 矢车菊蓝 (用作地图/等值面图，存在于整张图中)
+    - "#898CF3" # 浅长春花蓝 (用作地图/等值面图，存在于整张图中)
+    - "#9881F3" # 浅紫蓝色 (用作地图/等值面图，存在于整张图中)
+
+group_84:
+  name: "第84组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有数据点及误差线的突变株对比柱状图 (Bar charts for mutants with single points and errors)"
+    - "组间竞争指数的单变量点阵散点分布 (Univariate scatter plots for competitive index)"
+  note: "以上 3 种颜色应用于不同质粒传递频率及竞争指数实验中对特定基因型（WT, Δddm, ΔddmABC, ΔddmDE）的比较（未命名文件夹/2/49.png）中"
+  colors:
+    - "#8583A9" # 灰紫色 (用作条形图/柱状图，共同存在于子图a至b中)
+    - "#CA8BA8" # 灰粉色/脏粉 (用作条形图/柱状图，存在于子图b中)
+    - "#A0BDD5" # 灰蓝色 (用作条形图/柱状图，存在于子图b中)
+
+group_85:
+  name: "第85组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有回归对角线的双变量相关性散点图 (Bivariate log-log scatter plots with diagonal references)"
+    - "多基因过表达条件下的差异相对百分比或表达量柱状图 (Bar charts for differential expression across overexpression conditions)"
+  note: "以上 5 种颜色应用于分析 POU2F3 和 C11orf53 及不同突变体过表达下转录组峰值标签及靶向簇系标志物的表达谱对比（未命名文件夹/2/50.png）中"
+  colors:
+    - "#E98D83" # 浅橙红色/鲑鱼粉 (用作散点图与条形图/柱状图，共同存在于子图b至e中)
+    - "#FFCBAA" # 浅橙黄色/肉色 (用作散点图与条形图/柱状图，共同存在于子图b至e中)
+    - "#FFFBED" # 极浅乳黄色 (用作散点图与条形图/柱状图，共同存在于子图b至e中)
+    - "#D3D3D3" # 浅灰色 (用作散点图与条形图/柱状图，共同存在于子图b至e中)
+    - "#95B6EC" # 浅灰蓝色 (用作散点图与条形图/柱状图，共同存在于子图b至e中)
+
+group_86:
+  name: "第86组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+    - "甘特图/时间线图 (Gantt Chart/Timeline)"
+  used_for:
+    - "反映生命周期各阶段大脑形态学表型相对最大值的平滑生长曲线 (Smoothed growth curves for MRI phenotypes across lifespan)"
+    - "标志性发育里程碑及临床诊断年龄范围的时间区间标记 (Timeline intervals for developmental milestones and clinical age ranges)"
+  note: "以上 5 种颜色应用于人类全生命周期（从胎儿到老年）多种大脑 MRI 衍生表型（如灰质、白质、皮层下体积等）的变化轨迹图（未命名文件夹/2/51.png）中"
+  colors:
+    - "#F3A59A" # 柔和粉红色 (用作折线图、散点图与甘特图/时间线图，存在于整张图中)
+    - "#A6DDEA" # 浅天蓝色 (用作折线图、散点图与甘特图/时间线图，存在于整张图中)
+    - "#80D0C3" # 浅薄荷绿 (用作折线图、散点图与甘特图/时间线图，存在于整张图中)
+    - "#9EAAC4" # 灰蓝紫色 (用作折线图、散点图与甘特图/时间线图，存在于整张图中)
+    - "#F9CDBF" # 浅肤色/肉色 (用作折线图、散点图与甘特图/时间线图，存在于整张图中)
+
+group_87:
+  name: "第87组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "面积图 (Area Chart)"
+  used_for:
+    - "带有置信/误差阴影带的连续样本量变化趋势折线 (Line plots with shaded error bands across sample sizes)"
+    - "表示不同显著性阈值或效应放大比例的渐变多曲线 (Multiple curves showing varying P values or inflation magnitudes)"
+  note: "以上 10 种颜色构成了从深绿到蓝紫的渐变色系，用于统计学模拟中不同 P 值阈值下的假阴性率、统计功效以及效应量膨胀的比较（未命名文件夹/2/52.png）中"
+  colors:
+    - "#016450" # 深墨绿色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#237B7A" # 深青绿色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#4592A5" # 蓝绿色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#67A9CF" # 柔和浅蓝色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#8AB6D7" # 浅蔚蓝色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#ADC4DE" # 极浅灰蓝色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#D0D1E6" # 苍白灰蓝色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#D0DAEB" # 浅蓝灰色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#9FAAD1" # 灰紫蓝色 (用作折线图与面积图，共同存在于子图a至f中)
+    - "#7D4C99" # 柔和紫色 (用作折线图与面积图，共同存在于子图a至f中)
+
+group_88:
+  name: "第88组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "热图 (Heatmap)"
+    - "概念模型图/机制图 (Conceptual/Mechanistic Diagram)"
+  used_for:
+    - "多基因型间代谢物丰度或基因表达水平的比较柱状图 (Bar charts comparing metabolite abundance and gene expression)"
+    - "不同秀丽隐杆线虫野生型之间共享单核苷酸变异的下三角热图 (Lower triangular heatmap of shared SNVs fraction)"
+    - "代谢通路模型中不同模块或反应流的背景标记 (Background highlighting for metabolic network shunts)"
+  note: "以上 8 种颜色应用于线虫不同自然变异株中 3HP 及其氨基酸偶联物代谢差异的表型及转录组特征分析（未命名文件夹/2/53.png）中"
+  colors:
+    - "#F9A31A" # 鲜橙色 (用作条形图/柱状图，共同存在于子图d和e中)
+    - "#CE6090" # 玫粉色 (用作条形图/柱状图，共同存在于子图d和e中)
+    - "#0000FF" # 纯蓝色 (用作热图与条形图/柱状图，共同存在于子图a及d至e中)
+    - "#79C5CE" # 浅青蓝色 (用作热图与条形图/柱状图，共同存在于子图a至e中)
+    - "#EEF4FB" # 极浅蓝白色 (用作热图，存在于子图a中)
+    - "#B9DBF4" # 浅蓝色 (用作热图，存在于子图a中)
+    - "#5E8FC5" # 灰蓝色 (用作热图，存在于子图a中)
+    - "#F15A22" # 亮红橙色 (用作热图与概念模型图/机制图，共同存在于子图a和f中)
+
+group_89:
+  name: "第89组图片科研配色"
+  macro_categories:
+    - "面积图 (Area Chart)"
+    - "阶梯图 (Step Chart)"
+  used_for:
+    - "随时间推移的累积排放量预期变化阶梯面积带 (Stepped ribbon charts for cumulative emission projections)"
+    - "展示不同政策实施程度（无条件 vs. 完全实施）结果区间的重叠与对比 (Overlapping ranges for policy implementation scenarios)"
+  note: "以上 3 种颜色应用于全球不同国家 NDC（国家自主贡献）在 2030 及 2050 年的累积二氧化碳排放量预测的上下限及交叉区间（未命名文件夹/2/54.png）中"
+  colors:
+    - "#FFDC8E" # 浅杏黄色 (用作面积图与阶梯图，共同存在于子图a至b中)
+    - "#C2C48D" # 浅黄绿色/卡其色 (用作面积图与阶梯图，共同存在于子图a至b中)
+    - "#85D0FF" # 亮浅蓝色 (用作面积图与阶梯图，共同存在于子图a至b中)
+
+group_90:
+  name: "第90组图片科研配色"
+  macro_categories:
+    - "相图/状态空间图 (Phase/State Space Diagram)"
+    - "光谱图/波形图 (Spectrum/Waveform Plot)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "由参数扫描生成的不同非线性动力学状态的平滑区域相图 (Smoothed phase diagram showing distinct dynamical regimes)"
+    - "频率调谐下光学微腔的光谱波形演化 (Optical spectra and waveforms under varying detuning)"
+    - "在二维参数网格上记录模式失谐的离散网格散点图 (Gridded scatter plot of laser mode detuning in parameter space)"
+  note: "以上 3 种颜色用作背景色块和相图分区，指示克尔微腔中单孤子、双孤子以及连续波(CW)状态的稳定操作区域（未命名文件夹/2/55.png）中"
+  colors:
+    - "#F7BDA9" # 浅粉橘色 (用作相图/状态空间图、光谱图/波形图与散点图，共同存在于子图a至f中)
+    - "#FBDED4" # 极浅粉杏色 (用作相图/状态空间图、光谱图/波形图与散点图，共同存在于子图a至f中)
+    - "#E0EBEB" # 浅灰青色/冰蓝色 (用作相图/状态空间图、光谱图/波形图与散点图，共同存在于子图a至f中)
+
+group_91:
+  name: "第91组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "地质构造及火山喷发历史的地理空间测绘 (Geospatial mapping of geological formations and volcanic history)"
+    - "局部区域放大及边界线、观测点的详细标注 (Zoomed-in regions with boundaries and observation points)"
+  note: "以上 11 种颜色应用于冰岛 Fagradalsfjall 及其周边地区不同时期地质岩层、熔岩流及 2021 年火山喷发区域的精细地质图（未命名文件夹/2/56.png）中"
+  colors:
+    - "#FF8901" # 亮橙色 (用作地图/地理空间分布图，共同存在于子图a至b中)
+    - "#93B190" # 灰绿色/鼠尾草绿 (用作地图/地理空间分布图，共同存在于子图a至b中)
+    - "#B9BB8E" # 浅卡其绿 (用作地图/地理空间分布图，共同存在于子图a至b中)
+    - "#DFDEE1" # 浅灰色 (用作地图/地理空间分布图，共同存在于子图a至b中)
+    - "#E4CAD1" # 浅紫灰/藕色 (用作地图/地理空间分布图，共同存在于子图a至b中)
+    - "#B6E2FB" # 浅蓝色 (用作地图/地理空间分布图，存在于子图a中)
+    - "#D1D1D1" # 中浅灰色 (用作地图/地理空间分布图，存在于子图a中)
+    - "#858585" # 暗灰色 (用作地图/地理空间分布图，存在于子图a中)
+    - "#E1E3FF" # 极浅蓝紫色 (用作地图/地理空间分布图，存在于子图a中)
+    - "#FCCFE7" # 浅粉色 (用作地图/地理空间分布图，存在于子图a中)
+    - "#DB6A5D" # 砖红色 (用作地图/地理空间分布图，共同存在于子图a至b中)
+
+group_92:
+  name: "第92组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有误差线的多因素交互作用柱状图 (Bar charts with error bars for multi-factor interactions)"
+    - "环境压力（温度升高与降雨减少）对不同物种存活率的影响对比 (Survival rate comparisons under crossed temperature and rainfall treatments)"
+  note: "以上 6 种颜色系统地应用于区分环境温度与降雨量（Ambient vs Reduced, +1.6°C, +3.1°C）的不同组合处理，展示其对裸子植物和被子植物存活的影响（未命名文件夹/2/57.png）中"
+  colors:
+    - "#5C6572" # 铁灰色 (用作条形图/柱状图，存在于整张图中)
+    - "#36A9E1" # 亮蓝色 (用作条形图/柱状图，存在于整张图中)
+    - "#EB5B25" # 亮橙红色 (用作条形图/柱状图，存在于整张图中)
+    - "#ADB2B9" # 浅灰蓝色 (用作条形图/柱状图，存在于整张图中)
+    - "#C2E5F6" # 极浅蓝色 (用作条形图/柱状图，存在于整张图中)
+    - "#F5AD92" # 浅肉橙色 (用作条形图/柱状图，存在于整张图中)
+
+group_93:
+  name: "第93组图片科研配色"
+  macro_categories:
+    - "相图/状态空间图 (Phase/State Space Diagram)"
+    - "分子结构图 (Molecular Structure Diagram)"
+  used_for:
+    - "压力-温度参数空间内的物质相变边界及区域填充 (Phase transition boundaries and regional fills in P-T parameter space)"
+    - "结合分子动力学快照展示不同晶体/液体结构的相区 (Associating molecular structure snapshots with phase regions)"
+  note: "以上 6 种颜色应用于受限水/冰在不同侧向压力和温度下的相图（如 Hexagonal, Pentagonal, Flat rhombic, Hexatic, Superionic, Liquid 等相态）（未命名文件夹/2/58.png）中"
+  colors:
+    - "#FF8080" # 浅珊瑚红 (用作相图/状态空间图与分子结构图，存在于整张图中)
+    - "#FFBB80" # 浅橙黄色 (用作相图/状态空间图与分子结构图，存在于整张图中)
+    - "#BF91D5" # 浅紫罗兰色 (用作相图/状态空间图与分子结构图，存在于整张图中)
+    - "#80A3D5" # 灰蓝色 (用作相图/状态空间图与分子结构图，存在于整张图中)
+    - "#AA8873" # 灰褐色 (用作相图/状态空间图与分子结构图，存在于整张图中)
+    - "#D4C140" # 暗金黄色 (用作相图/状态空间图与分子结构图，存在于整张图中)
+
+group_94:
+  name: "第94组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "箱线图 (Boxplot)"
+  used_for:
+    - "带有拟合线的自然对数速率与温度倒数散点图 (Arrhenius plots with linear regression)"
+    - "带有抖动数据点分布的分类组间箱线图 (Boxplots overlaid with jittered scatter points for group comparisons)"
+  note: "以上 6 种颜色应用于分析不同生物类群（如鱼类、甲壳类、双壳类、两栖类、昆虫等）的生物学速率（心率、代谢等）及热衰竭活化能 Ea 的对比（未命名文件夹/2/59.png）中"
+  colors:
+    - "#478AC1" # 钢蓝色 (用作散点图与箱线图，共同存在于子图a至d中)
+    - "#98C9D5" # 浅灰蓝色 (用作散点图与箱线图，共同存在于子图a至d中)
+    - "#8A9B6D" # 灰橄榄绿 (用作散点图与箱线图，共同存在于子图a至d中)
+    - "#E4B78A" # 浅沙棕色 (用作散点图与箱线图，共同存在于子图a至d中)
+    - "#C198B3" # 浅紫红色 (用作散点图与箱线图，共同存在于子图a至d中)
+    - "#FFEEC0" # 浅米黄色 (用作散点图与箱线图，共同存在于子图a至d中)
+
+group_95:
+  name: "第95组图片科研配色"
+  macro_categories:
+    - "密度图/分布图 (Density/Histogram Plot)"
+    - "散点图 (Scatter Plot)"
+    - "堆叠条形图 (Stacked Bar Chart)"
+  used_for:
+    - "带有平滑密度曲线的质量分布直方图 (Mass distribution histograms with fitted density curves)"
+    - "非线性结合曲线及浓度梯度响应散点图 (Non-linear binding curves with error bars over concentration gradients)"
+    - "维管束再生表型占比的100%堆叠条形图 (100% stacked bar charts for vasculature regeneration phenotypes)"
+  note: "以上 3 种颜色应用于分析 ABP1 野生型及突变体蛋白的复合物分子量分布、配体结合解离常数 (Kd) 测定以及体内生物学功能的表型统计（未命名文件夹/2/60.png）中"
+  colors:
+    - "#81B8DA" # 柔和蓝色 (用作密度图/分布图与散点图，共同存在于子图a至b中)
+    - "#EFC57F" # 柔和橙黄色/小麦色 (用作密度图/分布图与散点图，共同存在于子图a至b中)
+    - "#000000" # 黑色 (用作散点图与堆叠条形图，共同存在于子图b和d中)
+
+group_96:
+  name: "第96组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "展示带有散点及误差线的两组别柱状图对比 (Bar charts with scatter points and error bars for two-group comparison)"
+    - "时间序列或不同阶段前后各指标变化对比 (Comparison of metrics before and after treatment or across time points)"
+  note: "以上 2 种颜色应用于比较 Control 和 Pulse8W 组在觉醒及 NREM/REM 睡眠时间上的差异（未命名文件夹/3/1.jpeg）中"
+  colors:
+    - "#BDB9B8" # 浅灰褐色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#DFEBD5" # 浅豆绿色 (用作条形图/柱状图，共同存在于子图A至D中)
+
+group_97:
+  name: "第97组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "展示带有散点及误差线的两组别柱状图对比 (Bar charts with scatter points and error bars for two-group comparison)"
+    - "展示相关性指标的变化和组间显著性差异 (Showing significant differences and index variations between groups)"
+  note: "以上 2 种颜色应用于比较 Control 和 Pulse64W 组在觉醒及 NREM/REM 睡眠时间上的差异（未命名文件夹/3/2.jpeg）中"
+  colors:
+    - "#BEBAB9" # 浅灰褐色 (用作条形图/柱状图，共同存在于子图A至E中)
+    - "#C47070" # 砖红色/铁锈红 (用作条形图/柱状图，共同存在于子图A至E中)
+
+group_98:
+  name: "第98组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "展示具有多变量因素（基因型、铁源等）的基因相对表达量柱状图 (Bar charts for relative gene expression across multiple factors)"
+  note: "以上 2 种颜色应用于分析 WT 和 bx1 基因型在不同铁源（None, Complex, Free）下的相对基因表达量（未命名文件夹/3/3.jpeg）中"
+  colors:
+    - "#629433" # 橄榄绿 (用作条形图/柱状图，存在于整张图中)
+    - "#FEFF99" # 浅亮黄色 (用作条形图/柱状图，存在于整张图中)
+
+group_99:
+  name: "第99组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有散点分布和误差线的实验对照柱状图对比 (Experimental vs control bar charts with scatter distribution)"
+  note: "以上 2 种颜色应用于比较 Control 和 Conti8W 组在不同时期的睡眠觉醒状态时间差异（未命名文件夹/3/4.jpeg）中"
+  colors:
+    - "#BFBBBA" # 浅灰褐色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#CFDAEC" # 浅粉蓝色/冰蓝色 (用作条形图/柱状图，共同存在于子图A至D中)
+
+group_100:
+  name: "第100组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "随时间变化的连续数据带误差线的折线图 (Line graphs with error bars showing longitudinal data)"
+    - "带有散点数据的单变量条形图分布对比 (Univariate bar charts with jittered dots)"
+  note: "以上 2 种颜色应用于比较 Cysltr2 +/+ 和 -/- 小鼠在抓挠行为、耳朵厚度和细胞计数上的折线图及柱状图分析（未命名文件夹/3/5.jpeg）中"
+  colors:
+    - "#050507" # 纯黑色 (用作折线图与条形图/柱状图，共同存在于子图A至C及E至F中)
+    - "#1399B2" # 湖蓝/青蓝色 (用作折线图与条形图/柱状图，共同存在于子图A至C及E至F中)
+
+group_101:
+  name: "第101组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有数据点及误差线的两组对比条形图 (Two-group bar charts with data points and error bars)"
+  note: "以上 2 种颜色应用于比较 Control-R 和 Pulse64W-R 组在觉醒和睡眠时间上的差异（未命名文件夹/3/6.jpeg）中"
+  colors:
+    - "#BEBAB9" # 浅灰褐色 (用作条形图/柱状图，共同存在于子图A至E中)
+    - "#DBB8B2" # 浅豆沙粉/肉色 (用作条形图/柱状图，共同存在于子图A至E中)
+
+group_102:
+  name: "第102组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "热图 (Heatmap)"
+    - "进化树图 (Phylogenetic Tree)"
+  used_for:
+    - "散点PCA主成分分析图 (PCA scatter plots)"
+    - "环形系统发育树及相关协变量折叠倍数热图 (Circular phylogenetic trees and covariate fold-change heatmaps)"
+    - "带有误差线和散点的行为学特征柱状图 (Behavioral bar charts with error bars and jittered points)"
+  note: "以上 2 种颜色系统应用于区分 Cntnap2+/- 小鼠繁殖得到的 WT-L 和 KO-L 组在社交行为、运动能力及微生物组 PCA 和发育树差异（未命名文件夹/3/7.jpeg）中"
+  colors:
+    - "#8E7FB8" # 柔和紫色 (用作条形图/柱状图、散点图、热图与进化树图，存在于整张图中)
+    - "#A2C9AE" # 浅灰绿色 (用作条形图/柱状图、散点图、热图与进化树图，存在于整张图中)
+
+group_103:
+  name: "第103组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "多面板组合图中的对照与实验组流式细胞频率及细胞数对比柱状图 (Multi-panel bar charts for cell frequencies and counts)"
+    - "疾病模型（如EAE）评分的时间趋势折线图 (Time-course line graphs for disease clinical scores)"
+  note: "以上 2 种颜色应用于野生型和 CCR5 敲除小鼠过继转移 2D2 T 细胞后免疫细胞浸润及 EAE 发病过程的各项指标对比（未命名文件夹/3/8.jpeg）中"
+  colors:
+    - "#6888F5" # 矢车菊蓝 (用作条形图/柱状图与折线图，共同存在于子图A至G中)
+    - "#D77071" # 玫瑰红/砖粉色 (用作条形图/柱状图与折线图，共同存在于子图A至G中)
+
+group_104:
+  name: "第104组图片科研配色"
+  macro_categories:
+    - "直方图/密度图 (Histogram/Density Plot)"
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "并排的频数分布直方图 (Side-by-side frequency distribution histograms)"
+    - "抛物线拟合趋势的散点折线图 (Scatter line plots with parabolic fits)"
+  note: "以上 3 种颜色应用于比较单(1)、双(2)及三(3) SNAREpin 在孔隙表观直径分布、预测能量模型及孔隙持续时间上的差异（未命名文件夹/3/9.jpeg）中"
+  colors:
+    - "#C30078" # 紫红色/洋红色 (用作直方图/密度图与折线图，共同存在于子图A、B和D中)
+    - "#4370B4" # 灰蓝色 (用作直方图/密度图与折线图，共同存在于子图A、B和D中)
+    - "#549F9A" # 灰水鸭青/蓝绿色 (用作散点图与折线图，存在于子图B中)
+
+group_105:
+  name: "第105组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "堆叠条形图 (Stacked Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "地理点位及空间聚类标记图 (Geospatial point markers and clustering maps)"
+    - "个体遗传结构祖先成分的堆叠条形图 (Admixture bar plots of genetic ancestry structure)"
+    - "PCA主成分二维散点分布图 (2D PCA scatter plot distributions)"
+  note: "以上 3 种颜色应用于区分及映射美国大西洋、墨西哥湾和中西部三个基因池在地理位置、遗传祖先比例及 PCA 空间上的分布（未命名文件夹/3/10.jpeg）中"
+  colors:
+    - "#F9E7A7" # 浅鹅黄色 (用作地图/地理空间分布图、堆叠条形图与散点图，共同存在于子图A至C中)
+    - "#EF767B" # 西瓜粉/浅红色 (用作地图/地理空间分布图、堆叠条形图与散点图，共同存在于子图A至C中)
+    - "#43A3EF" # 亮天蓝色 (用作地图/地理空间分布图、堆叠条形图与散点图，共同存在于子图A至C中)
+
+group_106:
+  name: "第106组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "包含复杂海岸线、多边形边界的自然栖息地及测站分布着色 (Coloring for natural habitats and sampling stations within complex coastlines)"
+  note: "以上 3 种颜色应用于展示 Widgeongrass 和 Eelgrass 两种水生植物在切萨皮克湾及其子河口特定区域的分布地图（未命名文件夹/3/11.jpeg）中"
+  colors:
+    - "#2472A3" # 深蓝色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#A5B55D" # 灰橄榄绿 (用作地图/地理空间分布图，存在于整张图中)
+    - "#F4F3EE" # 极浅灰白色 (用作地图/地理空间分布图，存在于整张图中)
+
+group_107:
+  name: "第107组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "按不同处理分类，附带不同权重大小数据点的误差线散点图 (Scatter plots grouped by treatments with weighted marker sizes and error bars)"
+  note: "以上 3 种颜色用作背景色块和散点着色，展示消费者(cons)、资源(res)以及二者皆有(both)分类群在环境条件处理下的消耗速率对比（未命名文件夹/3/12.jpeg）中"
+  colors:
+    - "#EECA40" # 芥末黄 (用作散点图，共同存在于子图A至B中)
+    - "#FD763F" # 亮橙色 (用作散点图，共同存在于子图A至B中)
+    - "#23BAC5" # 亮青色/水蓝色 (用作散点图，共同存在于子图A至B中)
+
+group_108:
+  name: "第108组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "地理多边形区域的地形或地貌分类填充 (Categorical filling of topographic/geomorphological regions on a map)"
+  note: "以上 3 种颜色应用于加州旧金山湾区周边不同地貌单元（如岬角与小山谷、冲积扇与平原、宽阔冲积谷）的空间制图（未命名文件夹/3/13.jpeg）中"
+  colors:
+    - "#ACD2C7" # 浅薄荷灰绿色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#D57B70" # 砖红/珊瑚色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#94B5D8" # 浅灰蓝色 (用作地图/地理空间分布图，存在于整张图中)
+
+group_109:
+  name: "第109组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "多细胞因子及ROS产生的带误差线柱状图 (Bar charts with error bars for cytokine secretion and ROS production)"
+    - "时间序列的荧光瞬变动力学响应折线图 (Kinetic response traces for fluorescence transients)"
+  note: "以上 3 种颜色系统应用于比较 MGL, MAC 巨噬细胞和 MonoNGD 刺激后在 ROS 反应、多种细胞因子分泌以及钙离子瞬变上的动力学差异（未命名文件夹/3/14.jpeg）中"
+  colors:
+    - "#93C8C0" # 浅灰水绿色 (用作条形图/柱状图，共同存在于子图A至B中)
+    - "#1C3C63" # 深海军蓝 (用作条形图/柱状图，共同存在于子图A至C中)
+    - "#D3D5D4" # 浅银灰色 (用作条形图/柱状图，共同存在于子图B至C中)
+
+group_110:
+  name: "第110组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "反映地质带和岩层年龄/类型的地理分布图填充 (Geospatial map filling for geological zones and rock formations)"
+  note: "以上 3 种颜色应用于展示苏必利尔湖区周边的中大陆裂谷地质单元，包括沉积物、火山岩及侵入岩的分布范围（未命名文件夹/3/15.jpeg）中"
+  colors:
+    - "#FFF1CF" # 浅奶黄色/米色 (用作地图/地理空间分布图，存在于整张图中)
+    - "#F07673" # 浅红色/珊瑚红 (用作地图/地理空间分布图，存在于整张图中)
+    - "#7998AD" # 灰蓝色 (用作地图/地理空间分布图，存在于整张图中)
+
+group_111:
+  name: "第111组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "分组带有误差线的水平/垂直柱状图 (Grouped Horizontal/Vertical Bar Charts with Error Bars)"
+    - "带有数据散点的生长曲线或生化活性折线图 (Growth Curves or Biochemical Activity Line Charts with Scatter Points)"
+  note: "以上 2 种颜色共同应用于同一张包含多个细胞实验条形图与动物活体监测折线图的拼图，对比显示 MapSPARTATIR-E77A 和 Empty BAC 组在各项指标测试中的表现（未命名文件夹/3/16.jpeg）中"
+  colors:
+    - "#A5CCC7" # 浅鸭蛋青/水绿色 (用作条形图/柱状图与折线图，共同存在于子图A至E中)
+    - "#97A9B7" # 灰蓝石板色 (用作条形图/柱状图与折线图，共同存在于子图A至E中)
+    - "#4C4D4F" # 深碳灰色 (用作条形图/柱状图与折线图，共同存在于子图A至E中)
+
+group_112:
+  name: "第112组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有散点数据的多变量分组柱状图对比 (Grouped bar charts with scatter points for multivariable analysis)"
+  note: "以上 3 种颜色应用于比较野生型与 Osspx1 突变株在不同磷浓度处理下丛枝菌根定殖率差异（未命名文件夹/3/17.jpeg）中"
+  colors:
+    - "#F5F6BA" # 浅柠檬黄/奶黄色 (用作条形图/柱状图与散点图，共同存在于子图A、B、D、E、F、G中)
+    - "#688660" # 苔藓绿 (用作条形图/柱状图与散点图，共同存在于子图A、B、D、E、F、G中)
+    - "#9A5747" # 铁锈褐/红棕色 (用作条形图/柱状图与散点图，共同存在于子图A、B、D、E、F、G中)
+
+group_113:
+  name: "第113组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "多组别随时间变化特征对比的条形图 (Bar charts comparing multiple groups across time points)"
+  note: "以上 3 种颜色系统应用于展示 WT + dCym、deltaC2 及其联合处理在不同时间点的相对存活率/克隆形成单位百分比（未命名文件夹/3/18.jpeg）中"
+  colors:
+    - "#7EA6D9" # 浅矢车菊蓝 (用作条形图/柱状图，存在于子图B中)
+    - "#D4E6BC" # 浅草绿色 (用作条形图/柱状图，存在于子图B中)
+    - "#F8F2A4" # 浅鹅黄色 (用作条形图/柱状图，存在于子图B中)
+
+group_114:
+  name: "第114组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "带有不同分类标记形状（如菱形组合）的全球及区域流行病学数据分布图 (Global map with grouped diamond markers for epidemiological data distribution)"
+  note: "以上 3 种颜色应用于区分报告感染、重症及住院 SARS-CoV-2 病例在世界各地理血统分组中的样本分布（未命名文件夹/3/19.png）中"
+  colors:
+    - "#FF5E00" # 亮橙色 (用作地图/地理空间分布图，共同存在于子图a至d及f中)
+    - "#5CB3BA" # 蓝绿/松石青 (用作地图/地理空间分布图，共同存在于子图a至f中)
+    - "#F3D707" # 亮黄色 (用作地图/地理空间分布图，共同存在于子图a至f中)
+
+group_115:
+  name: "第115组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "附带空心数据点的单色或多色柱状图用于展示克隆比例和转移频率 (Bar charts with hollow circles for cloning percentage and transfer frequency)"
+    - "包含统计学显著性连线的竞争指数对数散点图 (Log-scale scatter plots of competitive index with significance brackets)"
+  note: "以上 3 种颜色用作补充配色，对比分析野生型和 ddm 及其同源亚基缺失突变株在质粒转移及竞争表型上的变化（未命名文件夹/3/20.png）中"
+  colors:
+    - "#8583A9" # 柔和暗紫色 (用作条形图/柱状图，共同存在于子图a至b中)
+    - "#CA8BA8" # 柔和干玫瑰粉 (用作条形图/柱状图，存在于子图b中)
+    - "#A0BDD5" # 浅粉蓝色 (用作条形图/柱状图，存在于子图b中)
+
+group_116:
+  name: "第116组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有数据散点和最佳/最差模型拟合平滑线的对比折线图 (Smooth line plots for best/worst model fits overlaid with data points)"
+    - "表示不对称性或预期阴影分布的背景带 (Shaded background bands for asymmetry or expectation bounds)"
+  note: "以上 3 种颜色应用于比较 ACA 与 ALMA 阵列数据在不同角尺度（uv distance）下真实及虚假干涉测量信号的拟合模型（未命名文件夹/3/21.png）中"
+  colors:
+    - "#2B5863" # 深孔雀蓝/墨绿色 (用作折线图，共同存在于子图a至b中)
+    - "#6A8078" # 灰绿色/莫兰迪绿 (用作折线图，共同存在于子图a至b中)
+    - "#9D9D9D" # 灰色 (用作面积图，存在于子图a中)
+
+group_117:
+  name: "第117组图片科研配色"
+  macro_categories:
+    - "直方图/密度图 (Histogram/Density Plot)"
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+    - "堆叠条形图 (Stacked Bar Chart)"
+  used_for:
+    - "半透明多重分布密度直方图 (Translucent overlaid density histograms)"
+    - "多组别非线性回归的散点拟合曲线图 (Scatter plots with non-linear regression curves)"
+    - "表示多表型百分比的堆叠条形图 (Stacked bar charts for phenotypic percentages)"
+  note: "以上 3 种颜色系统应用于从质量分布、配体结合以及维管组织再生等多个层面比较分析野生型 ABP1(WT) 和突变型 ABP1(M2X)（未命名文件夹/3/22.png）中"
+  colors:
+    - "#81B8DA" # 浅海蓝色 (用作直方图/密度图、散点图与折线图，共同存在于子图a至b中)
+    - "#EFC57F" # 浅麦黄色/奶橙 (用作直方图/密度图、散点图与折线图，共同存在于子图a至b中)
+    - "#000000" # 黑色 (用作散点图、折线图与堆叠条形图，共同存在于子图b和d中)
+
+group_118:
+  name: "第118组图片科研配色"
+  macro_categories:
+    - "面积图 (Area Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "表示范围或情景预测边界的颜色填充折线面积图 (Filled area graphs for scenario ranges or bounds)"
+    - "带有国别标签的时间序列标志散点图 (Time-series markers with national labels)"
+  note: "以上 3 种颜色应用于描述不同国家在无条件和完全实施 NDC（国家自主贡献）情况下的累计二氧化碳排放变化预测（未命名文件夹/3/23.png）中"
+  colors:
+    - "#FFDC8E" # 浅橙黄/乳酪色 (用作面积图与散点图，共同存在于子图a至b中)
+    - "#C2C48D" # 浅黄绿色/抹茶灰 (用作面积图与散点图，共同存在于子图a至b中)
+    - "#85D0FF" # 明亮天蓝色 (用作面积图与散点图，共同存在于子图a至b中)
+
+group_119:
+  name: "第119组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "多因子（突变体、过表达及对照）处理下的带散点误差线柱状图对比 (Bar charts with scatter points for multiple treatments like WT, mutants, and OE lines)"
+  note: "以上 4 种颜色应用于比较 oshak21 突变体、野生型以及过表达 OsCYB5-2 在盐胁迫下对离子吸收、叶绿素含量等表型的影响（未命名文件夹/3/24.jpeg）中"
+  colors:
+    - "#EAEAEA" # 浅灰白色 (用作条形图/柱状图与散点图，共同存在于子图B至H中)
+    - "#91BFFA" # 浅亮蓝色 (用作条形图/柱状图与散点图，共同存在于子图B至H中)
+    - "#FF7F00" # 亮橙色 (用作条形图/柱状图与散点图，共同存在于子图B至H中)
+    - "#FFE0C1" # 浅桃肉色 (用作条形图/柱状图与散点图，共同存在于子图B至H中)
+
+group_120:
+  name: "第120组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "比较多物种野生型及其突变体表型竞争差异的散点分布与点柱图组合 (Scatter plots and bar charts with data points comparing WT and mutants across species)"
+  note: "以上 4 种颜色系统应用于对比分析嗜酸乳杆菌和加氏乳杆菌的野生型与 bsh 缺失株在体外及体内的竞争适应性情况（未命名文件夹/3/25.jpeg）中"
+  colors:
+    - "#074166" # 深海军蓝 (用作散点图与条形图/柱状图，共同存在于子图A及C至D中)
+    - "#8CC5BE" # 灰海绿色/绿松石灰 (用作散点图与条形图/柱状图，共同存在于子图A及C至D中)
+    - "#CC011F" # 猩红色/深红 (用作散点图与条形图/柱状图，共同存在于子图B至D中)
+    - "#FADADD" # 浅粉红色 (用作散点图与条形图/柱状图，共同存在于子图B至D中)
+
+group_121:
+  name: "第121组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "极地投影地图上的分类多色点位标注 (Categorical multi-color point markers on polar projection maps)"
+  note: "以上 4 种颜色系统应用于展示不同演化分支（Clade 1C, 1DE, 2, 3）环境 DNA 和化石样本在末次冰盛期前后的环北极时空分布规律（未命名文件夹/3/26.png）中"
+  colors:
+    - "#6A8EC9" # 柔和中蓝色 (用作地图/地理空间分布图与散点图，存在于整张图中)
+    - "#E84446" # 明亮柔和红 (用作地图/地理空间分布图与散点图，存在于整张图中)
+    - "#59B78F" # 柔和青绿色 (用作地图/地理空间分布图与散点图，存在于整张图中)
+    - "#7A378A" # 深紫罗兰色 (用作地图/地理空间分布图与散点图，存在于整张图中)
+
+group_122:
+  name: "第122组图片科研配色"
+  macro_categories:
+    - "系统发育树图 (Phylogenetic Tree)"
+  used_for:
+    - "环形系统发育树外圈或分支区域的大块背景色高亮 (Large block background highlighting for branches/outer rings of circular phylogenetic trees)"
+  note: "以上 4 种颜色系统应用于区分石珊瑚目及其不同演化分支大类（如 Refertina, Vacatina, Basal, Corallimorpharia）（未命名文件夹/3/27.jpeg）中"
+  colors:
+    - "#A0ADD0" # 浅蓝紫色/长春花蓝 (用作系统发育树图，存在于整张图中)
+    - "#E47178" # 柔和珊瑚粉/红 (用作系统发育树图，存在于整张图中)
+    - "#F5DC75" # 浅芥末黄 (用作系统发育树图，存在于整张图中)
+    - "#75C298" # 浅豆绿色 (用作系统发育树图，存在于整张图中)
+
+group_123:
+  name: "第123组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "附带个体散点数据的对照与多个处理组的条形图 (Bar charts with individual scatter data points for control and multiple treatment groups)"
+  note: "以上 4 种颜色应用于比较不同载脂蛋白 E (ApoE) 基因型及处理在体外细胞模型中引发的表型和化学特征（未命名文件夹/3/28.jpeg）中"
+  colors:
+    - "#8F8F8F" # 中灰色 (用作条形图/柱状图与散点图，共同存在于子图B至D及F至H中)
+    - "#DD9A89" # 柔和桃灰/肉粉色 (用作条形图/柱状图与散点图，共同存在于子图C至D及F中)
+    - "#D0BA8B" # 浅卡其/黄褐色 (用作条形图/柱状图与散点图，共同存在于子图C至D及G中)
+    - "#B99D87" # 灰棕色/莫兰迪棕 (用作条形图/柱状图与散点图，共同存在于子图C至D中)
+
+group_124:
+  name: "第124组图片科研配色"
+  macro_categories:
+    - "示意图/概念图 (Schematic Diagram)"
+  used_for:
+    - "表示细胞内细胞器（如线粒体）不同结构组分的色彩分区 (Color zoning to represent distinct structural components of intracellular organelles like mitochondria)"
+  note: "以上 4 种颜色系统应用于示意图模型中，展示野生型精子细胞与敲除突变体中四个不同线粒体单位在空间排列和组装过程中的差异（未命名文件夹/3/29.jpeg）中"
+  colors:
+    - "#D693BE" # 浅紫粉色 (用作示意图/概念图，共同存在于子图A至B中)
+    - "#8EC8ED" # 浅婴儿蓝 (用作示意图/概念图，共同存在于子图A至B中)
+    - "#F5B3A5" # 浅肉色/鲑鱼粉 (用作示意图/概念图，共同存在于子图A至B中)
+    - "#AED594" # 浅灰绿色/苹果绿 (用作示意图/概念图，共同存在于子图A至B中)
+
+group_125:
+  name: "第125组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带离散点标记的多组别敲除（KO）及回补验证实验的条形图对比 (Bar charts with discrete scatter points for multi-group knockout and rescue experiments)"
+  note: "以上 4 种颜色应用于展示多种跨膜蛋白基因及自噬基因敲除细胞株在不同病毒（如 YFV, DENV 等）感染下阳性比例的变化（未命名文件夹/3/30.jpeg）中"
+  colors:
+    - "#0B0B09" # 极深灰/接近纯黑 (用作条形图/柱状图与散点图，共同存在于子图B至K中)
+    - "#223474" # 深藏青色/海军蓝 (用作条形图/柱状图与散点图，共同存在于子图B、D、F、H、J和K中)
+    - "#9CC7F1" # 浅天蓝色 (用作条形图/柱状图与散点图，共同存在于子图J至K中)
+    - "#EED26E" # 浅土黄色 (用作条形图/柱状图与散点图，共同存在于子图C、E、G和I中)
+
+group_126:
+  name: "第126组图片科研配色"
+  macro_categories:
+    - "热图 (Heatmap)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "差异表达基因热图 (Heatmaps for differentially expressed genes)"
+    - "附带个体散点和显著性标记的离散柱状图 (Discrete bar charts with individual scatter points and significance markers)"
+  note: "以上 4 种颜色应用于比较不同处理（如 BHB、Hopx 敲低及过表达）在体外类器官和体内模型中引发的形态与分子标志变化（未命名文件夹/3/31.png）中"
+  colors:
+    - "#1CC3C9" # 亮青绿色/水青色 (用作热图、条形图/柱状图与散点图，存在于整张图的多个子图中)
+    - "#70A0AA" # 莫兰迪蓝灰色/灰孔雀蓝 (用作热图、条形图/柱状图与散点图，存在于整张图的多个子图中)
+    - "#8194A0" # 灰蓝石板色 (用作条形图/柱状图与散点图，存在于整张图的多个子图中)
+    - "#89909E" # 灰紫色/铁灰色 (用作条形图/柱状图与散点图，存在于整张图的多个子图中)
+
+group_127:
+  name: "第127组图片科研配色"
+  macro_categories:
+    - "和弦图 (Chord Diagram)"
+  used_for:
+    - "多源到多目的地的流量分布和弦图 (Flow distribution chord diagrams showing multiple sources to destinations)"
+  note: "以上 4 种颜色系统用于在带有时间轴的和弦图中追踪和区分不同来源（如美国、中国、欧洲等）到各地的病例输入路径（未命名文件夹/3/32.png）中"
+  colors:
+    - "#3D89A3" # 湖蓝色/深水蓝 (用作和弦图，共同存在于子图a至b中)
+    - "#838482" # 中灰色 (用作和弦图，共同存在于子图a至b中)
+    - "#5EC7D0" # 亮湖蓝/松石绿 (用作和弦图，共同存在于子图a至b中)
+    - "#F1D756" # 明黄色 (用作和弦图，共同存在于子图a至b中)
+
+group_128:
+  name: "第128组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "箱线图 (Box Plot)"
+  used_for:
+    - "多浓度梯度及药物联合处理的柱状图 (Bar charts for multi-concentration gradients and combined drug treatments)"
+    - "不同肿瘤分型标志物的分布箱线图 (Box plots depicting marker distributions across tumor subtypes)"
+  note: "以上 6 种颜色系统用于展示 CBS 敲低对细胞存活率、脂质过氧化水平及不同乳腺癌亚型相关蛋白丰度的影响（未命名文件夹/3/33.jpeg）中"
+  colors:
+    - "#ED342F" # 亮红色 (用作条形图/柱状图与箱线图，共同存在于子图A至D及F中)
+    - "#F69A9B" # 浅粉红色 (用作条形图/柱状图与箱线图，共同存在于子图B和D中)
+    - "#2356A7" # 宝石蓝/深蓝 (用作箱线图，存在于子图B中)
+    - "#83B6E1" # 浅天蓝色 (用作箱线图，存在于子图B中)
+    - "#178642" # 深森林绿 (用作条形图/柱状图与箱线图，共同存在于子图A至D及F中)
+    - "#A0D293" # 浅草绿色 (用作条形图/柱状图，存在于子图D中)
+
+group_129:
+  name: "第129组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带对数坐标轴和时间序列的柱状图 (Bar charts with logarithmic axes and time series)"
+    - "比较 AUC (曲线下面积) 值的独立条形图 (Standalone bar charts comparing AUC values)"
+  note: "以上 5 种颜色应用于比较五种不同毒株在支气管和肺部组织感染后各时间点的病毒滴度及累积 AUC 差异（未命名文件夹/3/34.jpeg）中"
+  colors:
+    - "#95A8D2" # 柔和长春花蓝/灰蓝 (用作条形图/柱状图，存在于整张图中)
+    - "#C3EAB5" # 浅薄荷绿/淡雅绿 (用作条形图/柱状图，存在于整张图中)
+    - "#C5767B" # 莫兰迪干枯玫瑰红 (用作条形图/柱状图，存在于整张图中)
+    - "#870A4C" # 深紫红色/勃艮第酒红 (用作条形图/柱状图，存在于整张图中)
+    - "#000084" # 深藏青色/海军蓝 (用作条形图/柱状图，存在于整张图中)
+
+group_130:
+  name: "第130组图片科研配色"
+  macro_categories:
+    - "网络图 (Network Graph)"
+    - "热图 (Heatmap)"
+  used_for:
+    - "具有外圈环状多色高亮的基因互作网络节点图 (Gene interaction network node maps with multi-color outer ring highlights)"
+    - "多组别横向对比的大规模基因差异表达热图列注释 (Column annotations for large-scale gene differential expression heatmaps across multiple groups)"
+  note: "以上 5 种颜色系统用于系统性标记并区分包括不同温度下 SARS-CoV-2 及其他多种人类冠状病毒对宿主关键代谢或运输通路的调控（未命名文件夹/3/35.jpeg）中"
+  colors:
+    - "#6F5D9B" # 暗灰紫色 (用作网络图与热图，共同存在于子图A至G中)
+    - "#AEA3CD" # 浅薰衣草紫/丁香紫 (用作网络图与热图，共同存在于子图A至G中)
+    - "#0A87D7" # 亮宝蓝色 (用作网络图与热图，共同存在于子图A至G中)
+    - "#B5711E" # 赭棕色/土金色 (用作网络图与热图，共同存在于子图A至G中)
+    - "#81AA2A" # 橄榄黄绿色 (用作网络图与热图，共同存在于子图A至G中)
+
+group_131:
+  name: "第131组图片科研配色"
+  macro_categories:
+    - "系统发育树图 (Phylogenetic Tree)"
+  used_for:
+    - "结合序列标识（Sequence logos）的放射状系统发育树区块高亮图 (Radial phylogenetic trees with sector highlighting and sequence logos)"
+  note: "以上 8 种颜色应用于区分不同生物大类（如真菌、动物、各类植物）中 GET2 或 CAML 同源蛋白的演化分支结构（未命名文件夹/3/36.jpeg）中"
+  colors:
+    - "#9DA190" # 橄榄卡其绿 (用作系统发育树图，存在于整张图中)
+    - "#A6BA89" # 柔和灰绿色 (用作系统发育树图，存在于整张图中)
+    - "#C2D794" # 浅嫩绿色 (用作系统发育树图，存在于整张图中)
+    - "#D0FFB1" # 极浅青柠色/黄绿 (用作系统发育树图，存在于整张图中)
+    - "#8DAD95" # 灰青绿色 (用作系统发育树图，存在于整张图中)
+    - "#EBA782" # 浅桃橙色/珊瑚粉 (用作系统发育树图，存在于整张图中)
+    - "#C4A880" # 莫兰迪浅褐/沙色 (用作系统发育树图，存在于整张图中)
+    - "#DAD184" # 浅黄绿色/麦草色 (用作系统发育树图，存在于整张图中)
+
+group_132:
+  name: "第132组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "通路图/网络图 (Pathway/Network Map)"
+  used_for:
+    - "多组别代谢通路中的蛋白质组分配百分比散点图 (Scatter plots for proteome allocation percentages across metabolic pathways)"
+    - "伴随通量标注的条形图用于产出对比 (Bar charts with flux annotations for comparative yield)"
+  note: "以上颜色系统用于多维度比较酿酒酵母与马克思克鲁维酵母在中央碳代谢网络（如糖酵解、PPP、线粒体代谢等）中的分配差异（未命名文件夹/3/37.jpeg）中"
+  colors:
+    - "#9970AC" # 柔和紫色 (用作散点图，存在于子图B中)
+    - "#5AAE61" # 鲜绿色 (用作散点图，存在于子图B中)
+    - "#A5761C" # 土黄/金棕色 (用作散点图，存在于子图B中)
+    - "#6BAFD6" # 浅蓝色 (用作散点图及条形图/柱状图，共同存在于子图B、D和E中)
+    - "#878787" # 中灰色 (用作条形图/柱状图，存在于子图C中)
+    - "#1D71B9" # 中明度蓝/海蓝 (用作条形图/柱状图，存在于子图C中)
+    - "#CBBBA1" # 浅驼色/燕麦色 (用作条形图/柱状图，存在于子图C中)
+    - "#000000" # 黑色 (用作条形图/柱状图，共同存在于子图C、D和E中)
+
+group_133:
+  name: "第133组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "区分不同给药途径及时间点、附带样本散点的分组柱状图 (Grouped bar charts with individual sample points for various administration routes and time points)"
+  note: "以上 5 种颜色应用于对比鞘内或鼻内给药后的抗 Nogo-A 抗体及同型对照在中枢神经系统不同组织中的摄取与分布（未命名文件夹/3/38.jpeg）中"
+  colors:
+    - "#C8C2E4" # 浅紫蓝/长春花淡紫 (用作条形图/柱状图，共同存在于子图A至C中)
+    - "#BABABC" # 浅银灰色 (用作条形图/柱状图，共同存在于子图A至C中)
+    - "#E0B77F" # 浅桃土/沙杏色 (用作条形图/柱状图，共同存在于子图D至F中)
+    - "#9BBBE1" # 柔和浅粉蓝 (用作条形图/柱状图，共同存在于子图G至I中)
+    - "#F09BA0" # 浅珊瑚红/粉红 (用作条形图/柱状图，共同存在于子图G至I中)
+
+group_134:
+  name: "第134组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "箱线图 (Box Plot)"
+    - "小提琴图 (Violin Plot)"
+    - "热图 (Heatmap)"
+  used_for:
+    - "多分类统计及分布特征的大型图表组合 (Large composite figures for multi-class statistics and distributional characteristics)"
+  note: "以上 6 种颜色系统用于在条形图、分布图及复杂矩阵中系统区分蛋白编码基因与各类长链非编码 RNA（lncRNA）在多组织中的表达模式（未命名文件夹/3/39.jpeg）中"
+  colors:
+    - "#000000" # 黑色 (用作条形图/柱状图、箱线图及小提琴图，共同存在于子图A至C中)
+    - "#878787" # 灰色 (用作条形图/柱状图、箱线图及小提琴图，共同存在于子图A至C中)
+    - "#DAC1A2" # 浅米黄/驼色 (用作条形图/柱状图、箱线图及小提琴图，共同存在于子图A至C中)
+    - "#345684" # 深灰蓝/板岩蓝 (用作条形图/柱状图、箱线图及小提琴图，共同存在于子图A至C中)
+    - "#C3752B" # 橘棕色/赭石色 (用作条形图/柱状图、箱线图及小提琴图，共同存在于子图A至C中)
+    - "#A21549" # 深洋红/绛红色 (用作条形图/柱状图、箱线图及小提琴图，共同存在于子图A至C中)
+
+group_135:
+  name: "第135组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "面积图 (Area Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "颜色映射梯度的 PCoA 排序图 (PCoA ordination plots with color-mapped gradients)"
+    - "展示时序群落组成相对丰度的堆叠面积图 (Stacked area charts showing relative abundance of community composition over time)"
+  note: "以上 8 种颜色应用于区分及追踪婴儿出生后肠道微生物组科水平动态发育轨迹及特定菌种的变化（未命名文件夹/3/40.jpeg）中"
+  colors:
+    - "#A56B45" # 暖棕/褐土色 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#CDBB71" # 柔和土金/暗黄色 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#9E5648" # 铁锈红/褐红色 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#BD8A99" # 莫兰迪暗粉紫 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#6A8864" # 森林绿/深草绿 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#B7C685" # 浅橄榄绿/抹茶色 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#4E606E" # 墨蓝灰/板岩色 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+    - "#B5BCC2" # 浅灰蓝色 (用作散点图、面积图及折线图，共同存在于子图A至C中)
+
+group_136:
+  name: "第136组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "极坐标图/雷达图 (Polar/Radar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "包含多种元素与理化属性特征展示的复合极坐标玫瑰图 (Composite polar rose charts showing various elemental and physicochemical attributes)"
+    - "地图多点数据饼图叠加分布 (Map overlaid with multi-point data pie charts)"
+  note: "以上颜色系统综合用于条形图、雷达图及地图分布等多个模块，以全面呈现 8 种土壤下 WT 与 bx1 突变体的植物表现及环境因素分析（未命名文件夹/3/41.jpeg）中"
+  colors:
+    - "#629641" # 中等橄榄绿 (用作条形图/柱状图，共同存在于子图A至H及J中)
+    - "#F9F39B" # 亮淡黄色 (用作条形图/柱状图，共同存在于子图A至H及J中)
+    - "#F7E6BA" # 浅沙色/米白 (用作散点图，存在于子图I中)
+    - "#9CCAB0" # 莫兰迪水绿 (用作极坐标图/雷达图，共同存在于子图A至H中)
+    - "#CDE7F8" # 极浅婴儿蓝 (用作极坐标图/雷达图，共同存在于子图A至H中)
+    - "#F6D1D8" # 浅粉色 (用作极坐标图/雷达图及折线图，共同存在于子图A至H中)
+    - "#E3F0D4" # 极浅淡黄绿色 (用作地图/地理空间分布图及条形图/柱状图，共同存在于子图E至J中)
+
+group_137:
+  name: "第137组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "系统发育树图 (Phylogenetic Tree)"
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "系统发育树与地理图交互映射的大型图谱 (Large atlases mapping phylogenetic trees with geographical data)"
+    - "用于追踪时序传播的多类别时间序列柱状图 (Multi-category time-series bar charts for tracking temporal spread)"
+  note: "以上颜色体系用于重构 COVID-19 在路易斯安那州的时空传播轨迹、多分支基因组演化，及乘客流量变化（未命名文件夹/3/42.jpeg）中"
+  colors:
+    - "#75A6DE" # 浅海蓝/中度蓝 (用作条形图/柱状图、地图/地理空间分布图及系统发育树图，共同存在于子图A至E中)
+    - "#B3D250" # 黄绿色 (用作条形图/柱状图、地图/地理空间分布图及系统发育树图，共同存在于子图A至E中)
+    - "#DEBB5D" # 金黄色/芥末黄 (用作条形图/柱状图、地图/地理空间分布图及系统发育树图，共同存在于子图A至E中)
+    - "#C8795A" # 铁锈红/红棕色 (用作散点图及系统发育树图，共同存在于子图C、E和F中)
+    - "#75AD8A" # 莫兰迪绿色 (用作系统发育树图及散点图，共同存在于子图C、E和F中)
+    - "#B0CBE6" # 苍白蓝 (用作系统发育树图及散点图，共同存在于子图C、E和F中)
+    - "#D0813C" # 橙棕色 (用作条形图/柱状图，存在于子图E中)
+    - "#D4C649" # 橄榄黄 (用作条形图/柱状图，存在于子图E中)
+    - "#A4C962" # 浅橄榄绿 (用作条形图/柱状图，存在于子图E中)
+    - "#7EB1A0" # 蓝绿色/薄荷色 (用作条形图/柱状图，存在于子图E中)
+    - "#596AAF" # 深蓝紫色 (用作条形图/柱状图，存在于子图E中)
+
+group_138:
+  name: "第138组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "箱线图 (Box Plot)"
+    - "直方图/密度图 (Histogram/Density Plot)"
+  used_for:
+    - "利用箱线图及带散点的复合堆积条形图展示探针动力学分布 (Probe dynamics distribution using box plots and composite stacked bar charts with scatter points)"
+  note: "以上颜色应用于区分细胞粘附区域内外及按面积分级的不同微区，从而对比两种探针（tagSrc/binder）的空间动态属性（未命名文件夹/3/43.jpeg）中"
+  colors:
+    - "#496648" # 深森林绿 (用作箱线图及条形图/柱状图，共同存在于子图B至E中)
+    - "#AC151C" # 深暗红/猩红 (用作箱线图及条形图/柱状图，共同存在于子图B至E中)
+    - "#8D8988" # 中度灰色 (用作条形图/柱状图，存在于子图D中)
+    - "#D2878C" # 暗玫瑰粉/干枯粉 (用作条形图/柱状图，共同存在于子图D和E中)
+    - "#F5F291" # 浅鹅黄 (用作条形图/柱状图，共同存在于子图D和E中)
+    - "#9DBF83" # 浅灰绿色 (用作条形图/柱状图，共同存在于子图D和E中)
+
+group_139:
+  name: "第139组图片科研配色"
+  macro_categories:
+    - "和弦图 (Chord Diagram)"
+  used_for:
+    - "多通路、多基因、多组织复杂交互映射的高级和弦图 (Advanced chord diagrams mapping complex multi-pathway, multi-gene, multi-tissue interactions)"
+  note: "以上颜色组作为外圈节点区分和弦图中的基因调控方向（如上调、下调）及其在多达 7 种器官组织内的网络关联（未命名文件夹/3/44.jpeg）中"
+  colors:
+    - "#AD4641" # 深砖红色 (用作和弦图外环，共同存在于子图A至C中)
+    - "#75B0B4" # 莫兰迪水绿/灰青色 (用作和弦图外环，共同存在于子图A至C中)
+    - "#806CAB" # 莫兰迪紫/暗紫罗兰 (用作和弦图节点及连线，共同存在于子图A至C中)
+    - "#DED0A1" # 浅卡其/麦色 (用作和弦图节点及连线，共同存在于子图A至C中)
+    - "#B4C4E5" # 浅长春花蓝 (用作和弦图节点及连线，共同存在于子图A至C中)
+    - "#D19692" # 干枯玫瑰粉/豆沙红 (用作和弦图节点及连线，共同存在于子图A至C中)
+    - "#AFC9A6" # 浅豆沙绿 (用作和弦图节点及连线，共同存在于子图A至C中)
+    - "#869C76" # 橄榄灰绿 (用作和弦图节点及连线，共同存在于子图A至C中)
+    - "#AFAFAD" # 亮银灰色 (用作和弦图节点及连线，共同存在于子图A至C中)
+
+group_140:
+  name: "第140组图片科研配色"
+  macro_categories:
+    - "小提琴图 (Violin Plot)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "与显微切割染色图像结合的多组平滑带散点小提琴图 (Smooth violin plots with scatter points grouped and combined with micro-dissection stained images)"
+  note: "以上 6 种颜色用于定量展示 vehicle、单药（anti-PD1, MS023, indisulam）及联合用药后在全身各组织的 CD8+ T 细胞浸润水平（未命名文件夹/3/45.jpeg）中"
+  colors:
+    - "#828387" # 中暗灰色 (用作小提琴图及散点图，共同存在于子图E和F中)
+    - "#91C6F2" # 天蓝色/晴空蓝 (用作小提琴图及散点图，共同存在于子图E和F中)
+    - "#391A53" # 深紫茄色 (用作小提琴图及散点图，共同存在于子图E和F中)
+    - "#8F1B26" # 深勃艮第红/酒红 (用作小提琴图及散点图，共同存在于子图E和F中)
+    - "#974F91" # 梅红色/中度紫 (用作小提琴图及散点图，共同存在于子图E和F中)
+    - "#3B4293" # 深海蓝/宝石蓝 (用作小提琴图及散点图，共同存在于子图E和F中)
+
+group_141:
+  name: "第141组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "包含数据拟合曲线及带有误差棒的离散实验数据点的多面板散点图 (Multi-panel scatter plots with data fitting curves and discrete experimental data points with error bars)"
+  note: "以上颜色用于标示及对比不同实验条件（磁场、驱动频率）下微观量子体系（NV 色心）动力学过程的变化曲线（未命名文件夹/3/46.png）中"
+  colors:
+    - "#00BBF9" # 亮青蓝/水蓝色 (用作散点图及折线图，共同存在于子图A至D中)
+    - "#2A788E" # 深孔雀蓝/水绿 (用作散点图及折线图，共同存在于子图C和D中)
+    - "#22A884" # 海洋绿/青绿色 (用作散点图及折线图，共同存在于子图C和D中)
+    - "#7AD151" # 鲜黄绿色/草绿 (用作散点图及折线图，共同存在于子图B至D中)
+    - "#EB1C4A" # 鲜艳猩红/玫红 (用作散点图及折线图，共同存在于子图B至D中)
+    - "#4AAC44" # 纯净森林绿 (用作散点图及折线图，共同存在于子图B和D中)
+    - "#1E90FF" # 湖蓝/道奇蓝 (用作散点图及折线图，共同存在于子图A至D中)
+    - "#FF8C00" # 亮橙色 (用作散点图及折线图，存在于子图D中)
+
+group_142:
+  name: "第142组图片科研配色"
+  macro_categories:
+    - "系统发育树图 (Phylogenetic Tree)"
+    - "饼图 (Pie Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "具有外环多分类与内环多分支高亮标记的大型环形系统发育图 (Large circular phylogenetic trees with multi-class outer rings and multi-clade inner highlights)"
+  note: "以上涵盖十几种柔和配色的体系结合了进化树、菌群分类饼图及生化特性验证条图，展示了新型微生物效应器的分子多样性和演化历史（未命名文件夹/3/47.jpeg）中"
+  colors:
+    - "#A49193" # 莫兰迪暗玫瑰褐 (用作饼图及系统树外圈，存在于子图A中)
+    - "#EDE7D9" # 极浅杏色/米白 (用作饼图及系统树外圈，存在于子图A中)
+    - "#D3DCE3" # 浅蓝灰色 (用作饼图及系统树外圈，存在于子图A中)
+    - "#B5C9BE" # 浅灰绿色 (用作饼图及系统树外圈，存在于子图A中)
+    - "#F3E3E3" # 极淡粉白 (用作饼图及系统树外圈，存在于子图A中)
+    - "#DECCA6" # 浅麦土色/卡其 (用作饼图及系统树外圈，存在于子图A中)
+    - "#E0DEDF" # 浅银灰色 (用作饼图及系统树外圈背景，存在于子图A中)
+    - "#78828B" # 板岩灰蓝 (用作系统发育树图，共同存在于子图A和B中)
+    - "#D6E3D2" # 淡薄荷绿 (用作系统发育树图，共同存在于子图A和B中)
+    - "#C89D94" # 灰调珊瑚粉 (用作系统发育树图，共同存在于子图A和B中)
+    - "#EFE1D6" # 极浅裸色/肉色 (用作系统发育树图，共同存在于子图A和B中)
+    - "#654E5E" # 深灰紫色/梅紫 (用作系统发育树图，共同存在于子图A、B和F中)
+
+group_143:
+  name: "第143组图片科研配色"
+  macro_categories:
+    - "示意图/概念图 (Schematic Diagram)"
+    - "系统发育树图 (Phylogenetic Tree)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "基于功能结构域划分的直观蛋白质二级结构示意排版 (Visual protein secondary structure layouts partitioned by functional domains)"
+    - "不同物种分支着色的进化树及速率分布图 (Branch-colored evolutionary trees and rate distribution lines across species)"
+  note: "以上颜色提取用于表示膜重塑相关蛋白家族（如 ESCRT-III / PspA）在各个结构域单元的不同保守性、交互接触及其在全生命树上的演化分布（未命名文件夹/3/48.jpeg）中"
+  colors:
+    - "#B2B0D7" # 浅紫罗兰灰 (用作示意图/概念图及系统发育树图，共同存在于子图A、B、C、D、G和H中)
+    - "#694F98" # 中暗紫色 (用作示意图/概念图及系统发育树图，共同存在于子图A、B、C、D、G和H中)
+    - "#3D5DA8" # 标准蓝/钴蓝 (用作示意图/概念图、折线图及系统发育树图，共同存在于子图A至H中)
+    - "#D6E1F5" # 极浅蓝色 (用作示意图/概念图，共同存在于子图A和B中)
+    - "#C2DCAF" # 浅豆沙绿/鼠尾草绿 (用作示意图/概念图，共同存在于子图A、B、G和H中)
+    - "#ECDE93" # 浅鹅黄/亚麻金 (用作示意图/概念图，共同存在于子图A、B、G和H中)
+    - "#DBA43F" # 亮赭石黄/芥末橙 (用作示意图/概念图，共同存在于子图A、B、G和H中)
+    - "#CE7A5E" # 铁锈红/陶土色 (用作示意图/概念图及系统发育树图，共同存在于子图A、B、C、D、G和H中)
+    - "#B90978" # 紫红色/品红 (用作示意图/概念图，共同存在于子图A、B、G和H中)
+
+group_144:
+  name: "第144组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "多面板连续地理分布的暖冷色调渐变图 (Multi-panel continuous geographic distribution maps with warm-cool color gradients)"
+  note: "以上大面积渐变填充色应用于具有地理坐标注记的专题图中，用来展示不同地区水淹范围（1-50天）与永久水体的宏观地理格局对比（未命名文件夹/3/49.png）中"
+  colors:
+    - "#FFFFB2" # 极浅明黄色 (用作地图/地理空间分布图，共同存在于子图C和D中)
+    - "#FD8D3C" # 鲜橙色 (用作地图/地理空间分布图，共同存在于子图C和D中)
+    - "#BD0026" # 血液红/深红色 (用作地图/地理空间分布图，共同存在于子图C和D中)
+    - "#074C9B" # 深宝蓝色 (用作地图/地理空间分布图，共同存在于子图A至D中)
+    - "#4292C6" # 中度海蓝色 (用作地图/地理空间分布图，共同存在于子图A和B中)
+
+group_145:
+  name: "第145组图片科研配色"
+  macro_categories:
+    - "维恩图/韦恩图 (Venn Diagram)"
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+    - "显微图像处理 (Microscopy Image Overlay)"
+  used_for:
+    - "比较跨物种基因重叠的比例精确维恩图 (Proportion-accurate Venn diagrams comparing cross-species gene overlaps)"
+    - "包含带有统计标记散点的大型群组箱线折线对比图 (Large cohort scatter-line comparison plots with statistical markers)"
+  note: "此组颜色高度凝练，以区分比较人类（Human）与猕猴（Macaque）之间限制特定病毒感染的干扰素刺激基因（ISG）网络及其表达动态（未命名文件夹/4/1.png）中"
+  colors:
+    - "#0080C0" # 中度海洋蓝/普鲁士蓝 (用作维恩图/韦恩图、散点图及折线图，共同存在于子图A、B和D中)
+    - "#077E97" # 深青色/孔雀绿 (用作维恩图/韦恩图、散点图及折线图，共同存在于子图A、B和D中)
+
+group_146:
+  name: "第146组图片科研配色"
+  macro_categories:
+    - "雷达图/极坐标图 (Radar/Polar Chart)"
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "多指标系统评价功能特征雷达图 (Multi-indicator systematic evaluation functional feature radar charts)"
+    - "展示生态学阈值效应分布的阶梯状多维度散点折线图 (Stepped multi-dimensional scatter-line plots showing ecological threshold effects)"
+  note: "以上颜色提取自大规模生态实验，旨在定量对比展示树岛（Tree islands）种植模式相对常规对照组在生物多样性及多种生态系统功能上的恢复效果（未命名文件夹/4/2.png）中"
+  colors:
+    - "#A8D613" # 鲜黄绿色/青柠绿 (用作雷达图/极坐标图、折线图及散点图，共同存在于子图A至F中)
+    - "#808080" # 中度纯灰 (用作雷达图/极坐标图、折线图及散点图，共同存在于子图A至F中)
+
+group_147:
+  name: "第147组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "热力图 (Heatmap)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "基于高分辨率地理坐标网格的海量船舶轨迹散点热图 (Massive vessel trajectory scatter heatmaps based on high-resolution geographic coordinate grids)"
+  note: "以上红蓝经典对比色用于空间作图，直观揭示并对比全球多个核心海域内未公开追踪（如潜在非法捕捞）与已公开追踪活动的高频聚集区特征（未命名文件夹/4/3.jpeg）中"
+  colors:
+    - "#D7191C" # 醒目正红 (用作地图/地理空间分布图、热力图及散点图，共同存在于所有子图中)
+    - "#2C7BB6" # 标准地图蓝/海蓝 (用作地图/地理空间分布图、热力图及散点图，共同存在于所有子图中)
+
+group_148:
+  name: "第148组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "雷达图/极坐标图 (Radar/Polar Chart)"
+  used_for:
+    - "按环球区域分类的环形放射状嵌套柱状图 (Circular radial nested bar charts grouped by global bioregions)"
+  note: "以上色彩在基于极坐标系的柱图中对比展示，以全球三大热带分区为轴心定量呈现各主权国家可用于宏观生态恢复的土地总规模与自然再生潜力之间的差异（未命名文件夹/4/4.png）中"
+  colors:
+    - "#EDD35D" # 明黄/金黄色 (用作条形图/柱状图，存在于该图中)
+    - "#366A5D" # 深墨绿/松柏绿 (用作条形图/柱状图，存在于该图中)
+
+group_149:
+  name: "第149组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "箱线图 (Box Plot)"
+    - "直方图 (Histogram)"
+    - "显微图像处理 (Microscopy Image Overlay)"
+  used_for:
+    - "带有差异表达折叠变换标记的大型点阵图 (Large dot matrix plots with differential expression fold-change markers)"
+    - "肠道组织连续切片荧光强度堆叠展开直方图 (Stacked unrolled histograms of fluorescence intensity from consecutive gut tissue sections)"
+  note: "以上主色调涵盖了转录组学差异分析到显微荧光定量的跨尺度呈现，用以详细对比 SPF 条件与无菌（GF）条件对肠道局部免疫微环境的时空调节作用（未命名文件夹/4/5.png）中"
+  colors:
+    - "#7F7F7F" # 中灰/暗灰色 (用作散点图、箱线图及直方图，共同存在于子图B、C和E中)
+    - "#3ACF4A" # 明亮荧光绿 (用作散点图、箱线图、显微图像处理及直方图，共同存在于子图B、C、D和E中)
+
+group_150:
+  name: "第150组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "热力图 (Heatmap)"
+  used_for:
+    - "通过复合柱状图、主成分分析(PCA)散点图及代谢物丰度热图全方位对比能量代谢 (Comparing energy metabolism comprehensively using composite bar charts, PCA scatter plots, and metabolite abundance heatmaps)"
+  note: "此组色调用于区分对照 DMSO 及不同处理（FHIN1/DMF）在 LPS 刺激条件下的细胞代谢状态和数百种代谢物的动态变化（未命名文件夹/4/6.png）中"
+  colors:
+    - "#4B57A2" # 藏青/靛蓝色 (用作条形图/柱状图、散点图及热力图，共同存在于子图A至J中)
+    - "#D4D3D3" # 浅银灰 (用作条形图/柱状图、散点图及热力图，共同存在于子图A至J中)
+    - "#098036" # 深翠绿/森林绿 (用作条形图/柱状图、散点图及热力图，共同存在于子图A、B、C、D、G、H、I和J中)
+
+group_151:
+  name: "第151组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "箱线图 (Box Plot)"
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "结合柱图、分类箱线图、受试者工作特征(ROC)曲线及回归系数森林图评估模型评分性能 (Evaluating model score performance using bar charts, categorical box plots, ROC curves, and regression coefficient forest plots)"
+  note: "利用灰蓝紫三色调，系统展示了 Gnocchi 评分在预测非编码增强子、分类约束基因以及多组织基因表达预测中的作用（未命名文件夹/4/7.png）中"
+  colors:
+    - "#C1BDCF" # 浅灰紫/淡紫丁香色 (用作折线图，存在于子图C中)
+    - "#AECED5" # 苍白蓝/粉雾蓝 (用作条形图/柱状图、箱线图、折线图及散点图，共同存在于子图A至D中)
+    - "#DCDCDC" # 浅灰白 (用作箱线图，存在于子图B中)
+
+group_152:
+  name: "第152组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "结合带有组合几何图块（方块/大菱形）覆盖的全球地图系可视化不同分析维度的样本量规模 (Visualizing sample size scales across different analytical dimensions using global maps overlaid with composite geometric tiles like diamonds/squares)"
+  note: "这种三色几何标绘法直观地呈现了跨地域、跨血统的 SARS-CoV-2 感染及 COVID-19 阳性住院/重症的队列研究分布和统计概况（未命名文件夹/4/8.png）中"
+  colors:
+    - "#FE6101" # 亮橘橙 (用作地图/地理空间分布图及散点图，共同存在于子图A及其各插图中)
+    - "#5DB3BC" # 莫兰迪水蓝/青绿色 (用作地图/地理空间分布图及散点图，共同存在于子图A及其各插图中)
+    - "#F3D706" # 鲜艳明黄 (用作地图/地理空间分布图及散点图，共同存在于子图A及其各插图中)
+
+group_153:
+  name: "第153组图片科研配色"
+  macro_categories:
+    - "示意图/概念图 (Schematic Diagram)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "基于解剖空间轴线的水平基因表达长条图及对应的组织解剖剖面示意映射图 (Horizontal gene expression bar charts along anatomical spatial axes mapped to corresponding tissue anatomical profile schematics)"
+  note: "利用经典的蓝-青-绿渐变色，精确对应了从海星到海胆等棘皮动物在内侧至外侧不同外胚层区域的基因调控网络及发育保守性（未命名文件夹/4/9.png）中"
+  colors:
+    - "#2C7BBA" # 海洋深蓝/中度蓝 (用作示意图/概念图及条形图/柱状图，共同存在于子图A至C中)
+    - "#19ACBA" # 明快湖蓝/青蓝色 (用作示意图/概念图及条形图/柱状图，共同存在于子图A至C中)
+    - "#A8BD68" # 柔和橄榄绿/豆沙绿 (用作示意图/概念图及条形图/柱状图，共同存在于子图A至C中)
+
+group_154:
+  name: "第154组图片科研配色"
+  macro_categories:
+    - "显微图像处理 (Microscopy Image Overlay)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "利用 H&E 及特殊染色组织学切片照片搭配多指标定量评价散点柱状图综合评估组织修复 (Comprehensive evaluation of tissue repair using H&E/special stain histology slides coupled with multi-indicator quantitative scatter bar charts)"
+  note: "通过三种内敛高级灰调作为背景填色，对软硬水凝胶组别在软骨结构和细胞变化上的治疗恢复效果进行清晰的分层比较（未命名文件夹/4/10.png）中"
+  colors:
+    - "#727376" # 深暗灰 (用作条形图/柱状图，存在于子图B中)
+    - "#9FB4A9" # 鼠尾草灰绿 (用作条形图/柱状图，存在于子图B中)
+    - "#C0C0D5" # 浅紫灰/香芋灰 (用作条形图/柱状图，存在于子图B中)
+
+group_155:
+  name: "第155组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "结合横纵坐标对数/线性刻度对比分析的多面板双向分类散点图 (Multi-panel dual-categorical scatter plots with combined log/linear scales for comparative analysis)"
+  note: "利用红蓝及中性灰配色，区分强民主党、强共和党及中立受访者，展现不同政治立场人群在网络搜索、关注度及参与度上的行为与倾向分布（未命名文件夹/4/11.png）中"
+  colors:
+    - "#4682B4" # 灰蓝色/钢蓝 (用作散点图，共同存在于子图A至F中)
+    - "#A9A9A9" # 中暗灰色 (用作散点图，共同存在于子图A至F中)
+    - "#CD5C5C" # 铁锈红/印第安红 (用作散点图，共同存在于子图A至F中)
+
+group_156:
+  name: "第156组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "网络图 (Network Graph)"
+    - "散点图 (Scatter Plot)"
+    - "示意图/概念图 (Schematic Diagram)"
+  used_for:
+    - "包含大型基因交互网络、表达折叠变化火山图及基因操纵子箭头序列图的复合系统学组图 (Composite systematic panels containing large gene interaction networks, expression fold-change volcano plots, and gene operon arrow sequence maps)"
+  note: "以上颜色用于界定核心基因组（Core）与不同进化分支的辅助基因集（C1/C2 accessory），深入分析具核梭杆菌菌株群在功能结构上的差异（未命名文件夹/4/12.png）中"
+  colors:
+    - "#E25C53" # 珊瑚红/亮红色 (用作网络图及散点图，共同存在于子图C、E和F中)
+    - "#61C096" # 薄荷绿/海泡绿 (用作条形图/柱状图、网络图及散点图，共同存在于子图A至C、E和F中)
+    - "#D2BFDD" # 浅雪青/淡紫色 (用作条形图/柱状图、网络图、散点图及示意图/概念图，共同存在于子图A至F中)
+
+group_157:
+  name: "第157组图片科研配色"
+  macro_categories:
+    - "显微图像处理 (Microscopy Image Overlay)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "结合细胞免疫荧光显微摄影及具有统计学显著性差异标注的多组多因子带散点柱状图 (Coupling cellular immunofluorescence microphotography with multi-group, multi-factor scatter bar charts annotated for statistical significance)"
+  note: "以上三组冷色调主要用于区分细胞周期中的不同基因抑制条件或药物处理组（如添加或不添加 DRB，不同 siRNA 敲低组），用以比较微核形成及基因组稳定性（未命名文件夹/4/13.png）中"
+  colors:
+    - "#5F8ECA" # 矢车菊蓝/软蓝 (用作显微图像处理及条形图/柱状图，共同存在于子图B、C、L和M中)
+    - "#65B992" # 莫兰迪水青绿 (用作条形图/柱状图，共同存在于子图D、E、F、H和J中)
+    - "#BBBCBE" # 浅冷灰 (用作条形图/柱状图，共同存在于子图D、E、F、H、J、L和M中)
+
+group_158:
+  name: "第158组图片科研配色"
+  macro_categories:
+    - "热力图 (Heatmap)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "高对比度的二维表面亮度等高线热图与带有拟合分布曲线和误差棒的径向光度衰减多面板散点图 (High-contrast 2D surface brightness contour heatmaps and multi-panel radial photometric decay scatter plots with fitted curves and error bars)"
+  note: "以上配色提取用作散点图的主标记色，明确区分正在研究的极高红移星系（JADES目标）与其他已知的高红移参考星系观测数据集（未命名文件夹/4/14.png）中"
+  colors:
+    - "#1F77B4" # 标准作图蓝 (用作散点图，共同存在于子图B、C、E和F中)
+    - "#F4A637" # 暖橙色/琥珀色 (用作散点图，共同存在于子图B、C、E和F中)
+    - "#008A69" # 墨绿/深海绿 (用作散点图，共同存在于子图B、C、E和F中)
+
+group_159:
+  name: "第159组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "采用带渐变背景的多面板同位素/微量元素地球化学比值分布散点图 (Multi-panel isotopic/trace element geochemical ratio distribution scatter plots set against a gradient background)"
+  note: "利用三个经典地质学复古色调，准确标记在三个主要地质历史时期（以 65Ma 与 60Ma 为界）采集的岩浆样本，展示其物质来源演化趋势（未命名文件夹/4/15.png）中"
+  colors:
+    - "#609879" # 灰调暗绿/莫兰迪青 (用作散点图，共同存在于子图A至D中)
+    - "#904572" # 灰紫/暗梅红 (用作散点图，共同存在于子图A至D中)
+    - "#D2A241" # 熟褐金/芥末黄 (用作散点图，共同存在于子图A至D中)
+
+group_160:
+  name: "第160组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "热力图 (Heatmap)"
+    - "分布图/直方图 (Distribution/Histogram)"
+  used_for:
+    - "带有置信区间等高线散点图及发射线特征光谱图的高红移星系多维度分析 (Multi-dimensional analysis of high-redshift galaxies using scatter plots with confidence interval contours and emission line spectra)"
+  note: "利用高饱和度的橙红、亮蓝与深青色系区分不同星系的观测数据点，分析极高红移星系（如 Firefly Sparkle）异常的初始恒星质量函数（IMF）特征（未命名文件夹/4/16.png）中"
+  colors:
+    - "#FA9072" # 珊瑚橙红/浅橙红 (用作散点图及分布图/直方图，共同存在于子图B至E中)
+    - "#70DCFA" # 亮天蓝/冰蓝 (用作散点图，存在于子图D中)
+    - "#036C59" # 墨青/深湖绿 (用作散点图及分布图/直方图，共同存在于子图D和E中)
+
+group_161:
+  name: "第161组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "分布图/直方图 (Distribution/Histogram)"
+  used_for:
+    - "包含大量随机路径模拟的海量折线图（意大利面条图）及边缘频率分布直方图 (Spaghetti plots containing massive random path simulations coupled with marginal frequency distribution histograms)"
+  note: "利用灰蓝底色与暗灰、亮粉对比，直观展示量子随机数生成器在不同测试批次（不同日期）下累积熵值突破成功阈值的动力学演化及耗时分布（未命名文件夹/4/17.png）中"
+  colors:
+    - "#AAB8D1" # 浅灰蓝/淡钢蓝 (用作折线图及分布图/直方图，存在于该图中)
+    - "#655E65" # 碳灰/深灰褐 (用作折线图及分布图/直方图，存在于该图中)
+    - "#E33C81" # 亮玫红/洋红 (用作折线图及分布图/直方图，存在于该图中)
+
+group_162:
+  name: "第162组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "分布图/直方图 (Distribution/Histogram)"
+    - "树状图 (Tree Diagram)"
+  used_for:
+    - "包含演化动态带误差带折线图及高度结构化克隆谱系演化树的生发中心动态对比分析 (Comparative dynamics of germinal centers using error-banded line charts of evolutionary dynamics and highly structured clonal lineage evolutionary trees)"
+  note: "深蓝与暗红两组主色调清晰界定了抗体亲和力成熟的两种不同机制模型（LAST vs EACH），用以追踪细胞增殖动态和突变谱系树分布差异（未命名文件夹/4/18.png）中"
+  colors:
+    - "#006799" # 普鲁士深蓝 (用作折线图、分布图/直方图及树状图，共同存在于子图A至F中)
+    - "#CA5459" # 砖红/复古红 (用作折线图、分布图/直方图及树状图，共同存在于子图A至F中)
+    - "#999999" # 标准中灰 (用作树状图，存在于子图D中)
+
+group_163:
+  name: "第163组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "表征不同自由基试剂对复杂底物进行C-H官能团化反应区域选择性的多组分堆叠柱状图 (Multi-component stacked bar charts characterizing the regioselectivity of diverse radical reagents in C-H functionalization on complex substrates)"
+  note: "选用马卡龙柔和色系（浅蓝、粉红、浅黄等）逐层标记，定量对比不同空间位阻的反应位点在不同大体积自由基催化条件下的产物比例差异（未命名文件夹/4/19.png）中"
+  colors:
+    - "#AADFF5" # 清浅冰蓝 (用作条形图/柱状图，存在于子图B中)
+    - "#FF847C" # 西柚粉红/橘红 (用作条形图/柱状图，存在于子图B中)
+    - "#FFEEBB" # 浅鹅黄/奶油白 (用作条形图/柱状图，存在于子图B中)
+    - "#A2D3C0" # 浅豆绿/薄荷绿 (用作条形图/柱状图，存在于子图B中)
+
+group_164:
+  name: "第164组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "分布图/直方图 (Distribution/Histogram)"
+  used_for:
+    - "跨会话神经元解码准确率散点线性回归图及SVM特征权重分布直方对比图 (Scatter linear regression plots of neuronal decoding accuracy across sessions and comparative histograms of SVM feature weight distributions)"
+  note: "深紫蓝、芥末黄搭配亮玫红与中性灰，系统记录了猕猴执行不同社交认知任务时，两个脑区（dlPFC 和 V4）神经响应的动态学习过程与表征差异（未命名文件夹/4/20.png）中"
+  colors:
+    - "#242B5C" # 深紫蓝/午夜蓝 (用作散点回归图及柱状图填充，共同存在于子图A至G中)
+    - "#DBBE00" # 芥末金/姜黄 (用作散点回归图及柱状图填充，共同存在于子图A至G中)
+    - "#959595" # 灰色 (用作散点图对照标记或直方图非社交/初期数据参考，共同存在于子图E至G中)
+    - "#E61B72" # 鲜艳玫粉/亮紫红 (用作分布直方图，存在于子图F中)
+
+group_165:
+  name: "第165组图片科研配色"
+  macro_categories:
+    - "箱线图 (Box Plot)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "带有分类散点叠加的箱线图及包含特征向量投影的主成分分析双标图 (Box plots with overlaid categorical scatter dots and Principal Component Analysis biplots containing eigenvector projections)"
+  note: "黄蓝灰红的复合柔和色调被用于精确区分不同袖蝶物种（H. elevatus / H. pardalinus 等）及其杂交后代在交配偏好、形态特征及飞行模式上的遗传与分化特征（未命名文件夹/4/21.png）中"
+  colors:
+    - "#7498B5" # 莫兰迪蓝/灰蓝色 (用作箱线图及散点图，共同存在于子图A至F中)
+    - "#E6E6E6" # 浅银灰 (用作箱线图及散点图，共同存在于子图A至F中)
+    - "#D66969" # 豆沙红/淡砖红 (用作箱线图及散点图，共同存在于子图A至F中)
+    - "#F2C742" # 亮芥末黄/金黄 (用作箱线图及散点图，共同存在于子图B、D、E和F中)
+
+group_166:
+  name: "第166组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "热力图 (Heatmap)"
+    - "小提琴图 (Violin Plot)"
+  used_for:
+    - "结合非线性曲线拟合的散点图、空间网格晶圆热力图及跨时间小提琴分布图 (Scatter plots with non-linear curve fitting, spatial grid wafer heatmaps, and cross-temporal violin distribution plots)"
+  note: "利用由浅及深的蓝紫色系搭配，系统呈现超导量子比特关键器件（约瑟夫森结）在整片晶圆分布与时间推移中的电阻及频率稳定性规律（未命名文件夹/4/22.png）中"
+  colors:
+    - "#3F98BD" # 晴空蓝/中度水蓝 (用作热力图及散点图，共同存在于子图A、C和D中)
+    - "#36337D" # 靛蓝/深紫蓝 (用作散点图，存在于子图B中)
+    - "#90298D" # 亮紫/品红 (用作散点图，共同存在于子图A和D中)
+    - "#C778AD" # 淡紫粉/丁香紫 (用作小提琴图及散点图，共同存在于子图A、B和D中)
+
+group_167:
+  name: "第167组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "面积图 (Area Chart)"
+  used_for:
+    - "多面板细分的大规模100%堆积面积/柱状图 (Large-scale multi-panel faceted 100% stacked area/bar charts)"
+  note: "经典的三色区块（红、浅蓝、深蓝）直观量化了不同主流大语言模型在执行复杂任务时，随着难度增加，其产生正确、回避与错误答案的动态比例变化（未命名文件夹/4/23.png）中"
+  colors:
+    - "#E63946" # 警戒红/朱红 (用作面积图/柱状图，共同存在于子图A和B中)
+    - "#A8DADC" # 极浅水青/粉蓝 (用作面积图/柱状图，共同存在于子图A和B中)
+    - "#1D3557" # 深藏青/暗夜蓝 (用作面积图/柱状图，共同存在于子图A和B中)
+    - "#A3772D" # 土黄/赭石色 (用作面积图/柱状图，共同存在于子图A和B中)
+
+group_168:
+  name: "第168组图片科研配色"
+  macro_categories:
+    - "小提琴图 (Violin Plot)"
+    - "分布图/直方图 (Distribution/Histogram)"
+  used_for:
+    - "用于高精度对比分布与中位数差异的拆分（双侧半边）小提琴图 (Split (half-side) violin plots used for high-precision comparison of distributions and median differences)"
+  note: "通过浅黄色与浅蓝/紫色的清晰半边对撞设计，直接比较不同的古气候重构模型群与仪器观测数据集在描绘全球或局部海温变化时的偏差（未命名文件夹/4/24.png）中"
+  colors:
+    - "#FFE4B4" # 奶黄/浅桃红 (用作小提琴图，共同存在于子图A和B中)
+    - "#B4B4FF" # 淡长春花蓝 (用作小提琴图，共同存在于子图A和B中)
+    - "#C4A8D1" # 浅紫藤色 (用作小提琴图，存在于子图B中)
+    - "#DDD6CD" # 暖浅灰 (用作小提琴图，存在于子图A中)
+
+group_169:
+  name: "第169组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "附带植物真实表型照片对比的多因素分组散点柱状图 (Multi-factor grouped scatter bar charts accompanied by comparative photographs of real plant phenotypes)"
+  note: "利用绿、红、蓝三种柔和实用的经典生物学配色，展示并定量对比水稻不同基因型（如野生型、NIL等位系及过表达系）在正常及多种环境胁迫下的农艺产量数据（未命名文件夹/4/25.png）中"
+  colors:
+    - "#8FC870" # 苹果绿/草绿色 (用作条形图/柱状图，共同存在于子图B、C、E、F、H、I、L、M、O、P、R和S中)
+    - "#E05C54" # 珊瑚红/褪色红 (用作条形图/柱状图，共同存在于子图B、C、E、R和S中)
+    - "#8199CB" # 浅灰蓝/矢车菊蓝 (用作条形图/柱状图，共同存在于子图B、C、E、F、H、I、L、M、O、P、R和S中)
+    - "#5174AA" # 灰调深蓝 (用作条形图/柱状图，共同存在于子图B、C、E、F、H、I、L、M、O、P、R和S中)
+
+group_170:
+  name: "第170组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "电泳图/凝胶成像 (Gel/Blot Imaging)"
+  used_for:
+    - "包含单点数据的分组柱状图、生化印迹对照图及药物剂量/时间响应动力学折线图的复合机制图 (Composite mechanistic figures incorporating grouped bar charts with individual points, biochemical blot comparisons, and drug dose/time-response kinetic line charts)"
+  note: "这组偏向冷调的色彩主要用于区分特定复合物在受到抑制剂（如 UM171）或靶向降解条件下的功能动态、丰度变化与蛋白相互作用（未命名文件夹/4/26.png）中"
+  colors:
+    - "#E0A3A5" # 脏粉/灰玫瑰红 (用作条形图/柱状图及折线图，共同存在于子图A、B、C、E、F、G和H中)
+    - "#B0CBE5" # 浅钢蓝/婴儿蓝 (用作条形图/柱状图，存在于子图C中)
+    - "#7794C0" # 尘灰蓝/中度蓝 (用作条形图/柱状图，存在于子图C中)
+    - "#8C8E8F" # 中度冷灰 (用作条形图/柱状图及折线图，共同存在于子图A、B、C、E、F、G和H中)
+
+group_171:
+  name: "第171组图片科研配色"
+  macro_categories:
+    - "地图 (Map)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "结合极地投影地图散点/饼图叠加及多面板分类柱状图的全球空间统计分析图 (Global spatial statistical analysis maps combining polar projection maps with scatter/pie overlays and multi-panel categorical bar charts)"
+  note: "选用一组柔和淡雅的地质/生态系底色（浅紫、浅卡其、浅蓝等），对北半球高纬度极地与高山区域的生态系统呼吸观测数据按多种环境变量（如加温时间、土壤湿度、pH等）进行了详尽分类展示（未命名文件夹/4/27.png）中"
+  colors:
+    - "#DBB8FF" # 淡紫罗兰/丁香紫 (用作条形图/柱状图，共同存在于子图A和B中)
+    - "#DBDB94" # 浅黄褐/淡卡其 (用作条形图/柱状图，共同存在于子图A和C中)
+    - "#94B8DB" # 灰水蓝/淡粉蓝 (用作条形图/柱状图，共同存在于子图A和C中)
+    - "#DBB894" # 淡赭/浅暖灰棕 (用作条形图/柱状图，共同存在于子图A和C中)
+    - "#94B8B8" # 浅灰绿/莫兰迪青绿 (用作条形图/柱状图，共同存在于子图A和C中)
+
+group_172:
+  name: "第172组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "热力图 (Heatmap)"
+  used_for:
+    - "包含动物运动轨迹热力图的多维度药效评估及代谢动力学折线/柱状图 (Multi-dimensional pharmacological evaluation and metabolic kinetics line/bar charts including animal movement trajectory heatmaps)"
+  note: "利用柔和且对比分明的灰蓝、鼠尾草绿与桃橙色调，精确区分并验证了特定联合药物（GLP-1 结合 MK-801）与单药或热量限制干预在小鼠减重及代谢调控上的协同生理效应（未命名文件夹/4/28.png）中"
+  colors:
+    - "#D6D6D6" # 浅灰 (用作折线图及条形图/柱状图，共同存在于子图B至E、G、H、J至P、R至W和Y中)
+    - "#9BB0C1" # 灰蓝/板岩蓝 (用作折线图及条形图/柱状图，共同存在于子图B至E、G、H、R至W和Y中)
+    - "#7D9D96" # 鼠尾草绿/褪色绿 (用作折线图及条形图/柱状图，共同存在于子图B至E、G、H、R至W和Y中)
+    - "#E9B383" # 桃橙/浅琥珀 (用作折线图及条形图/柱状图，共同存在于子图B至E、G、H、J至P、R至W和Y中)
+    - "#FFD67D" # 浅金黄/淡黄 (用作折线图及条形图/柱状图，共同存在于子图J至P中)
+
+group_173:
+  name: "第173组图片科研配色"
+  macro_categories:
+    - "系统发育树图 (Phylogenetic Tree)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "热力图 (Heatmap)"
+  used_for:
+    - "系统发育演化树 (Phylogenetic Tree)"
+    - "序列长度堆叠柱状图 (Sequence Length Stacked Bar Chart)"
+    - "基因变异/缺失情况二值化热图矩阵 (Binarized Heatmap Matrix for Gene Variation/Absence)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/29.png）中"
+  colors:
+    - "#CCCCCC" # 浅灰色 (用作系统发育树图、热力图及条形图/柱状图，共同存在于子图A至C中)
+    - "#EDE6CE" # 浅米黄色 (用作系统发育树图、热力图及条形图/柱状图，共同存在于子图A至C中)
+    - "#A47B75" # 灰褐色 (用作系统发育树图、热力图及条形图/柱状图，共同存在于子图A至C中)
+    - "#D35077" # 浆果红色 (用作系统发育树图、热力图及条形图/柱状图，共同存在于子图A至C中)
+    - "#666666" # 深灰色 (用作系统发育树图、热力图及条形图/柱状图，共同存在于子图A至C中)
+
+group_174:
+  name: "第174组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "显微图像处理 (Microscopy Image Overlay)"
+  used_for:
+    - "多条件细胞实验定量散点柱状图 (Quantitative Scatter Bar Charts for Multi-condition Cell Experiments)"
+    - "单细胞 UMAP 降维聚类散点图 (Single-cell UMAP Dimension Reduction Clustering Scatter Plots)"
+    - "显微镜细胞染色图像分析 (Microscopy Cell Staining Image Analysis)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/30.png）中"
+  colors:
+    - "#969595" # 中度灰色 (用作条形图/柱状图及散点图，共同存在于子图A和B中)
+    - "#75ABCF" # 晴蓝色 (用作条形图/柱状图及散点图，共同存在于子图A和B中)
+    - "#DD2C27" # 正红色 (用作散点图，存在于子图D中)
+    - "#FCF5EC" # 极浅暖杏色 (用作散点图背景，存在于子图D中)
+    - "#EFF4F8" # 极浅冷蓝色 (用作散点图背景，存在于子图D中)
+
+group_175:
+  name: "第175组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "地图/地理空间分布图 (Geographic Map)"
+  used_for:
+    - "带有阴影纹理标识的分层堆叠水平柱状图 (Hierarchical Horizontally Stacked Bar Charts with Shading Texture)"
+    - "基于区域分类的污染排放量化地图 (Pollution Emission Quantification Maps)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/31.png）中"
+  colors:
+    - "#6EAADA" # 中度亮蓝色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#DC6133" # 铁锈红色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#3DB991" # 海绿色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#F2B044" # 姜黄色 (用作条形图/柱状图，共同存在于子图A至D中)
+    - "#B797B5" # 藕粉色 (用作条形图/柱状图，共同存在于子图A至D中)
+
+group_176:
+  name: "第176组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "网络图 (Network Diagram)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "时间序列折线图 (Time-series Line Charts)"
+    - "免疫信号网络关系图 (Immune Signaling Network Diagrams)"
+    - "散点主成分分析图 (Scatter Principal Component Analysis Plots)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/32.png）中"
+  colors:
+    - "#EF5A45" # 亮橙红色 (用作散点图及网络图，共同存在于子图E和F中)
+    - "#F7ADA3" # 浅桃红色 (用作折线图及散点图背景，共同存在于子图B至D中)
+    - "#CCCCCC" # 浅灰色 (用作网络图节点连线及散点图，共同存在于子图E和F中)
+    - "#188F89" # 深青色 (用作散点图、网络图及折线图背景，共同存在于子图B、C、E和F中)
+    - "#97C7C4" # 莫兰迪绿色 (用作散点图，存在于子图E中)
+
+group_177:
+  name: "第177组图片科研配色"
+  macro_categories:
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "生理指标散点柱状图 (Physiological Indicator Scatter Bar Charts)"
+    - "生化代谢通路示意图 (Biochemical Metabolic Pathway Diagrams)"
+    - "存活率折线图 (Survival Line Charts)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/33.png）中"
+  colors:
+    - "#138095" # 深海青色 (用作散点图及折线图，共同存在于子图B至H、L至O中)
+    - "#89BFCA" # 天蓝色 (用作条形图/柱状图，共同存在于子图D至H中)
+    - "#BFC1C1" # 银灰色 (用作条形图/柱状图，共同存在于子图B至H、J和M中)
+    - "#C87FA2" # 丁香紫色 (用作散点图及折线图，共同存在于子图J、L至O中)
+    - "#CE8D8F" # 藕褐色 (用作条形图/柱状图及折线图，共同存在于子图B、C、J、N和O中)
+
+group_178:
+  name: "第178组图片科研配色"
+  macro_categories:
+    - "网络图 (Network Diagram)"
+    - "示意图/概念图 (Schematic Diagram)"
+  used_for:
+    - "反应路径网络连线图 (Reaction Pathway Network Wiring Diagrams)"
+    - "带有取代基色彩编码的化学分子结构展示 (Chemical Molecular Structures with Color-Coded Substituents)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/34.png）中"
+  colors:
+    - "#8CB7E4" # 矢车菊蓝色 (用作网络图及示意图，共同存在于子图A和B中)
+    - "#DCE8F6" # 极浅蓝色 (用作网络图及示意图背景，共同存在于子图A和B中)
+    - "#EAEAEA" # 浅白灰色 (用作网络图及示意图背景，共同存在于子图A和B中)
+    - "#7B1142" # 深酒红色 (用作示意图高亮，共同存在于子图A和B中)
+    - "#AEAD44" # 橄榄绿色 (用作示意图高亮，共同存在于子图A和B中)
+
+group_179:
+  name: "第179组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "显微图像处理 (Microscopy Image Overlay)"
+  used_for:
+    - "基于组织免疫荧光的骨骼肌横截面染色图 (Immunofluorescence-based Skeletal Muscle Cross-section Staining Images)"
+    - "分类纤维占比堆叠柱状图 (Stacked Bar Charts for Fiber Type Proportions)"
+    - "功能测定散点柱状图 (Functional Measurement Scatter Bar Charts)"
+  note: "以上 5 种颜色共同应用于同一张拼图（未命名文件夹/4/35.jpeg）中"
+  colors:
+    - "#C62F27" # 砖红色 (用作显微图像及散点图，共同存在于子图A至G中)
+    - "#344EA1" # 钴蓝色 (用作显微图像及散点图，共同存在于子图A至G中)
+    - "#149770" # 森林绿色 (用作显微图像及散点图，共同存在于子图A至G中)
+    - "#8AC9C9" # 浅青绿色 (用作散点图，共同存在于子图A至D中)
+    - "#BA8D65" # 枯草褐色 (用作散点图，共同存在于子图A至D中)
+
+group_180:
+  name: "第180组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "热力图 (Heatmap)"
+  used_for:
+    - "多组散点柱状图 (Multi-group Scatter Bar Charts)"
+    - "转录组学差异表达热力图 (Transcriptomic Differential Expression Heatmaps)"
+    - "行为学轨迹对照折线图 (Comparative Line Charts of Behavioral Trajectories)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/36.png）中"
+  colors:
+    - "#F27C79" # 珊瑚红色 (用作条形图/柱状图及折线图，共同存在于子图A、D至H中)
+    - "#F1A9A9" # 淡粉色 (用作条形图/柱状图，存在于子图A中)
+    - "#7A7A7A" # 中深灰色 (用作条形图/柱状图，共同存在于子图D和E中)
+    - "#3660AC" # 亮海蓝色 (用作条形图/柱状图及折线图，共同存在于子图D至H中)
+    - "#95BACA" # 雾霾蓝色 (用作条形图/柱状图，共同存在于子图A和E中)
+    - "#C9C9C8" # 浅灰色 (用作条形图/柱状图，存在于子图A中)
+
+group_181:
+  name: "第181组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "带有斜线阴影填充的分层堆叠柱状图 (Hierarchical Stacked Bar Charts with Shading Patterns)"
+  note: "以上 6 种颜色共同应用于同一张图表（未命名文件夹/4/37.png）中"
+  colors:
+    - "#C84B37" # 铁锈红色 (用作条形图/柱状图，存在于该图中)
+    - "#118498" # 深青色 (用作条形图/柱状图，存在于该图中)
+    - "#000000" # 纯黑色 (用作条形图/柱状图，存在于该图中)
+    - "#E3A298" # 脏粉色 (用作条形图/柱状图，存在于该图中)
+    - "#7F7F7F" # 中灰色 (用作条形图/柱状图，存在于该图中)
+    - "#E8DAD0" # 米灰色 (用作条形图/柱状图，存在于该图中)
+
+group_182:
+  name: "第182组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "叠加高亮图层的卫星影像地图 (Satellite Image Maps with Overlay Highlight Layers)"
+    - "多级分组误差带柱状图 (Multi-level Grouped Bar Charts with Error Bands)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/38.png）中"
+  colors:
+    - "#0A78FF" # 亮蓝色 (用作地图及条形图/柱状图，共同存在于子图A至K中)
+    - "#E92700" # 朱红色 (用作地图及条形图/柱状图，共同存在于子图A至K中)
+    - "#9A8479" # 灰咖色 (用作条形图/柱状图，存在于子图K中)
+    - "#F1F1F2" # 极浅云灰色 (用作条形图/柱状图，存在于子图K中)
+    - "#202020" # 近黑色 (用作条形图/柱状图，存在于子图K中)
+    - "#808184" # 中度灰色 (用作条形图/柱状图，存在于子图K中)
+
+group_183:
+  name: "第183组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "蛋白免疫印迹图 (Western Blot)"
+  used_for:
+    - "带有单细胞散点的多组定量柱状图 (Multi-group Quantitative Bar Charts with Individual Data Scatter Points)"
+    - "蛋白表达印迹图 (Protein Expression Blots)"
+    - "实时追踪细胞能量代谢动态的折线图 (Real-time Kinetic Line Charts Tracking Cellular Energy Metabolism)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/39.png）中"
+  colors:
+    - "#696874" # 暗板岩灰色 (用作条形图/柱状图及折线图，共同存在于子图A、C、D和E中)
+    - "#93BBE4" # 浅灰蓝色 (用作条形图/柱状图，存在于子图A中)
+    - "#E5E5E5" # 浅灰色 (用作条形图/柱状图及折线图背景，共同存在于子图A至E中)
+    - "#1B6B82" # 深湖蓝色 (用作条形图/柱状图及折线图，共同存在于子图C至E中)
+    - "#359A6E" # 森林绿色 (用作条形图/柱状图及折线图，共同存在于子图C至E中)
+    - "#E9C56D" # 姜黄色 (用作折线图，共同存在于子图C和D中)
+
+
+group_184:
+  name: "第184组图片科研配色"
+  macro_categories:
+    - "系统发育树图 (Phylogenetic Tree)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "系统发育拓扑差异折线图与频率分布柱形图 (Phylogenetic Topology Difference Line Charts and Frequency Distribution Bar Charts)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/40.png）中"
+  colors:
+    - "#CCCCCC" # 浅灰色 (用作系统发育树图，存在于子图a中)
+    - "#F1C253" # 金黄色 (用作条形图/柱状图，共同存在于子图a和c中)
+    - "#4D7DB2" # 灰蓝色 (用作条形图/柱状图，共同存在于子图a至c中)
+    - "#5B8E7D" # 灰绿色 (用作条形图/柱状图，共同存在于子图a至c中)
+    - "#BC4B51" # 暗红色 (用作条形图/柱状图，共同存在于子图a和c中)
+    - "#F4A259" # 橙黄色 (用作条形图/柱状图，共同存在于子图a和c中)
+
+group_185:
+  name: "第185组图片科研配色"
+  macro_categories:
+    - "箱形图/箱线图 (Boxplot)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "细胞循环与晶体细胞计数定量分布图 (Cell Circulation and Crystal Cell Count Quantitative Distribution Charts)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/41.png）中"
+  colors:
+    - "#E2E7EA" # 极浅灰 (用作箱形图/箱线图，共同存在于子图a至e中)
+    - "#9F6D97" # 浅紫红色 (用作箱形图/箱线图，存在于子图e中)
+    - "#48A848" # 草绿色 (用作箱形图/箱线图，共同存在于子图a、b和d中)
+    - "#FBECF1" # 淡粉背景 (用作背景填充，共同存在于子图d和e中)
+    - "#F9EAE0" # 淡橙背景 (用作背景填充，共同存在于子图d和e中)
+    - "#E4EFF9" # 淡蓝背景 (用作背景填充，共同存在于子图d和e中)
+
+group_186:
+  name: "第186组图片科研配色"
+  macro_categories:
+    - "箱形图/箱线图 (Boxplot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "肌肉特异性力量与血清CK水平定量统计图 (Muscle Specific Force and Serum CK Level Quantitative Statistical Charts)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/42.png）中"
+  colors:
+    - "#C5C5C6" # 浅灰色 (用作箱形图/箱线图，共同存在于子图a至c中)
+    - "#F27A86" # 粉红色 (用作箱形图/箱线图，共同存在于子图a至c中)
+    - "#ECDBAF" # 浅卡其色 (用作箱形图/箱线图，共同存在于子图a至c中)
+    - "#A9DCDB" # 浅青色 (用作箱形图/箱线图，共同存在于子图a至c中)
+    - "#F7BFD8" # 浅粉紫色 (用作箱形图/箱线图，共同存在于子图a至c中)
+    - "#A1C3E7" # 浅蓝色 (用作箱形图/箱线图，共同存在于子图a至c中)
+
+group_187:
+  name: "第187组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "系统发育树图 (Phylogenetic Tree)"
+  used_for:
+    - "噬菌体滴定图与细菌防卫系统分布树图 (Phage Titration Charts and Bacterial Defense System Distribution Tree Diagrams)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/43.png）中"
+  colors:
+    - "#B3B3B3" # 浅灰 (用作条形图/柱状图，共同存在于子图a、b、d和e中)
+    - "#267784" # 深青蓝 (用作条形图/柱状图，共同存在于子图a、b、d和e中)
+    - "#997774" # 灰棕红 (用作条形图/柱状图，共同存在于子图a、b、d和e中)
+    - "#D99997" # 浅粉红 (用作条形图/柱状图，共同存在于子图d和e中)
+    - "#E3AF8B" # 浅肉色 (用作条形图/柱状图，共同存在于子图d和e中)
+    - "#E8D6BA" # 淡米黄 (用作系统发育树图，存在于子图c中)
+
+group_188:
+  name: "第188组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "示意图/概念图 (Schematic Diagram)"
+  used_for:
+    - "光伏电池界面损耗对比图及密度泛函计算示意图 (Photovoltaic Cell Interface Loss Comparison Charts and Density Functional Calculation Diagrams)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/44.png）中"
+  colors:
+    - "#2E6A59" # 深墨绿 (用作条形图/柱状图，共同存在于子图b、d和e中)
+    - "#AC4C48" # 暗红色 (用作条形图/柱状图，共同存在于子图b、d、e和g中)
+    - "#DCB269" # 姜黄色 (用作条形图/柱状图，共同存在于子图b、d和e中)
+    - "#CDDDA4" # 浅黄绿 (用作条形图/柱状图，共同存在于子图b、d和e中)
+    - "#8DCDBC" # 浅蓝绿 (用作条形图/柱状图，共同存在于子图b、d和e中)
+    - "#7A7A7A" # 中灰色 (用作条形图/柱状图，共同存在于子图d和g中)
+
+group_189:
+  name: "第189组图片科研配色"
+  macro_categories:
+    - "森林图/置信区间图 (Forest Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "多环境压力下蛋白质组代谢通路反应森林及富集条形图 (Proteomic Metabolic Pathway Response Forest and Enrichment Bar Charts Under Environmental Stresses)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/45.png）中"
+  colors:
+    - "#E7232E" # 大红色 (用作森林图/置信区间图，存在于子图a中)
+    - "#FCDF1E" # 亮黄色 (用作条形图/柱状图，存在于子图b中)
+    - "#0E5EA8" # 亮深蓝 (用作森林图/置信区间图，共同存在于子图a和b中)
+    - "#FBD3C4" # 浅肉粉 (用作背景颜色，存在于子图a中)
+    - "#C4C5C7" # 浅灰 (用作条形图/柱状图，存在于子图b中)
+    - "#CACEE7" # 浅紫蓝 (用作背景颜色，存在于子图a中)
+
+group_190:
+  name: "第190组图片科研配色"
+  macro_categories:
+    - "箱形图/箱线图 (Boxplot)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "热力图 (Heatmap)"
+    - "网络图 (Network Diagram)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "T细胞状态差异基因表达网络图与转录调控热力图 (T Cell State Differential Gene Expression Network Diagrams and Transcriptional Regulation Heatmaps)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/46.png）中"
+  colors:
+    - "#6598CB" # 灰蓝色 (用作箱形图/箱线图、热力图及网络图，共同存在于子图a、c和d中)
+    - "#B2B3B3" # 浅灰色 (用作条形图/柱状图及热力图，共同存在于子图b和c中)
+    - "#ED98A9" # 浅粉色 (用作散点图，存在于子图e中)
+    - "#EECB67" # 土黄色 (用作条形图/柱状图及热力图，共同存在于子图b和c中)
+    - "#194785" # 深海军蓝 (用作箱形图/箱线图及热力图，共同存在于子图a和c中)
+    - "#DDDDDC" # 极浅灰 (用作热力图，存在于子图c中)
+
+group_191:
+  name: "第191组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "折线图 (Line Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "格陵兰人群变异筛选与多基因风险评分图 (Greenlandic Population Variant Screening and Polygenic Risk Score Charts)"
+  note: "以上 6 种颜色共同应用于同一张拼图（未命名文件夹/4/47.png）中"
+  colors:
+    - "#0373B1" # 深海蓝 (用作条形图/柱状图、折线图及散点图，共同存在于子图a、b、e、f和g中)
+    - "#55B3E9" # 浅天蓝 (用作条形图/柱状图、折线图及散点图，共同存在于子图a、b、e、f和g中)
+    - "#CB79A6" # 紫粉色 (用作折线图、条形图/柱状图及散点图，共同存在于子图b、e和g中)
+    - "#E69F00" # 橘黄色 (用作折线图，存在于子图b中)
+    - "#007354" # 深绿 (用作折线图，存在于子图b中)
+    - "#009D73" # 翠绿 (用作折线图，存在于子图b中)
+
+group_192:
+  name: "第192组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "示意图/概念图 (Schematic Diagram)"
+  used_for:
+    - "代谢产物同位素标记定量柱形图与糖酵解途径示意图 (Metabolite Isotope Labeling Quantitative Bar Charts and Glycolysis Pathway Diagrams)"
+  note: "以上 9 种颜色共同应用于同一张拼图（未命名文件夹/4/48.png）中"
+  colors:
+    - "#3D58A6" # 深群青 (用作条形图/柱状图，共同存在于子图d、e、j和k中)
+    - "#7F7F7F" # 中度灰 (用作条形图/柱状图，共同存在于子图a、e、f和k中)
+    - "#F6921E" # 亮橙色 (用作条形图/柱状图，共同存在于子图a至e及g中)
+    - "#F6EB1F" # 明黄色 (用作条形图/柱状图，共同存在于子图a和d中)
+    - "#8BCC74" # 浅黄绿 (用作条形图/柱状图，共同存在于子图f和k中)
+    - "#9EABD3" # 淡灰蓝 (用作条形图/柱状图，共同存在于子图e和k中)
+    - "#ED3224" # 大红色 (用作条形图/柱状图，共同存在于子图f和i中)
+    - "#000000" # 纯黑色 (用作条形图/柱状图，共同存在于子图f和k中)
+    - "#C0C0C0" # 银灰色 (用作条形图/柱状图，存在于子图k中)
+
+group_193:
+  name: "第193组图片科研配色"
+  macro_categories:
+    - "地图/地理空间分布图 (Geographic Map)"
+    - "散点图 (Scatter Plot)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "丹麦古人类遗骸空间分布、主成分及祖先成分分析图 (Spatial Distribution, PCA, and Ancestry Component Analysis Charts of Ancient Danish Human Remains)"
+  note: "以上 12 种颜色共同应用于同一张拼图（未命名文件夹/4/49.png）中"
+  colors:
+    - "#440154" # 深紫色 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#557FC0" # 灰蓝色 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#86569E" # 浅灰紫 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#F18B6A" # 珊瑚橘红 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#FDC225" # 明黄色 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#8B4789" # 紫红色 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#00688B" # 深孔雀蓝 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#8B0A50" # 深紫红 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#7CCD7C" # 浅草绿 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#8B8B00" # 暗黄绿 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#FFD39B" # 浅杏黄 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+    - "#2E8B57" # 中度海绿 (用作地图/地理空间分布图及散点图，共同存在于子图a至c中)
+
+group_194:
+  name: "第194组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "蛋白免疫印迹图 (Western Blot)"
+  used_for:
+    - "多条件细胞处理效果定量柱状图及蛋白磷酸化印迹图 (Multi-condition Cell Treatment Effect Quantitative Bar Charts and Protein Phosphorylation Blots)"
+  note: "以上 7 种颜色共同应用于同一张拼图（未命名文件夹/4/50.png）中"
+  colors:
+    - "#E30613" # 大红色 (用作条形图/柱状图，共同存在于子图a、d、e、f、g、h、j、k和l中)
+    - "#40467C" # 深灰蓝色 (用作条形图/柱状图，共同存在于子图c和d中)
+    - "#0598B1" # 蓝绿色 (用作条形图/柱状图，共同存在于子图c和f中)
+    - "#323232" # 深灰色 (用作条形图/柱状图，共同存在于子图a至g、i、k和l中)
+    - "#A7A7F2" # 浅紫蓝色 (用作条形图/柱状图，存在于子图e中)
+    - "#51658C" # 灰蓝色 (用作条形图/柱状图，共同存在于子图d、e和f中)
+    - "#C8DCF3" # 浅淡蓝色 (用作条形图/柱状图，存在于子图l中)
+
+group_195:
+  name: "第195组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+  used_for:
+    - "基因表达量和细胞扩增倍数定量对比图 (Gene Expression and Cell Expansion Fold Quantitative Comparison Charts)"
+  note: "以上 9 种颜色共同应用于同一张拼图（未命名文件夹/4/51.png）中"
+  colors:
+    - "#882D71" # 深紫红 (用作条形图/柱状图，存在于子图a中)
+    - "#AE75A2" # 浅紫红 (用作条形图/柱状图，存在于子图a中)
+    - "#D2BBD7" # 淡紫灰 (用作条形图/柱状图，存在于子图a中)
+    - "#894B45" # 棕褐色 (用作条形图/柱状图，存在于子图a中)
+    - "#DB5829" # 铁锈红 (用作条形图/柱状图，存在于子图a中)
+    - "#F4A637" # 明黄色 (用作条形图/柱状图，存在于子图a中)
+    - "#A0A0A4" # 中灰色 (用作条形图/柱状图，共同存在于子图b和d中)
+    - "#FF0000" # 纯红色 (用作条形图/柱状图，共同存在于子图b、c和e中)
+    - "#FF8000" # 纯橙色 (用作条形图/柱状图，存在于子图d中)
+
+group_196:
+  name: "第196组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "散点图 (Scatter Plot)"
+    - "折线图 (Line Chart)"
+  used_for:
+    - "小鼠体重与食物摄入量多组干预变化图 (Mouse Body Weight and Food Intake Multi-group Intervention Change Charts)"
+  note: "以上 7 种颜色共同应用于同一张拼图（未命名文件夹/4/52.png）中"
+  colors:
+    - "#9F9FA3" # 中浅灰色 (用作条形图/柱状图，共同存在于子图a、b、c、d、f、g和h中)
+    - "#C5944D" # 黄褐色 (用作条形图/柱状图，共同存在于子图b和d中)
+    - "#C1B67B" # 浅卡其色 (用作条形图/柱状图，共同存在于子图b和d中)
+    - "#F9A146" # 亮橙黄色 (用作条形图/柱状图，共同存在于子图a至d、f和g中)
+    - "#76A2CC" # 浅灰蓝色 (用作条形图/柱状图，共同存在于子图c和d中)
+    - "#F68F60" # 浅橙红色 (用作散点图，共同存在于子图i和j中)
+    - "#3D8ECD" # 明蓝色 (用作条形图/柱状图，共同存在于子图a、c、i和j中)
+
+group_197:
+  name: "第197组图片科研配色"
+  macro_categories:
+    - "折线图 (Line Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "密度图 (Density Plot)"
+  used_for:
+    - "长期生物标志物变异度及受试者内/间差异分布图 (Long-term Biomarker Variability and Intra/Inter-subject Difference Distribution Charts)"
+  note: "以上 14 种颜色共同应用于同一张拼图（未命名文件夹/4/53.png）中"
+  colors:
+    - "#2C3172" # 深藏蓝 (用作条形图/柱状图，存在于子图b中)
+    - "#3F908E" # 深青绿 (用作条形图/柱状图，存在于子图b中)
+    - "#95C695" # 浅豆绿 (用作条形图/柱状图，存在于子图b中)
+    - "#1F77B4" # 深天蓝 (用作折线图，存在于子图d中)
+    - "#A1C8DC" # 浅粉蓝 (用作折线图，存在于子图d中)
+    - "#FF6666" # 亮粉红 (用作折线图，存在于子图d中)
+    - "#FFAAAA" # 浅粉红 (用作折线图，存在于子图d中)
+    - "#3EA93E" # 草绿色 (用作折线图，存在于子图d中)
+    - "#98DF8A" # 浅黄绿 (用作折线图，存在于子图d中)
+    - "#E08D04" # 深橙黄 (用作密度图，存在于子图e中)
+    - "#008E1F" # 浓绿色 (用作密度图，存在于子图e中)
+    - "#005AB9" # 深宝蓝 (用作密度图，存在于子图e中)
+    - "#D49797" # 暗粉色 (用作密度图，存在于子图e中)
+    - "#ACD5EF" # 浅天蓝 (用作密度图，存在于子图e中)
+
+group_198:
+  name: "第198组图片科研配色"
+  macro_categories:
+    - "热力图 (Heatmap)"
+    - "条形图/柱状图 (Bar Chart)"
+    - "示意图/概念图 (Schematic Diagram)"
+  used_for:
+    - "个体间亲缘关系热力分布及染色体IBD片段结构图 (Inter-individual Relatedness Heatmap Distribution and Chromosomal IBD Segment Structure Diagrams)"
+  note: "以上 9 种颜色共同应用于同一张拼图（未命名文件夹/4/54.png）中"
+  colors:
+    - "#21918C" # 深孔雀绿 (用作热力图及示意图/概念图，共同存在于子图a、c和d中)
+    - "#399EC2" # 明亮蓝绿 (用作条形图/柱状图及示意图/概念图，存在于子图d中)
+    - "#440154" # 深紫色 (用作热力图及示意图/概念图，共同存在于子图b和d中)
+    - "#FFE38F" # 淡黄色 (用作热力图，共同存在于子图a和b中)
+    - "#CD3700" # 暗橙红 (用作热力图，共同存在于子图a和b中)
+    - "#EE9A00" # 明亮橙 (用作热力图，共同存在于子图a和b中)
+    - "#DEDEDE" # 浅灰白 (用作热力图，存在于子图a中)
+    - "#8CCCFF" # 淡天蓝 (用作热力图，存在于子图a中)
+    - "#26AB76" # 中绿色 (用作热力图，存在于子图a中)
+
+group_199:
+  name: "第199组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "直方图 (Histogram)"
+  used_for:
+    - "多浓度条件荧光信号定量柱形及流式细胞术直方图 (Multi-concentration Fluorescence Signal Quantitative Bar and Flow Cytometry Histograms)"
+  note: "以上 8 种颜色共同应用于同一张拼图（未命名文件夹/4/55.png）中"
+  colors:
+    - "#820041" # 深紫红 (用作条形图/柱状图，存在于子图c中)
+    - "#D6006B" # 洋红色 (用作条形图/柱状图，共同存在于子图b、c和e中)
+    - "#999999" # 中度灰色 (用作条形图/柱状图，共同存在于子图a、c和f中)
+    - "#004182" # 深藏蓝 (用作直方图，存在于子图f中)
+    - "#007FFF" # 亮蓝色 (用作直方图，共同存在于子图a、d和f中)
+    - "#91AAC2" # 灰蓝色 (用作直方图，存在于子图f中)
+    - "#CD98B3" # 浅紫灰 (用作条形图/柱状图，共同存在于子图b、c和e中)
+    - "#CCCCCC" # 浅灰色 (用作条形图/柱状图，存在于子图d中)
+
+group_200:
+  name: "第200组图片科研配色"
+  macro_categories:
+    - "火山图 (Volcano Plot)"
+    - "饼图 (Pie Chart)"
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "差异基因表达火山图、分类饼图及细胞代谢通量柱状图 (Differential Gene Expression Volcano Plot, Categorical Pie Chart, and Cell Metabolic Flux Bar Charts)"
+  note: "以上 8 种颜色共同应用于同一张拼图（未命名文件夹/4/56.png）中"
+  colors:
+    - "#B2B5B6" # 中度灰 (用作火山图，共同存在于子图a、c和d中)
+    - "#6A9CCC" # 灰蓝色 (用作饼图及条形图/柱状图，共同存在于子图b、e和f中)
+    - "#2C5CA7" # 深蓝色 (用作条形图/柱状图，共同存在于子图e和f中)
+    - "#E68685" # 淡红色 (用作火山图，共同存在于子图c和d中)
+    - "#9986B1" # 暗紫灰 (用作火山图，共同存在于子图a和c中)
+    - "#EFC084" # 浅橙色 (用作火山图，共同存在于子图a、c和d中)
+    - "#F3983C" # 明橙色 (用作火山图、饼图及条形图/柱状图，共同存在于子图a、b、e和f中)
+    - "#6DAB81" # 灰绿色 (用作火山图，共同存在于子图a、c和d中)
+
+group_201:
+  name: "第201组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+    - "直方图 (Histogram)"
+    - "网络图 (Network Diagram)"
+  used_for:
+    - "突变频率柱状分布及蛋白交互作用调控网络图 (Mutation Frequency Bar Distribution and Protein Interaction Regulatory Network Diagrams)"
+  note: "以上 8 种颜色共同应用于同一张拼图（未命名文件夹/4/57.png）中"
+  colors:
+    - "#284F58" # 深墨蓝 (用作条形图/柱状图，共同存在于子图a、b、d和e中)
+    - "#C59733" # 棕黄色 (用作条形图/柱状图，共同存在于子图a和e中)
+    - "#66364C" # 暗紫色 (用作条形图/柱状图，存在于子图b中)
+    - "#A06982" # 灰紫红 (用作条形图/柱状图，共同存在于子图a和e中)
+    - "#D9AAB5" # 浅粉灰 (用作条形图/柱状图，存在于子图e中)
+    - "#72C168" # 亮绿色 (用作条形图/柱状图，共同存在于子图a、c和e中)
+    - "#546279" # 灰蓝色 (用作条形图/柱状图，共同存在于子图a、b、d和e中)
+    - "#98B2BD" # 浅蓝灰 (用作条形图/柱状图，共同存在于子图a、c、d和e中)
+
+group_202:
+  name: "第202组图片科研配色"
+  macro_categories:
+    - "条形图/柱状图 (Bar Chart)"
+  used_for:
+    - "古代人群祖先成分比例混合堆叠柱状图 (Ancient Population Ancestry Component Proportion Mixed Stacked Bar Charts)"
+  note: "以上 10 种颜色共同应用于同一张拼图（未命名文件夹/4/58.png）中"
+  colors:
+    - "#FAC233" # 亮金黄 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)
+    - "#C46969" # 暗红灰 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)
+    - "#800000" # 深血红 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)
+    - "#229222" # 草绿色 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)
+    - "#7E819A" # 灰紫色 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)
+    - "#0F3B7D" # 深藏青 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)
+    - "#404040" # 深灰色 (用作条形图/柱状图，存在于子图c中)
+    - "#7F7F7F" # 中度灰色 (用作条形图/柱状图，存在于子图c中)
+    - "#BFBFBF" # 浅灰色 (用作条形图/柱状图，存在于子图c中)
+    - "#000000" # 纯黑色 (用作条形图/柱状图，共同存在于子图a、b、d、e和f中)

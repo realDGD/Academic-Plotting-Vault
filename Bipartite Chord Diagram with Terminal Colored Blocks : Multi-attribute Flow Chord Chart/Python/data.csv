@@ -1,0 +1,49 @@
+Source,Target,Value,Regulation
+Lung,A2M,11,Downregulated
+Lung,THBD,14,Upregulated
+Lung,PLAT,11,Upregulated
+Lung,SERPINA5,12,Upregulated
+Lung,PLG,11,Upregulated
+Lung,F13A1,13,Downregulated
+Lung,PROC,14,Downregulated
+Spleen,FGA,15,Downregulated
+Spleen,FGG,11,Downregulated
+Spleen,KLKB1,11,Downregulated
+Spleen,TFPI,13,Downregulated
+Spleen,SERPIND1,11,Downregulated
+Spleen,F12,15,Upregulated
+Spleen,SERPINA1,14,Downregulated
+Spleen,PROS1,11,Downregulated
+Spleen,F13A1,12,Upregulated
+Spleen,PROC,15,Upregulated
+Liver,FGB,12,Downregulated
+Liver,F11,12,Downregulated
+Liver,THBD,15,Upregulated
+Liver,SERPINA5,15,Downregulated
+Liver,F2,13,Downregulated
+Heart,F11,14,Downregulated
+Heart,KLKB1,15,Downregulated
+Heart,SERPIND1,11,Downregulated
+Heart,F2,12,Upregulated
+Heart,PLG,13,Downregulated
+Heart,SERPINA1,12,Downregulated
+Renal cortex,FGB,12,Downregulated
+Renal cortex,KLKB1,14,Downregulated
+Renal cortex,VWF,15,Downregulated
+Renal cortex,TFPI,14,Downregulated
+Renal cortex,F2,13,Upregulated
+Renal cortex,SERPINC1,13,Downregulated
+Renal cortex,PROS1,11,Downregulated
+Renal cortex,F13A1,13,Downregulated
+Renal medulla,A2M,12,Downregulated
+Renal medulla,FGA,11,Downregulated
+Renal medulla,KLKB1,12,Upregulated
+Renal medulla,SERPIND1,14,Downregulated
+Renal medulla,PROS1,13,Downregulated
+Renal medulla,PROC,12,Downregulated
+Thyroid,FGA,11,Downregulated
+Thyroid,F11,13,Downregulated
+Thyroid,SERPINE1,13,Downregulated
+Thyroid,VWF,13,Upregulated
+Thyroid,THBD,12,Downregulated
+Thyroid,SERPINA1,14,Downregulated
