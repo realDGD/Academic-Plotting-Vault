@@ -97,6 +97,7 @@ Python_Painting_Vault/
 - **[Grouped Correlation Heatmap with Separation Lines : Block-Diagonal Correlation Matrix](./Grouped%20Correlation%20Heatmap%20with%20Separation%20Lines%20%3A%20Block-Diagonal%20Correlation%20Matrix)**
 - **[Directed Chord-Sankey Composite Plot : Serial Flow Composite Chart](./Directed%20Chord-Sankey%20Composite%20Plot%20%3A%20Serial%20Flow%20Composite%20Chart)**
 - **[Split Violin Plot : Asymmetric Half-Violin Plot](./Split%20Violin%20Plot%20%3A%20Asymmetric%20Half-Violin%20Plot)**
+- **[Stacked Bar Chart with Connections : Alluvial-style Bar Chart](./Stacked%20Bar%20Chart%20with%20Connections%20%3A%20Alluvial-style%20Bar%20Chart)**
 - **[Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart](./Bipartite%20Chord%20Diagram%20with%20Terminal%20Colored%20Blocks%20%3A%20Multi-attribute%20Flow%20Chord%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
 - **[Truncated Bar Chart with Jittered Scatter and Error Bars](./Truncated%20Bar%20Chart%20with%20Jittered%20Scatter%20and%20Error%20Bars)**
