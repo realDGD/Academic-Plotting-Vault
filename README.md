@@ -87,6 +87,7 @@ Python_Painting_Vault/
 - **[Clustered Heatmap : Hierarchically Clustered Heatmap](./Clustered%20Heatmap%20%3A%20Hierarchically%20Clustered%20Heatmap)**
 - **[Combined Grouped Heatmap and Differential Bubble Chart](./Combined%20Grouped%20Heatmap%20and%20Differential%20Bubble%20Chart)**
 - **[Segmented Circular Heatmap : Grouped Annular Heatmap](./Segmented%20Circular%20Heatmap%20%3A%20Grouped%20Annular%20Heatmap)**
+- **[Fan-shaped Heatmap and Radial Violin Composite Plot](./Fan-shaped%20Heatmap%20and%20Radial%20Violin%20Composite%20Plot)**
 - **[Taylor Diagram : Model Performance Evaluation Polar Plot](./Taylor%20Diagram%20%3A%20Model%20Performance%20Evaluation%20Polar%20Plot)**
 - **[Rotated Triangular Clustered Heatmap : Diagonal Correlation Heatmap](./Rotated%20Triangular%20Clustered%20Heatmap%20%3A%20Diagonal%20Correlation%20Heatmap)**
 - **[Customized Bipartite Undirected Chord Diagram : Relational Chord Chart with Custom Legend](./Customized%20Bipartite%20Undirected%20Chord%20Diagram%20%3A%20Relational%20Chord%20Chart%20with%20Custom%20Legend)**
