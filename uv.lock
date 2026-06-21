@@ -893,6 +893,7 @@ dependencies = [
     { name = "scikit-learn" },
     { name = "scipy" },
     { name = "seaborn" },
+    { name = "shapely" },
     { name = "tifffile" },
 ]
 
@@ -911,6 +912,7 @@ requires-dist = [
     { name = "scikit-learn", specifier = ">=1.9.0" },
     { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "shapely", specifier = ">=2.1.2" },
     { name = "tifffile", specifier = ">=2026.6.1" },
 ]
 

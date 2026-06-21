@@ -82,11 +82,13 @@ Python_Painting_Vault/
 目前能够绘制的高级图表有：
 
 <!-- CHART_LIST_START -->
+- **[Inverted Triangular Correlation Heatmap with Grouped Dendrogram : Pyramid Clustered Heatmap](./Inverted%20Triangular%20Correlation%20Heatmap%20with%20Grouped%20Dendrogram%20%3A%20Pyramid%20Clustered%20Heatmap)**
 - **[Inset Composite Chart —— Line Plot with Horizontal Bar-Scatter](./Inset%20Composite%20Chart%20%E2%80%94%E2%80%94%20Line%20Plot%20with%20Horizontal%20Bar-Scatter)**
 - **[Geospatial Raster Map : Projected Map with Custom NaN Colormap](./Geospatial%20Raster%20Map%20%3A%20Projected%20Map%20with%20Custom%20NaN%20Colormap)**
 - **[Clustered Heatmap : Hierarchically Clustered Heatmap](./Clustered%20Heatmap%20%3A%20Hierarchically%20Clustered%20Heatmap)**
 - **[Combined Grouped Heatmap and Differential Bubble Chart](./Combined%20Grouped%20Heatmap%20and%20Differential%20Bubble%20Chart)**
 - **[Segmented Circular Heatmap : Grouped Annular Heatmap](./Segmented%20Circular%20Heatmap%20%3A%20Grouped%20Annular%20Heatmap)**
+- **[Sankey-Stacked Bar Composite Plot : Flow and Composition Linked Chart](./Sankey-Stacked%20Bar%20Composite%20Plot%20%3A%20Flow%20and%20Composition%20Linked%20Chart)**
 - **[Fan-shaped Heatmap and Radial Violin Composite Plot](./Fan-shaped%20Heatmap%20and%20Radial%20Violin%20Composite%20Plot)**
 - **[Taylor Diagram : Model Performance Evaluation Polar Plot](./Taylor%20Diagram%20%3A%20Model%20Performance%20Evaluation%20Polar%20Plot)**
 - **[Rotated Triangular Clustered Heatmap : Diagonal Correlation Heatmap](./Rotated%20Triangular%20Clustered%20Heatmap%20%3A%20Diagonal%20Correlation%20Heatmap)**
@@ -95,14 +97,20 @@ Python_Painting_Vault/
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
 - **[Multi-layer Aligned Sankey Diagram : Complex Flow Alluvial Diagram](./Multi-layer%20Aligned%20Sankey%20Diagram%20%3A%20Complex%20Flow%20Alluvial%20Diagram)**
 - **[Circular Dendrogram : Radial Dendrogram with Category Sectors](./Circular%20Dendrogram%20%3A%20Radial%20Dendrogram%20with%20Category%20Sectors)**
+- **[Inverted Triangular Correlation Heatmap with Top Dendrogram : Top-clustered Pyramid Heatmap](./Inverted%20Triangular%20Correlation%20Heatmap%20with%20Top%20Dendrogram%20%3A%20Top-clustered%20Pyramid%20Heatmap)**
 - **[Grouped Correlation Heatmap with Separation Lines : Block-Diagonal Correlation Matrix](./Grouped%20Correlation%20Heatmap%20with%20Separation%20Lines%20%3A%20Block-Diagonal%20Correlation%20Matrix)**
+- **[Half-Matrix Correlation Heatmap with Slanted Dendrogram : Upper-Triangular Heatmap with Angled Tree](./Half-Matrix%20Correlation%20Heatmap%20with%20Slanted%20Dendrogram%20%3A%20Upper-Triangular%20Heatmap%20with%20Angled%20Tree)**
 - **[Directed Chord-Sankey Composite Plot : Serial Flow Composite Chart](./Directed%20Chord-Sankey%20Composite%20Plot%20%3A%20Serial%20Flow%20Composite%20Chart)**
+- **[Advanced Customized Radar Chart : Minimalist Multi-dimensional Spider Plot](./Advanced%20Customized%20Radar%20Chart%20%3A%20Minimalist%20Multi-dimensional%20Spider%20Plot)**
 - **[Split Violin Plot : Asymmetric Half-Violin Plot](./Split%20Violin%20Plot%20%3A%20Asymmetric%20Half-Violin%20Plot)**
+- **[Inverted Triangular Correlation Heatmap : Rotated Lower-Triangular Matrix](./Inverted%20Triangular%20Correlation%20Heatmap%20%3A%20Rotated%20Lower-Triangular%20Matrix)**
 - **[Stacked Bar Chart with Connections : Alluvial-style Bar Chart](./Stacked%20Bar%20Chart%20with%20Connections%20%3A%20Alluvial-style%20Bar%20Chart)**
+- **[Grouped Inverted Triangular Heatmap with Highlight Boxes : Modular Pyramid Correlation Matrix](./Grouped%20Inverted%20Triangular%20Heatmap%20with%20Highlight%20Boxes%20%3A%20Modular%20Pyramid%20Correlation%20Matrix)**
 - **[Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart](./Bipartite%20Chord%20Diagram%20with%20Terminal%20Colored%20Blocks%20%3A%20Multi-attribute%20Flow%20Chord%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
 - **[Truncated Bar Chart with Jittered Scatter and Error Bars](./Truncated%20Bar%20Chart%20with%20Jittered%20Scatter%20and%20Error%20Bars)**
 - **[Sankey-Bubble Composite Plot : Flow-Scatter Aligned Chart](./Sankey-Bubble%20Composite%20Plot%20%3A%20Flow-Scatter%20Aligned%20Chart)**
 - **[Circular Clustered Heatmap : Radial Clustered Heatmap](./Circular%20Clustered%20Heatmap%20%3A%20Radial%20Clustered%20Heatmap)**
+- **[Circular Bar Chart and KDE Composite Plot : Radial Bar & Density Dashboard](./Circular%20Bar%20Chart%20and%20KDE%20Composite%20Plot%20%3A%20Radial%20Bar%20%26%20Density%20Dashboard)**
 
 <!-- CHART_LIST_END -->
