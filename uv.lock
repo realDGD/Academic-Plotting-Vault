@@ -895,6 +895,7 @@ dependencies = [
     { name = "seaborn" },
     { name = "shapely" },
     { name = "tifffile" },
+    { name = "upsetplot" },
 ]
 
 [package.metadata]
@@ -914,6 +915,7 @@ requires-dist = [
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "shapely", specifier = ">=2.1.2" },
     { name = "tifffile", specifier = ">=2026.6.1" },
+    { name = "upsetplot", specifier = ">=0.9.0" },
 ]
 
 [[package]]
@@ -1218,6 +1220,16 @@ sdist = { url = "https://files.pythonhosted.org/packages/ba/19/1b9b0e29f30c6d35c
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ce/e4/dccd7f47c4b64213ac01ef921a1337ee6e30e8c6466046018326977efd95/tzdata-2026.2-py2.py3-none-any.whl", hash = "sha256:bbe9af844f658da81a5f95019480da3a89415801f6cc966806612cc7169bffe7", size = 349321, upload-time = "2026-04-24T15:22:05.876Z" },
 ]
+
+[[package]]
+name = "upsetplot"
+version = "0.9.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/fb/63/a5a1628898729bcfb67ea785a152e424d78e0f57dfbba46213a652532d6a/UpSetPlot-0.9.0.tar.gz", hash = "sha256:95b76ac38c624c9dfb1eca1de1a37e30e07e83678b1c57839c943184247b8592", size = 23797, upload-time = "2023-12-31T01:07:59.185Z" }
 
 [[package]]
 name = "wcwidth"

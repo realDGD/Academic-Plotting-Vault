@@ -104,6 +104,7 @@ Python_Painting_Vault/
 - **[Advanced Customized Radar Chart : Minimalist Multi-dimensional Spider Plot](./Advanced%20Customized%20Radar%20Chart%20%3A%20Minimalist%20Multi-dimensional%20Spider%20Plot)**
 - **[Split Violin Plot : Asymmetric Half-Violin Plot](./Split%20Violin%20Plot%20%3A%20Asymmetric%20Half-Violin%20Plot)**
 - **[Inverted Triangular Correlation Heatmap : Rotated Lower-Triangular Matrix](./Inverted%20Triangular%20Correlation%20Heatmap%20%3A%20Rotated%20Lower-Triangular%20Matrix)**
+- **[UpSet-Chord Composite Plot : Set Intersection and Relational Network Inset Dashboard](./UpSet-Chord%20Composite%20Plot%20%3A%20Set%20Intersection%20and%20Relational%20Network%20Inset%20Dashboard)**
 - **[Stacked Bar Chart with Connections : Alluvial-style Bar Chart](./Stacked%20Bar%20Chart%20with%20Connections%20%3A%20Alluvial-style%20Bar%20Chart)**
 - **[Grouped Inverted Triangular Heatmap with Highlight Boxes : Modular Pyramid Correlation Matrix](./Grouped%20Inverted%20Triangular%20Heatmap%20with%20Highlight%20Boxes%20%3A%20Modular%20Pyramid%20Correlation%20Matrix)**
 - **[Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart](./Bipartite%20Chord%20Diagram%20with%20Terminal%20Colored%20Blocks%20%3A%20Multi-attribute%20Flow%20Chord%20Chart)**

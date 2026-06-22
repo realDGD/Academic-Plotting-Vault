@@ -475,6 +475,28 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "UpSet-Chord Composite Plot : Set Intersection and Relational Network Inset Dashboard",
+      "type": "UpSet-Chord Composite Plot : Set Intersection and Relational Network Inset Dashboard",
+      "keywords": [
+        "UpSet图 (UpSet plot)",
+        "集合交集图 (Set intersection diagram)",
+        "弦图 (Chord diagram)",
+        "关系网络图 (Relationship network plot/chart).",
+        "画中画布局 (Inset axes / Picture-in-picture layout)",
+        "复合图表 (Composite chart)",
+        "多图表拼接 (Multi-axes combined panel).",
+        "矩阵点阵连线 (Matrix dot-line connections)",
+        "自定义排序 (Custom sorting degree/bit)",
+        "半透明连线 (Translucent ribbons)",
+        "翻转坐标轴 (Reversed axes).",
+        "多维基因共有/特有分析 (Shared/unique gene analysis)",
+        "多物种互作与共现网络",
+        "复杂归属与流向联合可视化."
+      ],
+      "description": "这是一个展示多维数据重叠与实体关系的**画中画复合图表 (Inset Composite Plot)**。图表的主体底层是一个 **UpSet 图**，由下方的集合成员关系点阵矩阵（带连接线）、上方表示交集大小的垂直条形图以及侧边表示集合总大小的水平条形图组成。在主体图表的上方或一侧留白处，通过自定义相对坐标系嵌套了一个 **双边/无向弦图 (Chord Diagram)**，其外围包含分类色块，内部通过半透明贝塞尔曲线展示节点间的映射与权重关系。整体布局紧凑，通过多坐标系拼接实现了集合定量分析与关系网络拓扑的视觉联动。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Stacked Bar Chart with Connections : Alluvial-style Bar Chart",
       "type": "Stacked Bar Chart with Connections : Alluvial-style Bar Chart",
       "keywords": [
